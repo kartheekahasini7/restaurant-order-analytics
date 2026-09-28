@@ -236,6 +236,17 @@ st.markdown("""
 h2, h3 {
     color: #38291f;
 }
+/* Ensure result text remains visible across environments */
+.stMetric,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"] {
+    color: #38291f !important;
+}
+
+.stMarkdown p,
+.stMarkdown strong {
+    color: #4a3528 !important;
+}
 
 /* ---------------------------------------------------------
    DATAFRAME
@@ -418,6 +429,7 @@ if kmeans_button:
     """
     <div style="
         background: rgba(255, 255, 255, 0.85);
+        color:#4a3528;
         border-left: 5px solid #C65D2E;
         padding: 16px 20px;
         border-radius: 10px;
