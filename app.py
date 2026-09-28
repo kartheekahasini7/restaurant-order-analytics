@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 # ============================================================
 # PAGE CONFIG
 # ============================================================
@@ -12,6 +13,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
 
 # ============================================================
 # CUSTOM CSS
@@ -44,6 +46,7 @@ st.markdown("""
         );
 }
 
+
 /* ---------------------------------------------------------
    MAIN CONTAINER
 --------------------------------------------------------- */
@@ -53,6 +56,7 @@ st.markdown("""
     padding-top: 45px;
     padding-bottom: 35px;
 }
+
 
 /* ---------------------------------------------------------
    PROJECT TITLE
@@ -67,6 +71,7 @@ st.markdown("""
     color: #2b2118;
 }
 
+
 /* ---------------------------------------------------------
    PROJECT DESCRIPTION
 --------------------------------------------------------- */
@@ -77,6 +82,7 @@ st.markdown("""
     color: #6f6258;
     margin-bottom: 25px;
 }
+
 
 /* ---------------------------------------------------------
    SECTION LABEL
@@ -91,6 +97,7 @@ st.markdown("""
     margin-top: 10px;
     margin-bottom: 18px;
 }
+
 
 /* ---------------------------------------------------------
    ALGORITHM CARDS
@@ -113,6 +120,7 @@ st.markdown("""
         box-shadow 0.2s ease;
 }
 
+
 /* ---------------------------------------------------------
    ALGORITHM ICON
 --------------------------------------------------------- */
@@ -121,6 +129,7 @@ st.markdown("""
     font-size: 43px;
     margin-bottom: 5px;
 }
+
 
 /* ---------------------------------------------------------
    ALGORITHM TITLE
@@ -132,6 +141,7 @@ st.markdown("""
     color: #2f241c;
     margin-top: 5px;
 }
+
 
 /* ---------------------------------------------------------
    ALGORITHM DESCRIPTION
@@ -190,6 +200,7 @@ st.markdown("""
         0 6px 15px rgba(150, 65, 30, 0.28);
 }
 
+
 /* ---------------------------------------------------------
    RESULT HEADING
 --------------------------------------------------------- */
@@ -202,6 +213,7 @@ st.markdown("""
     margin-bottom: 8px;
 }
 
+
 /* ---------------------------------------------------------
    RESULT DESCRIPTION
 --------------------------------------------------------- */
@@ -211,6 +223,7 @@ st.markdown("""
     font-size: 16px;
     margin-bottom: 20px;
 }
+
 
 /* ---------------------------------------------------------
    METRIC CARDS
@@ -229,24 +242,43 @@ st.markdown("""
         0 4px 15px rgba(75, 45, 20, 0.06);
 }
 
+
 /* ---------------------------------------------------------
    SUBHEADINGS
 --------------------------------------------------------- */
 
 h2, h3 {
-    color: #38291f;
-}
-/* Ensure result text remains visible across environments */
-.stMetric,
-[data-testid="stMetricLabel"],
-[data-testid="stMetricValue"] {
     color: #38291f !important;
 }
 
-.stMarkdown p,
-.stMarkdown strong {
+
+/* ---------------------------------------------------------
+   STREAMLIT TEXT VISIBILITY
+--------------------------------------------------------- */
+
+[data-testid="stMetric"] * {
+    color: #38291f !important;
+}
+
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {
+    color: #38291f !important;
+}
+
+
+/* ---------------------------------------------------------
+   KEY INSIGHT TEXT
+--------------------------------------------------------- */
+
+.key-insight {
     color: #4a3528 !important;
 }
+
+.key-insight strong {
+    color: #2f241c !important;
+}
+
 
 /* ---------------------------------------------------------
    DATAFRAME
@@ -256,6 +288,7 @@ h2, h3 {
     border-radius: 12px;
     overflow: hidden;
 }
+
 
 /* ---------------------------------------------------------
    FOOTER
@@ -268,6 +301,7 @@ h2, h3 {
     margin-top: 30px;
     line-height: 1.7;
 }
+
 
 /* ---------------------------------------------------------
    MOBILE RESPONSIVENESS
@@ -297,6 +331,7 @@ h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
+
 # ============================================================
 # LOAD DATA
 # ============================================================
@@ -317,6 +352,7 @@ association_rules = pd.read_csv(
     "data/apriori_association_rules.csv"
 )
 
+
 # ============================================================
 # PROJECT HEADER
 # ============================================================
@@ -329,13 +365,13 @@ st.markdown(
 
     <div class="project-description">
         Data-Driven Insights into Customer Behavior and Food Purchasing Patterns
-
     </div>
     """,
     unsafe_allow_html=True
 )
 
 st.divider()
+
 
 # ============================================================
 # ALGORITHM SELECTION
@@ -351,6 +387,7 @@ st.markdown(
 )
 
 col1, col2 = st.columns(2, gap="large")
+
 
 # ============================================================
 # K-MEANS CARD
@@ -378,6 +415,7 @@ with col1:
         width="stretch"
     )
 
+
 # ============================================================
 # APRIORI CARD
 # ============================================================
@@ -404,6 +442,7 @@ with col2:
         width="stretch"
     )
 
+
 # ============================================================
 # K-MEANS RESULTS
 # ============================================================
@@ -425,25 +464,25 @@ if kmeans_button:
         """,
         unsafe_allow_html=True
     )
+
     st.markdown(
-    """
-    <div style="
-        background: rgba(255, 255, 255, 0.85);
-        color:#4a3528;
-        border-left: 5px solid #C65D2E;
-        padding: 16px 20px;
-        border-radius: 10px;
-        margin: 18px 0 25px 0;
-        box-shadow: 0 3px 12px rgba(75, 45, 20, 0.06);
-    ">
-        <strong>💡 Key Insight</strong><br>
-        Cluster 0 represents customers with higher average
-        order frequency and spending, while Cluster 1 represents
-        customers with comparatively lower purchasing activity.
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+        """
+        <div class="key-insight" style="
+            background: rgba(255, 255, 255, 0.85);
+            border-left: 5px solid #C65D2E;
+            padding: 16px 20px;
+            border-radius: 10px;
+            margin: 18px 0 25px 0;
+            box-shadow: 0 3px 12px rgba(75, 45, 20, 0.06);
+        ">
+            <strong>💡 Key Insight</strong><br>
+            Cluster 0 represents customers with higher average
+            order frequency and spending, while Cluster 1 represents
+            customers with comparatively lower purchasing activity.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     # --------------------------------------------------------
     # METRICS
@@ -482,31 +521,40 @@ if kmeans_button:
     # --------------------------------------------------------
 
     st.subheader("📈 Customer Segmentation")
+
     plot_data = kmeans_results.copy()
 
     plot_data["cluster"] = (
-    plot_data["cluster"]
-    .astype(str)
-    .apply(lambda x: f"Cluster {x}")
-)
+        plot_data["cluster"]
+        .astype(str)
+        .apply(lambda x: f"Cluster {x}")
+    )
 
     fig = px.scatter(
         plot_data,
         x="total_orders",
         y="total_spending",
         color="cluster",
-        
+
+        # Fixed colors for deployment consistency
+        color_discrete_sequence=[
+            "#C65D2E",
+            "#8A6A52"
+        ],
+
         hover_data=[
             "Customer_ID",
             "avg_order_value",
             "total_quantity",
             "avg_rating"
         ],
+
         labels={
             "total_orders": "Total Orders",
             "total_spending": "Total Spending",
             "cluster": "Customer Cluster"
         },
+
         title="Customer Segmentation: Orders vs Spending"
     )
 
@@ -523,6 +571,7 @@ if kmeans_button:
         fig,
         width="stretch"
     )
+
 
 # ============================================================
 # APRIORI RESULTS
@@ -545,24 +594,25 @@ if apriori_button:
         """,
         unsafe_allow_html=True
     )
+
     st.markdown(
-    """
-    <div style="
-        background: rgba(255, 255, 255, 0.85);
-        border-left: 5px solid #C65D2E;
-        padding: 16px 20px;
-        border-radius: 10px;
-        margin: 18px 0 25px 0;
-        box-shadow: 0 3px 12px rgba(75, 45, 20, 0.06);
-    ">
-        <strong>💡 Key Insight</strong><br>
-        The association rules reveal recurring food purchasing
-        patterns. Rules with higher lift indicate stronger
-        associations between the purchased items.
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+        """
+        <div class="key-insight" style="
+            background: rgba(255, 255, 255, 0.85);
+            border-left: 5px solid #C65D2E;
+            padding: 16px 20px;
+            border-radius: 10px;
+            margin: 18px 0 25px 0;
+            box-shadow: 0 3px 12px rgba(75, 45, 20, 0.06);
+        ">
+            <strong>💡 Key Insight</strong><br>
+            The association rules reveal recurring food purchasing
+            patterns. Rules with higher lift indicate stronger
+            associations between the purchased items.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     # --------------------------------------------------------
     # METRICS
@@ -630,11 +680,16 @@ if apriori_button:
         x="support",
         y="confidence",
         size="lift",
+
+        # Fixed color for deployment consistency
+        color_discrete_sequence=["#C65D2E"],
+
         hover_data=[
             "antecedents",
             "consequents",
             "lift"
         ],
+
         title="Support vs Confidence"
     )
 
@@ -651,6 +706,7 @@ if apriori_button:
         fig,
         width="stretch"
     )
+
 
 # ============================================================
 # FOOTER
