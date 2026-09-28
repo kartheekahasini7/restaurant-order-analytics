@@ -1,0 +1,999 @@
+Order_ID,Customer_ID,Date,Food_Item,Category,Quantity,Price,Payment_Method,Order_Type,Rating,City,Preparation_Time_Min,Discount_Percent,Total_Amount,Month,Day_of_Week,Day_Type
+O10001,C1103,2025-01-01,French Fries,Main Course,2.0,130.0,Upi,Delivery,4.1,Vizag,27.0,5.0,260.0,1,Wednesday,Weekday
+O10002,C1271,2025-01-01,French Fries,Fast Food,2.0,130.0,Upi,Dine-In,4.1,Vizag,27.0,5.0,260.0,1,Wednesday,Weekday
+O10003,C1107,2025-01-01,Biryani,Fast Food,2.0,130.0,Cash,Takeaway,4.1,Vijayawada,27.0,5.0,260.0,1,Wednesday,Weekday
+O10004,C1072,2025-01-01,Sandwich,Fast Food,2.0,130.0,Cash,Takeaway,5.0,Vizag,17.0,5.0,260.0,1,Wednesday,Weekday
+O10005,C1189,2025-01-01,Chicken 65,Starters,2.0,190.0,Cash,Dine In,4.0,Vizag,29.0,0.0,380.0,1,Wednesday,Weekday
+O10006,C1021,2025-01-01,Burger,Fast Food,1.0,160.0,Upi,Delivery,4.1,Vizag,31.0,0.0,160.0,1,Wednesday,Weekday
+O10007,C1103,2025-01-02,Pizza,Fast Food,1.0,280.0,Card,Takeaway,3.0,Chennai,28.0,15.0,280.0,1,Thursday,Weekday
+O10008,C1122,2025-01-02,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.8,Vijayawada,39.0,0.0,110.0,1,Thursday,Weekday
+O10009,C1215,2025-01-02,Sandwich,Fast Food,3.0,130.0,Upi,Delivery,4.5,Hyderabad,37.0,0.0,390.0,1,Thursday,Weekday
+O10010,C1088,2025-01-02,Burger,Fast Food,3.0,160.0,Card,Takeaway,5.0,Hyderabad,44.0,0.0,480.0,1,Thursday,Weekday
+O10011,C1100,2025-01-02,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,4.0,Vijayawada,20.0,15.0,80.0,1,Thursday,Weekday
+O10012,C1152,2025-01-02,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,3.0,Vijayawada,40.0,5.0,180.0,1,Thursday,Weekday
+O10013,C1131,2025-01-03,Pizza,Fast Food,1.0,280.0,Card,Takeaway,3.2,Hyderabad,45.0,10.0,280.0,1,Friday,Weekday
+O10014,C1150,2025-01-03,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,4.1,Bengaluru,39.0,15.0,160.0,1,Friday,Weekday
+O10015,C1258,2025-01-03,French Fries,Fast Food,3.0,110.0,Card,Delivery,4.9,Vizag,32.0,0.0,330.0,1,Friday,Weekday
+O10016,C1294,2025-01-03,Biryani,Main Course,1.0,220.0,Upi,Dine In,4.5,Vizag,28.0,10.0,220.0,1,Friday,Weekday
+O10017,C1192,2025-01-03,Pizza,Fast Food,1.0,280.0,Card,Takeaway,4.4,Hyderabad,21.0,0.0,280.0,1,Friday,Weekday
+O10018,C1277,2025-01-04,Sandwich,Fast Food,2.0,130.0,Upi,Delivery,5.0,Vijayawada,24.0,0.0,260.0,1,Saturday,Weekend
+O10019,C1161,2025-01-04,Noodles,Main Course,2.0,170.0,Upi,Takeaway,3.6,Bengaluru,40.0,15.0,340.0,1,Saturday,Weekend
+O10020,C1022,2025-01-04,Burger,Fast Food,1.0,160.0,Wallet,Dine In,4.1,Hyderabad,24.0,10.0,160.0,1,Saturday,Weekend
+O10021,C1253,2025-01-04,Gulab Jamun,Dessert,2.0,80.0,Card,Takeaway,3.8,Vizag,38.0,5.0,160.0,1,Saturday,Weekend
+O10022,C1236,2025-01-04,French Fries,Fast Food,1.0,110.0,Cash,Delivery,3.9,Chennai,35.0,5.0,110.0,1,Saturday,Weekend
+O10023,C1049,2025-01-04,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,3.4,Vijayawada,11.0,5.0,90.0,1,Saturday,Weekend
+O10024,C1059,2025-01-05,Chicken 65,Starters,3.0,190.0,Card,Takeaway,3.9,Chennai,29.0,0.0,570.0,1,Sunday,Weekend
+O10025,C1170,2025-01-05,Pasta,Fast Food,2.0,210.0,Cash,Takeaway,4.1,Hyderabad,24.0,0.0,420.0,1,Sunday,Weekend
+O10026,C1188,2025-01-05,Paneer Tikka,Starters,2.0,210.0,Card,Takeaway,3.9,Vizag,13.0,0.0,420.0,1,Sunday,Weekend
+O10027,C1271,2025-01-05,Gulab Jamun,Dessert,1.0,80.0,Card,Delivery,4.0,Bengaluru,31.0,0.0,80.0,1,Sunday,Weekend
+O10028,C1190,2025-01-05,Burger,Fast Food,1.0,160.0,Upi,Takeaway,4.4,Chennai,32.0,15.0,160.0,1,Sunday,Weekend
+O10029,C1175,2025-01-06,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,4.9,Bengaluru,35.0,0.0,220.0,1,Monday,Weekday
+O10030,C1051,2025-01-06,Ice Cream,Dessert,2.0,90.0,Card,Dine In,5.0,Vizag,20.0,0.0,180.0,1,Monday,Weekday
+O10031,C1055,2025-01-06,Burger,Fast Food,2.0,160.0,Upi,Dine In,4.6,Chennai,37.0,5.0,320.0,1,Monday,Weekday
+O10032,C1244,2025-01-06,Sandwich,Fast Food,2.0,130.0,Upi,Dine In,3.3,Bengaluru,11.0,15.0,260.0,1,Monday,Weekday
+O10033,C1131,2025-01-06,Pizza,Fast Food,1.0,280.0,Wallet,Dine In,3.9,Bengaluru,17.0,0.0,280.0,1,Monday,Weekday
+O10034,C1135,2025-01-06,Ice Cream,Dessert,1.0,90.0,Cash,Takeaway,3.9,Chennai,38.0,0.0,90.0,1,Monday,Weekday
+O10035,C1021,2025-01-07,Biryani,Main Course,2.0,220.0,Card,Delivery,3.7,Vizag,20.0,5.0,440.0,1,Tuesday,Weekday
+O10036,C1167,2025-01-07,French Fries,Fast Food,2.0,110.0,Cash,Dine In,4.3,Bengaluru,27.0,10.0,220.0,1,Tuesday,Weekday
+O10037,C1274,2025-01-07,Paneer Tikka,Starters,3.0,210.0,Cash,Delivery,3.1,Hyderabad,23.0,5.0,630.0,1,Tuesday,Weekday
+O10038,C1089,2025-01-07,Manchurian,Starters,2.0,160.0,Upi,Dine In,5.0,Chennai,19.0,15.0,320.0,1,Tuesday,Weekday
+O10039,C1014,2025-01-07,Pizza,Fast Food,1.0,280.0,Upi,Delivery,4.9,Vijayawada,44.0,20.0,280.0,1,Tuesday,Weekday
+O10040,C1242,2025-01-08,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.4,Vijayawada,18.0,10.0,160.0,1,Wednesday,Weekday
+O10041,C1265,2025-01-08,Pasta,Fast Food,2.0,210.0,Upi,Takeaway,4.1,Vizag,44.0,10.0,420.0,1,Wednesday,Weekday
+O10042,C1053,2025-01-08,Chicken 65,Starters,1.0,190.0,Card,Dine In,4.9,Hyderabad,20.0,5.0,190.0,1,Wednesday,Weekday
+O10043,C1092,2025-01-08,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.5,Bengaluru,21.0,0.0,330.0,1,Wednesday,Weekday
+O10044,C1264,2025-01-08,Veg Meals,Main Course,1.0,150.0,Cash,Takeaway,4.8,Vijayawada,12.0,20.0,150.0,1,Wednesday,Weekday
+O10045,C1035,2025-01-08,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.1,Vizag,23.0,5.0,90.0,1,Wednesday,Weekday
+O10046,C1206,2025-01-09,Burger,Fast Food,2.0,160.0,Upi,Takeaway,5.0,Hyderabad,37.0,0.0,320.0,1,Thursday,Weekday
+O10047,C1081,2025-01-09,Chicken 65,Starters,2.0,190.0,Upi,Delivery,4.9,Hyderabad,20.0,10.0,380.0,1,Thursday,Weekday
+O10048,C1050,2025-01-09,Paneer Tikka,Starters,1.0,210.0,Upi,Dine In,4.4,Vizag,34.0,0.0,210.0,1,Thursday,Weekday
+O10049,C1002,2025-01-09,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.9,Vizag,30.0,5.0,220.0,1,Thursday,Weekday
+O10050,C1054,2025-01-09,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.8,Bengaluru,19.0,5.0,110.0,1,Thursday,Weekday
+O10051,C1106,2025-01-10,Pasta,Fast Food,1.0,210.0,Upi,Delivery,3.3,Vizag,24.0,5.0,210.0,1,Friday,Weekday
+O10052,C1260,2025-01-10,Chicken 65,Starters,3.0,190.0,Card,Dine In,4.3,Bengaluru,28.0,15.0,570.0,1,Friday,Weekday
+O10053,C1191,2025-01-10,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.1,Bengaluru,31.0,0.0,160.0,1,Friday,Weekday
+O10054,C1218,2025-01-10,Veg Meals,Main Course,2.0,150.0,Upi,Takeaway,4.0,Chennai,30.0,5.0,300.0,1,Friday,Weekday
+O10055,C1044,2025-01-10,Gulab Jamun,Dessert,1.0,80.0,Cash,Delivery,4.9,Hyderabad,41.0,5.0,80.0,1,Friday,Weekday
+O10056,C1162,2025-01-10,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,4.2,Hyderabad,32.0,10.0,180.0,1,Friday,Weekday
+O10057,C1202,2025-01-11,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.3,Hyderabad,22.0,10.0,110.0,1,Saturday,Weekend
+O10058,C1270,2025-01-11,Burger,Fast Food,1.0,160.0,Cash,Dine In,3.9,Chennai,14.0,5.0,160.0,1,Saturday,Weekend
+O10059,C1271,2025-01-11,Biryani,Main Course,1.0,220.0,Upi,Delivery,4.7,Bengaluru,13.0,10.0,220.0,1,Saturday,Weekend
+O10060,C1215,2025-01-11,Manchurian,Starters,3.0,160.0,Cash,Delivery,4.6,Bengaluru,37.0,0.0,480.0,1,Saturday,Weekend
+O10061,C1252,2025-01-11,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.7,Vizag,23.0,15.0,160.0,1,Saturday,Weekend
+O10062,C1190,2025-01-11,Chicken 65,Starters,1.0,190.0,Cash,Takeaway,3.8,Chennai,17.0,5.0,190.0,1,Saturday,Weekend
+O10063,C1296,2025-01-12,Pizza,Fast Food,2.0,280.0,Upi,Takeaway,4.9,Vizag,18.0,10.0,560.0,1,Sunday,Weekend
+O10064,C1213,2025-01-12,French Fries,Fast Food,2.0,110.0,Card,Delivery,5.0,Chennai,44.0,0.0,220.0,1,Sunday,Weekend
+O10065,C1208,2025-01-12,Chicken 65,Starters,1.0,190.0,Upi,Dine In,4.6,Vizag,30.0,0.0,190.0,1,Sunday,Weekend
+O10066,C1237,2025-01-12,Gulab Jamun,Dessert,1.0,80.0,Cash,Takeaway,3.6,Vijayawada,27.0,5.0,80.0,1,Sunday,Weekend
+O10067,C1053,2025-01-12,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,3.6,Hyderabad,42.0,15.0,90.0,1,Sunday,Weekend
+O10068,C1280,2025-01-13,Sandwich,Fast Food,3.0,130.0,Upi,Delivery,3.9,Hyderabad,17.0,5.0,390.0,1,Monday,Weekday
+O10069,C1217,2025-01-13,French Fries,Fast Food,1.0,110.0,Upi,Dine In,3.7,Bengaluru,26.0,15.0,110.0,1,Monday,Weekday
+O10070,C1252,2025-01-13,Masala Dosa,South Indian,1.0,100.0,Card,Delivery,4.1,Vijayawada,40.0,5.0,100.0,1,Monday,Weekday
+O10071,C1188,2025-01-13,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.5,Hyderabad,43.0,5.0,110.0,1,Monday,Weekday
+O10072,C1041,2025-01-13,Fried Rice,Main Course,2.0,180.0,Upi,Dine In,4.3,Bengaluru,15.0,0.0,360.0,1,Monday,Weekday
+O10073,C1157,2025-01-13,Noodles,Main Course,1.0,170.0,Card,Delivery,4.2,Vijayawada,31.0,15.0,170.0,1,Monday,Weekday
+O10074,C1015,2025-01-14,Fried Rice,Main Course,1.0,180.0,Wallet,Dine In,3.9,Hyderabad,23.0,0.0,180.0,1,Tuesday,Weekday
+O10075,C1065,2025-01-14,Sandwich,Fast Food,1.0,130.0,Card,Takeaway,4.1,Vizag,12.0,15.0,130.0,1,Tuesday,Weekday
+O10076,C1009,2025-01-14,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.6,Chennai,21.0,15.0,160.0,1,Tuesday,Weekday
+O10077,C1129,2025-01-14,Paneer Tikka,Starters,3.0,210.0,Card,Dine In,2.8,Vijayawada,45.0,15.0,630.0,1,Tuesday,Weekday
+O10078,C1136,2025-01-14,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.1,Bengaluru,21.0,5.0,220.0,1,Tuesday,Weekday
+O10079,C1063,2025-01-15,Gulab Jamun,Dessert,3.0,80.0,Wallet,Takeaway,4.3,Vijayawada,11.0,10.0,240.0,1,Wednesday,Weekday
+O10080,C1139,2025-01-15,Ice Cream,Dessert,2.0,90.0,Cash,Takeaway,4.6,Bengaluru,11.0,10.0,180.0,1,Wednesday,Weekday
+O10081,C1081,2025-01-15,Paneer Tikka,Starters,2.0,210.0,Upi,Dine In,3.4,Vijayawada,24.0,0.0,420.0,1,Wednesday,Weekday
+O10082,C1163,2025-01-15,Biryani,Main Course,1.0,220.0,Card,Takeaway,3.4,Bengaluru,32.0,10.0,220.0,1,Wednesday,Weekday
+O10083,C1289,2025-01-15,Paneer Tikka,Starters,1.0,210.0,Upi,Takeaway,4.5,Hyderabad,38.0,0.0,210.0,1,Wednesday,Weekday
+O10084,C1261,2025-01-15,Fried Rice,Main Course,2.0,180.0,Wallet,Takeaway,2.9,Vizag,26.0,5.0,360.0,1,Wednesday,Weekday
+O10085,C1231,2025-01-16,French Fries,Fast Food,1.0,110.0,Wallet,Dine In,5.0,Hyderabad,41.0,0.0,110.0,1,Thursday,Weekday
+O10086,C1041,2025-01-16,Pasta,Fast Food,2.0,210.0,Card,Delivery,4.2,Vizag,16.0,0.0,420.0,1,Thursday,Weekday
+O10087,C1028,2025-01-16,Burger,Fast Food,1.0,160.0,Upi,Takeaway,5.0,Hyderabad,39.0,5.0,160.0,1,Thursday,Weekday
+O10088,C1135,2025-01-16,Masala Dosa,South Indian,2.0,100.0,Card,Takeaway,3.4,Hyderabad,37.0,5.0,200.0,1,Thursday,Weekday
+O10089,C1201,2025-01-16,Ice Cream,Dessert,3.0,90.0,Upi,Dine In,3.8,Vijayawada,23.0,10.0,270.0,1,Thursday,Weekday
+O10090,C1268,2025-01-17,Manchurian,Starters,2.0,160.0,Upi,Delivery,2.5,Chennai,39.0,0.0,320.0,1,Friday,Weekday
+O10091,C1033,2025-01-17,Pizza,Fast Food,3.0,280.0,Card,Takeaway,3.6,Bengaluru,26.0,5.0,840.0,1,Friday,Weekday
+O10092,C1048,2025-01-17,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.0,Bengaluru,41.0,0.0,110.0,1,Friday,Weekday
+O10093,C1062,2025-01-17,Biryani,Main Course,1.0,220.0,Upi,Dine In,2.8,Bengaluru,15.0,5.0,220.0,1,Friday,Weekday
+O10094,C1216,2025-01-17,Gulab Jamun,Dessert,1.0,80.0,Wallet,Delivery,3.8,Vizag,33.0,10.0,80.0,1,Friday,Weekday
+O10095,C1293,2025-01-17,Fried Rice,Main Course,1.0,180.0,Upi,Dine In,2.8,Bengaluru,15.0,5.0,180.0,1,Friday,Weekday
+O10096,C1099,2025-01-18,Masala Dosa,South Indian,1.0,100.0,Upi,Delivery,3.9,Bengaluru,36.0,10.0,100.0,1,Saturday,Weekend
+O10097,C1172,2025-01-18,French Fries,Fast Food,3.0,110.0,Wallet,Takeaway,4.8,Vijayawada,27.0,0.0,330.0,1,Saturday,Weekend
+O10098,C1214,2025-01-18,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,4.1,Hyderabad,33.0,10.0,90.0,1,Saturday,Weekend
+O10099,C1035,2025-01-18,French Fries,Fast Food,1.0,110.0,Card,Delivery,5.0,Bengaluru,33.0,5.0,110.0,1,Saturday,Weekend
+O10100,C1227,2025-01-18,Ice Cream,Dessert,1.0,90.0,Wallet,Dine In,4.6,Chennai,43.0,5.0,90.0,1,Saturday,Weekend
+O10101,C1101,2025-01-19,Burger,Fast Food,1.0,160.0,Wallet,Delivery,5.0,Bengaluru,24.0,10.0,160.0,1,Sunday,Weekend
+O10102,C1131,2025-01-19,Paneer Tikka,Starters,1.0,210.0,Card,Delivery,3.6,Vizag,20.0,0.0,210.0,1,Sunday,Weekend
+O10103,C1257,2025-01-19,Paneer Tikka,Starters,2.0,210.0,Upi,Delivery,3.6,Vizag,31.0,10.0,420.0,1,Sunday,Weekend
+O10104,C1005,2025-01-19,Manchurian,Starters,1.0,160.0,Upi,Dine In,4.3,Vizag,33.0,10.0,160.0,1,Sunday,Weekend
+O10105,C1218,2025-01-19,Gulab Jamun,Dessert,1.0,80.0,Card,Delivery,3.1,Bengaluru,10.0,0.0,80.0,1,Sunday,Weekend
+O10106,C1255,2025-01-19,French Fries,Fast Food,3.0,110.0,Card,Takeaway,4.4,Vijayawada,27.0,0.0,330.0,1,Sunday,Weekend
+O10107,C1283,2025-01-20,Fried Rice,Main Course,2.0,180.0,Cash,Delivery,3.9,Chennai,21.0,0.0,360.0,1,Monday,Weekday
+O10108,C1207,2025-01-20,Noodles,Main Course,1.0,170.0,Upi,Delivery,5.0,Bengaluru,37.0,15.0,170.0,1,Monday,Weekday
+O10109,C1015,2025-01-20,Sandwich,Fast Food,1.0,130.0,Upi,Delivery,4.5,Vijayawada,16.0,10.0,130.0,1,Monday,Weekday
+O10110,C1042,2025-01-20,Veg Meals,Main Course,1.0,150.0,Upi,Takeaway,4.8,Vijayawada,32.0,0.0,150.0,1,Monday,Weekday
+O10111,C1179,2025-01-20,Ice Cream,Dessert,3.0,90.0,Card,Takeaway,3.6,Bengaluru,30.0,5.0,270.0,1,Monday,Weekday
+O10112,C1063,2025-01-21,Fried Rice,Main Course,2.0,180.0,Upi,Dine In,4.8,Bengaluru,43.0,5.0,360.0,1,Tuesday,Weekday
+O10113,C1231,2025-01-21,French Fries,Fast Food,2.0,110.0,Wallet,Delivery,5.0,Vijayawada,20.0,15.0,220.0,1,Tuesday,Weekday
+O10114,C1241,2025-01-21,Burger,Fast Food,1.0,160.0,Card,Takeaway,4.1,Vijayawada,31.0,0.0,160.0,1,Tuesday,Weekday
+O10115,C1052,2025-01-21,Masala Dosa,South Indian,1.0,100.0,Upi,Takeaway,3.6,Vijayawada,44.0,0.0,100.0,1,Tuesday,Weekday
+O10116,C1096,2025-01-21,Ice Cream,Dessert,3.0,90.0,Cash,Delivery,3.6,Bengaluru,38.0,15.0,270.0,1,Tuesday,Weekday
+O10117,C1222,2025-01-21,Noodles,Main Course,2.0,170.0,Upi,Takeaway,4.9,Vijayawada,37.0,0.0,340.0,1,Tuesday,Weekday
+O10118,C1231,2025-01-22,Gulab Jamun,Dessert,1.0,80.0,Cash,Dine In,5.0,Vizag,27.0,0.0,80.0,1,Wednesday,Weekday
+O10119,C1237,2025-01-22,Chicken 65,Starters,1.0,190.0,Card,Takeaway,3.5,Bengaluru,23.0,20.0,190.0,1,Wednesday,Weekday
+O10120,C1143,2025-01-22,French Fries,Fast Food,3.0,110.0,Card,Takeaway,3.4,Vizag,27.0,10.0,330.0,1,Wednesday,Weekday
+O10121,C1171,2025-01-22,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,4.7,Hyderabad,37.0,0.0,90.0,1,Wednesday,Weekday
+O10122,C1029,2025-01-22,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,3.6,Bengaluru,33.0,0.0,90.0,1,Wednesday,Weekday
+O10123,C1036,2025-01-22,Chicken 65,Starters,1.0,190.0,Upi,Dine In,4.8,Hyderabad,17.0,0.0,190.0,1,Wednesday,Weekday
+O10124,C1013,2025-01-23,French Fries,Fast Food,1.0,110.0,Card,Dine In,4.4,Vijayawada,17.0,0.0,110.0,1,Thursday,Weekday
+O10125,C1160,2025-01-23,Sandwich,Fast Food,2.0,130.0,Upi,Delivery,4.1,Vijayawada,13.0,15.0,260.0,1,Thursday,Weekday
+O10126,C1187,2025-01-23,Paneer Tikka,Starters,1.0,210.0,Upi,Dine In,4.4,Chennai,36.0,5.0,210.0,1,Thursday,Weekday
+O10127,C1243,2025-01-23,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,4.3,Vijayawada,45.0,10.0,220.0,1,Thursday,Weekday
+O10128,C1086,2025-01-23,Pizza,Fast Food,2.0,280.0,Card,Delivery,4.0,Hyderabad,14.0,15.0,560.0,1,Thursday,Weekday
+O10129,C1284,2025-01-24,Burger,Fast Food,1.0,160.0,Upi,Dine In,3.0,Vijayawada,42.0,5.0,160.0,1,Friday,Weekday
+O10130,C1066,2025-01-24,Biryani,Main Course,1.0,220.0,Card,Takeaway,4.2,Bengaluru,43.0,0.0,220.0,1,Friday,Weekday
+O10131,C1170,2025-01-24,Gulab Jamun,Dessert,2.0,80.0,Wallet,Delivery,5.0,Vijayawada,39.0,5.0,160.0,1,Friday,Weekday
+O10132,C1045,2025-01-24,Veg Meals,Main Course,1.0,150.0,Upi,Delivery,3.1,Chennai,17.0,15.0,150.0,1,Friday,Weekday
+O10133,C1062,2025-01-24,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,3.5,Vijayawada,35.0,15.0,180.0,1,Friday,Weekday
+O10134,C1134,2025-01-24,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.4,Hyderabad,43.0,0.0,330.0,1,Friday,Weekday
+O10135,C1284,2025-01-25,Pasta,Fast Food,3.0,210.0,Card,Delivery,4.1,Hyderabad,16.0,10.0,630.0,1,Saturday,Weekend
+O10136,C1028,2025-01-25,Veg Meals,Main Course,2.0,150.0,Upi,Takeaway,4.4,Vijayawada,37.0,5.0,300.0,1,Saturday,Weekend
+O10137,C1108,2025-01-25,Paneer Tikka,Starters,3.0,210.0,Upi,Delivery,3.6,Hyderabad,37.0,15.0,630.0,1,Saturday,Weekend
+O10138,C1044,2025-01-25,Veg Meals,Main Course,1.0,150.0,Upi,Dine In,4.9,Hyderabad,23.0,0.0,150.0,1,Saturday,Weekend
+O10139,C1286,2025-01-25,Noodles,Main Course,3.0,170.0,Card,Delivery,4.1,Chennai,13.0,5.0,510.0,1,Saturday,Weekend
+O10140,C1128,2025-01-26,Noodles,Main Course,1.0,170.0,Upi,Takeaway,4.6,Bengaluru,27.0,15.0,170.0,1,Sunday,Weekend
+O10141,C1231,2025-01-26,French Fries,Fast Food,1.0,110.0,Card,Takeaway,4.3,Chennai,34.0,5.0,110.0,1,Sunday,Weekend
+O10142,C1190,2025-01-26,Sandwich,Fast Food,2.0,130.0,Wallet,Dine In,4.2,Vizag,16.0,5.0,260.0,1,Sunday,Weekend
+O10143,C1225,2025-01-26,Masala Dosa,South Indian,1.0,100.0,Upi,Delivery,4.5,Chennai,37.0,0.0,100.0,1,Sunday,Weekend
+O10144,C1283,2025-01-26,Ice Cream,Dessert,1.0,90.0,Card,Dine In,4.2,Vijayawada,14.0,0.0,90.0,1,Sunday,Weekend
+O10145,C1121,2025-01-26,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,3.3,Bengaluru,12.0,0.0,180.0,1,Sunday,Weekend
+O10146,C1116,2025-01-27,Pasta,Fast Food,1.0,210.0,Card,Delivery,4.8,Vijayawada,40.0,15.0,210.0,1,Monday,Weekday
+O10147,C1233,2025-01-27,Pasta,Fast Food,1.0,210.0,Card,Dine In,4.6,Vizag,29.0,0.0,210.0,1,Monday,Weekday
+O10148,C1259,2025-01-27,French Fries,Fast Food,3.0,110.0,Card,Delivery,2.7,Bengaluru,28.0,5.0,330.0,1,Monday,Weekday
+O10149,C1198,2025-01-27,Paneer Tikka,Starters,3.0,210.0,Upi,Delivery,3.7,Hyderabad,20.0,10.0,630.0,1,Monday,Weekday
+O10150,C1137,2025-01-27,Fried Rice,Main Course,1.0,180.0,Upi,Delivery,4.8,Chennai,12.0,0.0,180.0,1,Monday,Weekday
+O10151,C1165,2025-01-28,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,2.9,Vijayawada,32.0,5.0,220.0,1,Tuesday,Weekday
+O10152,C1225,2025-01-28,Noodles,Main Course,1.0,170.0,Upi,Dine In,4.7,Vizag,16.0,10.0,170.0,1,Tuesday,Weekday
+O10153,C1234,2025-01-28,Pizza,Fast Food,2.0,280.0,Upi,Dine In,4.0,Hyderabad,32.0,15.0,560.0,1,Tuesday,Weekday
+O10154,C1172,2025-01-28,Fried Rice,Main Course,1.0,180.0,Upi,Dine In,5.0,Chennai,16.0,10.0,180.0,1,Tuesday,Weekday
+O10155,C1152,2025-01-28,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.1,Hyderabad,43.0,10.0,220.0,1,Tuesday,Weekday
+O10156,C1160,2025-01-28,Masala Dosa,South Indian,1.0,100.0,Upi,Dine In,3.6,Chennai,28.0,0.0,100.0,1,Tuesday,Weekday
+O10157,C1096,2025-01-29,Gulab Jamun,Dessert,2.0,80.0,Card,Delivery,4.3,Bengaluru,18.0,15.0,160.0,1,Wednesday,Weekday
+O10158,C1233,2025-01-29,Noodles,Main Course,2.0,170.0,Cash,Dine In,4.1,Hyderabad,27.0,0.0,340.0,1,Wednesday,Weekday
+O10159,C1180,2025-01-29,Pizza,Fast Food,1.0,280.0,Upi,Takeaway,3.6,Hyderabad,34.0,10.0,280.0,1,Wednesday,Weekday
+O10160,C1113,2025-01-29,Biryani,Main Course,1.0,220.0,Upi,Delivery,5.0,Hyderabad,23.0,0.0,220.0,1,Wednesday,Weekday
+O10161,C1052,2025-01-29,Fried Rice,Main Course,1.0,180.0,Upi,Delivery,3.5,Bengaluru,34.0,15.0,180.0,1,Wednesday,Weekday
+O10162,C1268,2025-01-30,French Fries,Fast Food,1.0,110.0,Wallet,Dine In,2.6,Vizag,28.0,10.0,110.0,1,Thursday,Weekday
+O10163,C1295,2025-01-30,Noodles,Main Course,1.0,170.0,Upi,Takeaway,5.0,Chennai,24.0,10.0,170.0,1,Thursday,Weekday
+O10164,C1113,2025-01-30,Ice Cream,Dessert,2.0,90.0,Card,Takeaway,3.7,Hyderabad,25.0,0.0,180.0,1,Thursday,Weekday
+O10165,C1101,2025-01-30,Manchurian,Starters,3.0,160.0,Wallet,Dine In,3.9,Bengaluru,36.0,5.0,480.0,1,Thursday,Weekday
+O10166,C1113,2025-01-30,Ice Cream,Dessert,1.0,90.0,Card,Dine In,3.9,Vizag,19.0,10.0,90.0,1,Thursday,Weekday
+O10167,C1081,2025-01-30,Fried Rice,Main Course,1.0,180.0,Card,Takeaway,3.7,Chennai,13.0,10.0,180.0,1,Thursday,Weekday
+O10168,C1187,2025-01-31,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,3.6,Bengaluru,28.0,0.0,90.0,1,Friday,Weekday
+O10169,C1113,2025-01-31,French Fries,Fast Food,3.0,110.0,Wallet,Delivery,3.5,Chennai,37.0,20.0,330.0,1,Friday,Weekday
+O10170,C1002,2025-01-31,Gulab Jamun,Dessert,3.0,80.0,Cash,Takeaway,4.1,Hyderabad,30.0,15.0,240.0,1,Friday,Weekday
+O10171,C1130,2025-01-31,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,3.8,Vizag,23.0,0.0,110.0,1,Friday,Weekday
+O10172,C1220,2025-01-31,Veg Meals,Main Course,1.0,150.0,Cash,Takeaway,4.6,Bengaluru,42.0,15.0,150.0,1,Friday,Weekday
+O10173,C1054,2025-01-31,Gulab Jamun,Dessert,3.0,80.0,Cash,Delivery,4.4,Vizag,19.0,5.0,240.0,1,Friday,Weekday
+O10174,C1224,2025-02-01,Noodles,Main Course,1.0,170.0,Cash,Delivery,3.5,Hyderabad,28.0,5.0,170.0,2,Saturday,Weekend
+O10175,C1225,2025-02-01,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.2,Vizag,39.0,0.0,110.0,2,Saturday,Weekend
+O10176,C1126,2025-02-01,French Fries,Fast Food,2.0,110.0,Upi,Delivery,3.8,Vizag,31.0,5.0,220.0,2,Saturday,Weekend
+O10177,C1130,2025-02-01,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,3.5,Vijayawada,12.0,10.0,90.0,2,Saturday,Weekend
+O10178,C1053,2025-02-01,Manchurian,Starters,1.0,160.0,Upi,Takeaway,4.5,Vizag,27.0,5.0,160.0,2,Saturday,Weekend
+O10179,C1172,2025-02-02,Pasta,Fast Food,3.0,210.0,Upi,Dine In,4.0,Chennai,20.0,10.0,630.0,2,Sunday,Weekend
+O10180,C1218,2025-02-02,Veg Meals,Main Course,2.0,150.0,Upi,Takeaway,3.8,Bengaluru,11.0,10.0,300.0,2,Sunday,Weekend
+O10181,C1160,2025-02-02,Fried Rice,Main Course,2.0,180.0,Cash,Delivery,3.5,Vijayawada,21.0,10.0,360.0,2,Sunday,Weekend
+O10182,C1198,2025-02-02,Paneer Tikka,Starters,2.0,210.0,Upi,Delivery,3.4,Bengaluru,15.0,0.0,420.0,2,Sunday,Weekend
+O10183,C1247,2025-02-02,French Fries,Fast Food,1.0,110.0,Card,Dine In,5.0,Bengaluru,38.0,15.0,110.0,2,Sunday,Weekend
+O10184,C1203,2025-02-02,Pasta,Fast Food,1.0,210.0,Upi,Delivery,4.3,Hyderabad,39.0,5.0,210.0,2,Sunday,Weekend
+O10185,C1184,2025-02-03,Biryani,Main Course,2.0,220.0,Upi,Takeaway,3.4,Hyderabad,11.0,0.0,440.0,2,Monday,Weekday
+O10186,C1123,2025-02-03,Ice Cream,Dessert,2.0,90.0,Card,Dine In,4.3,Vijayawada,18.0,0.0,180.0,2,Monday,Weekday
+O10187,C1255,2025-02-03,Fried Rice,Main Course,1.0,180.0,Cash,Dine In,4.8,Hyderabad,11.0,5.0,180.0,2,Monday,Weekday
+O10188,C1294,2025-02-03,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,4.2,Hyderabad,38.0,15.0,180.0,2,Monday,Weekday
+O10189,C1280,2025-02-03,Sandwich,Fast Food,2.0,130.0,Card,Dine In,5.0,Hyderabad,42.0,5.0,260.0,2,Monday,Weekday
+O10190,C1098,2025-02-04,French Fries,Fast Food,2.0,110.0,Card,Dine In,3.1,Bengaluru,19.0,10.0,220.0,2,Tuesday,Weekday
+O10191,C1198,2025-02-04,Sandwich,Fast Food,1.0,130.0,Upi,Dine In,2.8,Vijayawada,43.0,0.0,130.0,2,Tuesday,Weekday
+O10192,C1240,2025-02-04,Pizza,Fast Food,3.0,280.0,Upi,Dine In,4.3,Bengaluru,17.0,5.0,840.0,2,Tuesday,Weekday
+O10193,C1144,2025-02-04,Manchurian,Starters,3.0,160.0,Wallet,Delivery,4.3,Chennai,42.0,20.0,480.0,2,Tuesday,Weekday
+O10194,C1097,2025-02-04,Noodles,Main Course,1.0,170.0,Cash,Takeaway,1.9,Bengaluru,15.0,10.0,170.0,2,Tuesday,Weekday
+O10195,C1201,2025-02-04,French Fries,Fast Food,2.0,110.0,Cash,Delivery,3.7,Chennai,28.0,0.0,220.0,2,Tuesday,Weekday
+O10196,C1124,2025-02-05,Gulab Jamun,Dessert,1.0,80.0,Card,Takeaway,3.4,Vizag,41.0,5.0,80.0,2,Wednesday,Weekday
+O10197,C1187,2025-02-05,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.2,Vizag,36.0,0.0,110.0,2,Wednesday,Weekday
+O10198,C1259,2025-02-05,Fried Rice,Main Course,2.0,180.0,Upi,Delivery,3.4,Chennai,10.0,5.0,360.0,2,Wednesday,Weekday
+O10199,C1148,2025-02-05,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.5,Chennai,42.0,10.0,180.0,2,Wednesday,Weekday
+O10200,C1252,2025-02-05,Burger,Fast Food,1.0,160.0,Card,Takeaway,3.4,Bengaluru,41.0,10.0,160.0,2,Wednesday,Weekday
+O10201,C1147,2025-02-06,Ice Cream,Dessert,2.0,90.0,Cash,Delivery,3.5,Chennai,14.0,0.0,180.0,2,Thursday,Weekday
+O10202,C1148,2025-02-06,Pasta,Fast Food,2.0,210.0,Card,Dine In,3.0,Vijayawada,26.0,15.0,420.0,2,Thursday,Weekday
+O10203,C1199,2025-02-06,Fried Rice,Main Course,1.0,180.0,Upi,Dine In,4.9,Vizag,17.0,5.0,180.0,2,Thursday,Weekday
+O10204,C1128,2025-02-06,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,4.4,Vizag,43.0,5.0,220.0,2,Thursday,Weekday
+O10205,C1039,2025-02-06,Chicken 65,Starters,1.0,190.0,Cash,Takeaway,2.5,Chennai,18.0,5.0,190.0,2,Thursday,Weekday
+O10206,C1129,2025-02-06,French Fries,Fast Food,1.0,110.0,Card,Dine In,3.5,Hyderabad,32.0,10.0,110.0,2,Thursday,Weekday
+O10207,C1267,2025-02-07,Masala Dosa,South Indian,2.0,100.0,Cash,Delivery,4.4,Hyderabad,44.0,5.0,200.0,2,Friday,Weekday
+O10208,C1151,2025-02-07,Biryani,Main Course,2.0,220.0,Upi,Delivery,4.9,Chennai,16.0,5.0,440.0,2,Friday,Weekday
+O10209,C1298,2025-02-07,Gulab Jamun,Dessert,2.0,80.0,Card,Takeaway,4.6,Vijayawada,24.0,5.0,160.0,2,Friday,Weekday
+O10210,C1099,2025-02-07,Ice Cream,Dessert,3.0,90.0,Upi,Delivery,3.9,Hyderabad,29.0,0.0,270.0,2,Friday,Weekday
+O10211,C1263,2025-02-07,French Fries,Fast Food,1.0,110.0,Wallet,Takeaway,2.8,Chennai,34.0,15.0,110.0,2,Friday,Weekday
+O10212,C1252,2025-02-08,Burger,Fast Food,1.0,160.0,Upi,Delivery,4.7,Vijayawada,12.0,5.0,160.0,2,Saturday,Weekend
+O10213,C1144,2025-02-08,Noodles,Main Course,3.0,170.0,Card,Takeaway,3.9,Vijayawada,33.0,0.0,510.0,2,Saturday,Weekend
+O10214,C1112,2025-02-08,Pizza,Fast Food,2.0,280.0,Upi,Dine In,4.1,Bengaluru,43.0,10.0,560.0,2,Saturday,Weekend
+O10215,C1060,2025-02-08,Paneer Tikka,Starters,2.0,210.0,Wallet,Delivery,4.0,Vijayawada,31.0,15.0,420.0,2,Saturday,Weekend
+O10216,C1002,2025-02-08,Gulab Jamun,Dessert,2.0,80.0,Cash,Delivery,3.2,Hyderabad,20.0,15.0,160.0,2,Saturday,Weekend
+O10217,C1254,2025-02-08,Chicken 65,Starters,2.0,190.0,Upi,Delivery,4.3,Hyderabad,17.0,5.0,380.0,2,Saturday,Weekend
+O10218,C1140,2025-02-09,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.2,Chennai,44.0,0.0,330.0,2,Sunday,Weekend
+O10219,C1037,2025-02-09,Noodles,Main Course,1.0,170.0,Upi,Delivery,3.8,Chennai,17.0,5.0,170.0,2,Sunday,Weekend
+O10220,C1160,2025-02-09,Fried Rice,Main Course,2.0,180.0,Upi,Delivery,4.4,Vijayawada,36.0,0.0,360.0,2,Sunday,Weekend
+O10221,C1009,2025-02-09,Ice Cream,Dessert,2.0,90.0,Wallet,Delivery,3.2,Vizag,37.0,15.0,180.0,2,Sunday,Weekend
+O10222,C1233,2025-02-09,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,3.9,Bengaluru,43.0,0.0,80.0,2,Sunday,Weekend
+O10223,C1099,2025-02-10,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,4.1,Vizag,41.0,0.0,90.0,2,Monday,Weekday
+O10224,C1147,2025-02-10,Masala Dosa,South Indian,2.0,100.0,Cash,Delivery,3.0,Vijayawada,24.0,5.0,200.0,2,Monday,Weekday
+O10225,C1208,2025-02-10,French Fries,Fast Food,3.0,110.0,Card,Dine In,4.1,Vijayawada,26.0,5.0,330.0,2,Monday,Weekday
+O10226,C1131,2025-02-10,Masala Dosa,South Indian,1.0,100.0,Upi,Delivery,4.6,Vizag,42.0,10.0,100.0,2,Monday,Weekday
+O10227,C1152,2025-02-10,Burger,Fast Food,1.0,160.0,Upi,Delivery,3.9,Bengaluru,25.0,5.0,160.0,2,Monday,Weekday
+O10228,C1054,2025-02-10,Burger,Fast Food,1.0,160.0,Card,Delivery,4.1,Vizag,38.0,0.0,160.0,2,Monday,Weekday
+O10229,C1120,2025-02-11,Masala Dosa,South Indian,2.0,100.0,Wallet,Delivery,4.5,Chennai,18.0,0.0,200.0,2,Tuesday,Weekday
+O10230,C1161,2025-02-11,French Fries,Fast Food,2.0,110.0,Upi,Delivery,3.8,Hyderabad,42.0,5.0,220.0,2,Tuesday,Weekday
+O10231,C1116,2025-02-11,Biryani,Main Course,1.0,220.0,Upi,Takeaway,3.9,Chennai,38.0,0.0,220.0,2,Tuesday,Weekday
+O10232,C1075,2025-02-11,French Fries,Fast Food,1.0,110.0,Cash,Delivery,3.3,Hyderabad,22.0,10.0,110.0,2,Tuesday,Weekday
+O10233,C1113,2025-02-11,French Fries,Fast Food,3.0,110.0,Wallet,Dine In,4.1,Vijayawada,30.0,5.0,330.0,2,Tuesday,Weekday
+O10234,C1104,2025-02-11,Pasta,Fast Food,1.0,210.0,Upi,Dine In,3.9,Bengaluru,30.0,10.0,210.0,2,Tuesday,Weekday
+O10235,C1254,2025-02-12,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.4,Vizag,14.0,15.0,160.0,2,Wednesday,Weekday
+O10236,C1227,2025-02-12,Pizza,Fast Food,1.0,280.0,Card,Takeaway,4.5,Bengaluru,19.0,15.0,280.0,2,Wednesday,Weekday
+O10237,C1112,2025-02-12,Veg Meals,Main Course,2.0,150.0,Upi,Takeaway,4.6,Vizag,15.0,15.0,300.0,2,Wednesday,Weekday
+O10238,C1099,2025-02-12,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,3.8,Chennai,22.0,0.0,90.0,2,Wednesday,Weekday
+O10239,C1153,2025-02-12,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,2.7,Chennai,10.0,0.0,110.0,2,Wednesday,Weekday
+O10240,C1194,2025-02-13,Fried Rice,Main Course,2.0,180.0,Wallet,Takeaway,4.6,Vizag,29.0,0.0,360.0,2,Thursday,Weekday
+O10241,C1163,2025-02-13,Veg Meals,Main Course,1.0,150.0,Upi,Dine In,4.4,Bengaluru,17.0,15.0,150.0,2,Thursday,Weekday
+O10242,C1208,2025-02-13,Veg Meals,Main Course,2.0,150.0,Cash,Takeaway,3.7,Vizag,19.0,20.0,300.0,2,Thursday,Weekday
+O10243,C1169,2025-02-13,Ice Cream,Dessert,2.0,90.0,Cash,Delivery,4.5,Vijayawada,18.0,15.0,180.0,2,Thursday,Weekday
+O10244,C1161,2025-02-13,Biryani,Main Course,2.0,220.0,Cash,Dine In,3.2,Chennai,12.0,0.0,440.0,2,Thursday,Weekday
+O10245,C1068,2025-02-13,Biryani,Main Course,3.0,220.0,Cash,Dine In,4.8,Vijayawada,20.0,15.0,660.0,2,Thursday,Weekday
+O10246,C1289,2025-02-14,French Fries,Fast Food,3.0,110.0,Cash,Dine In,3.9,Chennai,21.0,5.0,330.0,2,Friday,Weekday
+O10247,C1277,2025-02-14,Pasta,Fast Food,1.0,210.0,Upi,Dine In,3.6,Chennai,19.0,0.0,210.0,2,Friday,Weekday
+O10248,C1135,2025-02-14,Gulab Jamun,Dessert,2.0,80.0,Cash,Takeaway,3.7,Hyderabad,34.0,5.0,160.0,2,Friday,Weekday
+O10249,C1195,2025-02-14,Chicken 65,Starters,2.0,190.0,Cash,Dine In,3.9,Vijayawada,34.0,0.0,380.0,2,Friday,Weekday
+O10250,C1128,2025-02-14,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,4.1,Vijayawada,20.0,5.0,90.0,2,Friday,Weekday
+O10251,C1033,2025-02-15,Veg Meals,Main Course,1.0,150.0,Card,Delivery,4.1,Hyderabad,45.0,0.0,150.0,2,Saturday,Weekend
+O10252,C1176,2025-02-15,Paneer Tikka,Starters,2.0,210.0,Upi,Takeaway,3.8,Bengaluru,35.0,5.0,420.0,2,Saturday,Weekend
+O10253,C1022,2025-02-15,French Fries,Fast Food,3.0,110.0,Card,Delivery,4.2,Vijayawada,23.0,10.0,330.0,2,Saturday,Weekend
+O10254,C1238,2025-02-15,Ice Cream,Dessert,3.0,90.0,Card,Takeaway,4.1,Vizag,10.0,15.0,270.0,2,Saturday,Weekend
+O10255,C1158,2025-02-15,Pizza,Fast Food,2.0,280.0,Upi,Takeaway,3.7,Hyderabad,13.0,10.0,560.0,2,Saturday,Weekend
+O10256,C1038,2025-02-15,Fried Rice,Main Course,3.0,180.0,Cash,Delivery,3.6,Vijayawada,39.0,5.0,540.0,2,Saturday,Weekend
+O10257,C1230,2025-02-16,Manchurian,Starters,2.0,160.0,Upi,Dine In,4.5,Bengaluru,21.0,15.0,320.0,2,Sunday,Weekend
+O10258,C1051,2025-02-16,Manchurian,Starters,1.0,160.0,Upi,Delivery,4.4,Vijayawada,44.0,15.0,160.0,2,Sunday,Weekend
+O10259,C1264,2025-02-16,Burger,Fast Food,1.0,160.0,Upi,Dine In,4.1,Chennai,22.0,0.0,160.0,2,Sunday,Weekend
+O10260,C1283,2025-02-16,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.7,Vizag,40.0,5.0,110.0,2,Sunday,Weekend
+O10261,C1027,2025-02-16,Gulab Jamun,Dessert,1.0,80.0,Upi,Dine In,2.8,Hyderabad,32.0,0.0,80.0,2,Sunday,Weekend
+O10262,C1226,2025-02-17,Pizza,Fast Food,1.0,280.0,Card,Delivery,3.7,Chennai,13.0,0.0,280.0,2,Monday,Weekday
+O10263,C1277,2025-02-17,Manchurian,Starters,1.0,160.0,Upi,Delivery,3.3,Bengaluru,25.0,10.0,160.0,2,Monday,Weekday
+O10264,C1286,2025-02-17,Burger,Fast Food,2.0,160.0,Card,Delivery,5.0,Chennai,16.0,15.0,320.0,2,Monday,Weekday
+O10265,C1097,2025-02-17,Ice Cream,Dessert,1.0,90.0,Cash,Takeaway,4.6,Chennai,31.0,0.0,90.0,2,Monday,Weekday
+O10266,C1284,2025-02-17,Manchurian,Starters,1.0,160.0,Card,Takeaway,4.0,Bengaluru,38.0,15.0,160.0,2,Monday,Weekday
+O10267,C1147,2025-02-17,French Fries,Fast Food,1.0,110.0,Cash,Dine In,4.6,Chennai,20.0,15.0,110.0,2,Monday,Weekday
+O10268,C1004,2025-02-18,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.8,Hyderabad,42.0,15.0,110.0,2,Tuesday,Weekday
+O10269,C1035,2025-02-18,Biryani,Main Course,2.0,220.0,Card,Delivery,4.8,Vijayawada,38.0,0.0,440.0,2,Tuesday,Weekday
+O10270,C1192,2025-02-18,Pasta,Fast Food,2.0,210.0,Upi,Takeaway,4.7,Chennai,21.0,15.0,420.0,2,Tuesday,Weekday
+O10271,C1049,2025-02-18,Biryani,Main Course,1.0,220.0,Cash,Delivery,3.9,Hyderabad,16.0,0.0,220.0,2,Tuesday,Weekday
+O10272,C1017,2025-02-18,Ice Cream,Dessert,1.0,90.0,Wallet,Delivery,3.8,Vijayawada,35.0,5.0,90.0,2,Tuesday,Weekday
+O10273,C1172,2025-02-19,Veg Meals,Main Course,2.0,150.0,Upi,Takeaway,3.5,Vijayawada,18.0,0.0,300.0,2,Wednesday,Weekday
+O10274,C1220,2025-02-19,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.4,Chennai,43.0,0.0,220.0,2,Wednesday,Weekday
+O10275,C1158,2025-02-19,Biryani,Main Course,1.0,220.0,Card,Dine In,4.0,Hyderabad,22.0,10.0,220.0,2,Wednesday,Weekday
+O10276,C1046,2025-02-19,Ice Cream,Dessert,1.0,90.0,Card,Dine In,3.8,Chennai,45.0,5.0,90.0,2,Wednesday,Weekday
+O10277,C1006,2025-02-19,Manchurian,Starters,1.0,160.0,Card,Dine In,3.8,Bengaluru,34.0,0.0,160.0,2,Wednesday,Weekday
+O10278,C1099,2025-02-19,Sandwich,Fast Food,1.0,130.0,Upi,Takeaway,5.0,Vijayawada,33.0,0.0,130.0,2,Wednesday,Weekday
+O10279,C1233,2025-02-20,Chicken 65,Starters,2.0,190.0,Card,Takeaway,4.7,Chennai,26.0,10.0,380.0,2,Thursday,Weekday
+O10280,C1037,2025-02-20,Burger,Fast Food,1.0,160.0,Upi,Takeaway,5.0,Vijayawada,11.0,0.0,160.0,2,Thursday,Weekday
+O10281,C1280,2025-02-20,French Fries,Fast Food,1.0,110.0,Card,Takeaway,4.4,Hyderabad,22.0,15.0,110.0,2,Thursday,Weekday
+O10282,C1181,2025-02-20,Gulab Jamun,Dessert,1.0,80.0,Wallet,Takeaway,4.1,Vizag,40.0,0.0,80.0,2,Thursday,Weekday
+O10283,C1095,2025-02-20,Fried Rice,Main Course,2.0,180.0,Card,Delivery,4.1,Chennai,38.0,0.0,360.0,2,Thursday,Weekday
+O10284,C1099,2025-02-20,Biryani,Main Course,1.0,220.0,Card,Delivery,3.4,Chennai,37.0,5.0,220.0,2,Thursday,Weekday
+O10285,C1188,2025-02-21,Paneer Tikka,Starters,1.0,210.0,Upi,Dine In,3.3,Vijayawada,36.0,5.0,210.0,2,Friday,Weekday
+O10286,C1116,2025-02-21,Fried Rice,Main Course,2.0,180.0,Card,Dine In,4.4,Hyderabad,24.0,5.0,360.0,2,Friday,Weekday
+O10287,C1191,2025-02-21,Ice Cream,Dessert,1.0,90.0,Card,Delivery,3.5,Bengaluru,40.0,0.0,90.0,2,Friday,Weekday
+O10288,C1253,2025-02-21,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.2,Hyderabad,24.0,20.0,110.0,2,Friday,Weekday
+O10289,C1161,2025-02-21,Chicken 65,Starters,2.0,190.0,Card,Delivery,4.8,Chennai,42.0,10.0,380.0,2,Friday,Weekday
+O10290,C1256,2025-02-22,Veg Meals,Main Course,1.0,150.0,Upi,Dine In,3.7,Bengaluru,29.0,0.0,150.0,2,Saturday,Weekend
+O10291,C1128,2025-02-22,Pizza,Fast Food,3.0,280.0,Card,Takeaway,5.0,Hyderabad,21.0,5.0,840.0,2,Saturday,Weekend
+O10292,C1018,2025-02-22,Veg Meals,Main Course,2.0,150.0,Card,Dine In,3.5,Vizag,18.0,15.0,300.0,2,Saturday,Weekend
+O10293,C1281,2025-02-22,Manchurian,Starters,1.0,160.0,Card,Dine In,4.7,Vijayawada,32.0,0.0,160.0,2,Saturday,Weekend
+O10294,C1223,2025-02-22,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.4,Hyderabad,17.0,0.0,160.0,2,Saturday,Weekend
+O10295,C1054,2025-02-22,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,4.9,Hyderabad,41.0,10.0,110.0,2,Saturday,Weekend
+O10296,C1058,2025-02-23,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,3.4,Vizag,23.0,10.0,90.0,2,Sunday,Weekend
+O10297,C1174,2025-02-23,Veg Meals,Main Course,1.0,150.0,Wallet,Delivery,5.0,Chennai,36.0,5.0,150.0,2,Sunday,Weekend
+O10298,C1280,2025-02-23,Ice Cream,Dessert,3.0,90.0,Upi,Takeaway,4.0,Vijayawada,34.0,0.0,270.0,2,Sunday,Weekend
+O10299,C1114,2025-02-23,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.5,Hyderabad,22.0,0.0,180.0,2,Sunday,Weekend
+O10300,C1288,2025-02-23,Gulab Jamun,Dessert,2.0,80.0,Card,Dine In,5.0,Bengaluru,30.0,10.0,160.0,2,Sunday,Weekend
+O10301,C1151,2025-02-24,Ice Cream,Dessert,1.0,90.0,Upi,Takeaway,3.7,Hyderabad,40.0,0.0,90.0,2,Monday,Weekday
+O10302,C1127,2025-02-24,French Fries,Fast Food,3.0,110.0,Cash,Delivery,4.6,Vijayawada,14.0,5.0,330.0,2,Monday,Weekday
+O10303,C1155,2025-02-24,Biryani,Main Course,1.0,220.0,Cash,Takeaway,3.6,Hyderabad,22.0,5.0,220.0,2,Monday,Weekday
+O10304,C1273,2025-02-24,Paneer Tikka,Starters,1.0,210.0,Card,Takeaway,5.0,Vizag,37.0,0.0,210.0,2,Monday,Weekday
+O10305,C1104,2025-02-24,Ice Cream,Dessert,1.0,90.0,Cash,Dine In,3.6,Hyderabad,34.0,15.0,90.0,2,Monday,Weekday
+O10306,C1299,2025-02-24,Fried Rice,Main Course,2.0,180.0,Cash,Takeaway,4.1,Hyderabad,44.0,15.0,360.0,2,Monday,Weekday
+O10307,C1246,2025-02-25,Noodles,Main Course,1.0,170.0,Upi,Delivery,4.3,Bengaluru,16.0,10.0,170.0,2,Tuesday,Weekday
+O10308,C1176,2025-02-25,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.6,Vizag,41.0,0.0,90.0,2,Tuesday,Weekday
+O10309,C1039,2025-02-25,French Fries,Fast Food,1.0,110.0,Upi,Delivery,5.0,Vizag,12.0,0.0,110.0,2,Tuesday,Weekday
+O10310,C1170,2025-02-25,Sandwich,Fast Food,3.0,130.0,Upi,Delivery,3.8,Hyderabad,31.0,5.0,390.0,2,Tuesday,Weekday
+O10311,C1247,2025-02-25,Gulab Jamun,Dessert,2.0,80.0,Cash,Takeaway,4.8,Bengaluru,17.0,0.0,160.0,2,Tuesday,Weekday
+O10312,C1026,2025-02-26,Fried Rice,Main Course,1.0,180.0,Card,Takeaway,5.0,Hyderabad,26.0,20.0,180.0,2,Wednesday,Weekday
+O10313,C1013,2025-02-26,Gulab Jamun,Dessert,1.0,80.0,Cash,Dine In,4.2,Hyderabad,36.0,0.0,80.0,2,Wednesday,Weekday
+O10314,C1036,2025-02-26,Veg Meals,Main Course,1.0,150.0,Card,Takeaway,3.7,Vijayawada,42.0,5.0,150.0,2,Wednesday,Weekday
+O10315,C1173,2025-02-26,Burger,Fast Food,2.0,160.0,Wallet,Takeaway,3.0,Vijayawada,26.0,5.0,320.0,2,Wednesday,Weekday
+O10316,C1020,2025-02-26,French Fries,Fast Food,3.0,110.0,Card,Delivery,5.0,Bengaluru,21.0,10.0,330.0,2,Wednesday,Weekday
+O10317,C1264,2025-02-26,Pizza,Fast Food,1.0,280.0,Card,Takeaway,3.9,Chennai,36.0,0.0,280.0,2,Wednesday,Weekday
+O10318,C1142,2025-02-27,French Fries,Fast Food,2.0,110.0,Cash,Takeaway,3.4,Vijayawada,17.0,5.0,220.0,2,Thursday,Weekday
+O10319,C1143,2025-02-27,Paneer Tikka,Starters,1.0,210.0,Upi,Takeaway,3.2,Chennai,32.0,0.0,210.0,2,Thursday,Weekday
+O10320,C1092,2025-02-27,Ice Cream,Dessert,3.0,90.0,Upi,Delivery,3.4,Vizag,38.0,15.0,270.0,2,Thursday,Weekday
+O10321,C1288,2025-02-27,Pizza,Fast Food,1.0,280.0,Upi,Delivery,4.7,Vijayawada,29.0,0.0,280.0,2,Thursday,Weekday
+O10322,C1215,2025-02-27,Gulab Jamun,Dessert,2.0,80.0,Wallet,Dine In,4.8,Vijayawada,25.0,15.0,160.0,2,Thursday,Weekday
+O10323,C1051,2025-02-28,French Fries,Fast Food,3.0,110.0,Card,Takeaway,4.5,Bengaluru,26.0,15.0,330.0,2,Friday,Weekday
+O10324,C1153,2025-02-28,Masala Dosa,South Indian,2.0,100.0,Upi,Delivery,4.2,Chennai,25.0,0.0,200.0,2,Friday,Weekday
+O10325,C1186,2025-02-28,Paneer Tikka,Starters,2.0,210.0,Cash,Takeaway,3.3,Vijayawada,28.0,10.0,420.0,2,Friday,Weekday
+O10326,C1063,2025-02-28,Gulab Jamun,Dessert,1.0,80.0,Card,Dine In,3.6,Vijayawada,17.0,0.0,80.0,2,Friday,Weekday
+O10327,C1190,2025-02-28,Pizza,Fast Food,2.0,280.0,Upi,Delivery,3.4,Bengaluru,38.0,20.0,560.0,2,Friday,Weekday
+O10328,C1125,2025-02-28,French Fries,Fast Food,1.0,110.0,Upi,Delivery,4.5,Bengaluru,45.0,5.0,110.0,2,Friday,Weekday
+O10329,C1150,2025-03-01,Ice Cream,Dessert,1.0,90.0,Card,Dine In,3.4,Chennai,35.0,0.0,90.0,3,Saturday,Weekend
+O10330,C1058,2025-03-01,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.6,Vizag,40.0,5.0,110.0,3,Saturday,Weekend
+O10331,C1180,2025-03-01,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.0,Vizag,21.0,0.0,90.0,3,Saturday,Weekend
+O10332,C1170,2025-03-01,Sandwich,Fast Food,3.0,130.0,Cash,Takeaway,3.0,Hyderabad,26.0,20.0,390.0,3,Saturday,Weekend
+O10333,C1271,2025-03-01,Gulab Jamun,Dessert,1.0,80.0,Card,Delivery,4.1,Vijayawada,24.0,0.0,80.0,3,Saturday,Weekend
+O10334,C1054,2025-03-02,Chicken 65,Starters,2.0,190.0,Cash,Delivery,4.0,Chennai,18.0,10.0,380.0,3,Sunday,Weekend
+O10335,C1101,2025-03-02,Burger,Fast Food,2.0,160.0,Upi,Delivery,4.9,Vijayawada,21.0,5.0,320.0,3,Sunday,Weekend
+O10336,C1264,2025-03-02,Manchurian,Starters,1.0,160.0,Upi,Delivery,3.6,Chennai,41.0,15.0,160.0,3,Sunday,Weekend
+O10337,C1053,2025-03-02,French Fries,Fast Food,2.0,110.0,Cash,Dine In,3.3,Chennai,34.0,0.0,220.0,3,Sunday,Weekend
+O10338,C1060,2025-03-02,Pasta,Fast Food,1.0,210.0,Cash,Dine In,3.9,Chennai,27.0,5.0,210.0,3,Sunday,Weekend
+O10339,C1108,2025-03-02,Gulab Jamun,Dessert,2.0,80.0,Card,Takeaway,3.4,Vijayawada,24.0,5.0,160.0,3,Sunday,Weekend
+O10340,C1005,2025-03-03,Burger,Fast Food,2.0,160.0,Upi,Dine In,4.1,Bengaluru,41.0,10.0,320.0,3,Monday,Weekday
+O10341,C1103,2025-03-03,Fried Rice,Main Course,2.0,180.0,Card,Takeaway,2.9,Vijayawada,15.0,0.0,360.0,3,Monday,Weekday
+O10342,C1196,2025-03-03,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,3.7,Chennai,44.0,0.0,90.0,3,Monday,Weekday
+O10343,C1262,2025-03-03,Chicken 65,Starters,2.0,190.0,Upi,Delivery,3.5,Hyderabad,43.0,0.0,380.0,3,Monday,Weekday
+O10344,C1047,2025-03-03,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.5,Vizag,14.0,10.0,330.0,3,Monday,Weekday
+O10345,C1144,2025-03-03,Paneer Tikka,Starters,1.0,210.0,Upi,Delivery,3.6,Chennai,27.0,0.0,210.0,3,Monday,Weekday
+O10346,C1269,2025-03-04,Paneer Tikka,Starters,1.0,210.0,Cash,Delivery,3.0,Hyderabad,25.0,5.0,210.0,3,Tuesday,Weekday
+O10347,C1124,2025-03-04,Manchurian,Starters,3.0,160.0,Cash,Takeaway,4.0,Bengaluru,17.0,0.0,480.0,3,Tuesday,Weekday
+O10348,C1106,2025-03-04,Paneer Tikka,Starters,2.0,210.0,Upi,Dine In,4.3,Chennai,34.0,15.0,420.0,3,Tuesday,Weekday
+O10349,C1158,2025-03-04,Gulab Jamun,Dessert,2.0,80.0,Cash,Takeaway,3.9,Hyderabad,41.0,15.0,160.0,3,Tuesday,Weekday
+O10350,C1147,2025-03-04,Chicken 65,Starters,1.0,190.0,Upi,Delivery,3.7,Chennai,35.0,5.0,190.0,3,Tuesday,Weekday
+O10351,C1145,2025-03-05,French Fries,Fast Food,1.0,110.0,Card,Takeaway,3.7,Vijayawada,31.0,5.0,110.0,3,Wednesday,Weekday
+O10352,C1120,2025-03-05,Gulab Jamun,Dessert,3.0,80.0,Wallet,Delivery,4.2,Hyderabad,40.0,0.0,240.0,3,Wednesday,Weekday
+O10353,C1275,2025-03-05,Ice Cream,Dessert,3.0,90.0,Upi,Dine In,3.5,Vijayawada,19.0,0.0,270.0,3,Wednesday,Weekday
+O10354,C1092,2025-03-05,Noodles,Main Course,1.0,170.0,Cash,Delivery,3.9,Vijayawada,21.0,0.0,170.0,3,Wednesday,Weekday
+O10355,C1058,2025-03-05,Veg Meals,Main Course,2.0,150.0,Upi,Delivery,4.6,Hyderabad,37.0,10.0,300.0,3,Wednesday,Weekday
+O10356,C1229,2025-03-05,Pasta,Fast Food,1.0,210.0,Upi,Delivery,3.3,Vizag,15.0,5.0,210.0,3,Wednesday,Weekday
+O10357,C1117,2025-03-06,Pizza,Fast Food,3.0,280.0,Upi,Delivery,4.1,Hyderabad,29.0,15.0,840.0,3,Thursday,Weekday
+O10358,C1279,2025-03-06,French Fries,Fast Food,1.0,110.0,Card,Delivery,2.9,Vizag,14.0,5.0,110.0,3,Thursday,Weekday
+O10359,C1127,2025-03-06,Pasta,Fast Food,1.0,210.0,Cash,Delivery,4.2,Chennai,32.0,10.0,210.0,3,Thursday,Weekday
+O10360,C1129,2025-03-06,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,3.5,Chennai,18.0,5.0,90.0,3,Thursday,Weekday
+O10361,C1058,2025-03-06,Manchurian,Starters,3.0,160.0,Card,Delivery,4.8,Hyderabad,38.0,5.0,480.0,3,Thursday,Weekday
+O10362,C1122,2025-03-07,Sandwich,Fast Food,2.0,130.0,Cash,Delivery,3.1,Chennai,25.0,0.0,260.0,3,Friday,Weekday
+O10363,C1001,2025-03-07,Pizza,Fast Food,3.0,280.0,Card,Dine In,4.4,Bengaluru,31.0,5.0,840.0,3,Friday,Weekday
+O10364,C1239,2025-03-07,Ice Cream,Dessert,2.0,90.0,Cash,Takeaway,4.9,Vijayawada,17.0,5.0,180.0,3,Friday,Weekday
+O10365,C1290,2025-03-07,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,3.4,Vijayawada,29.0,10.0,110.0,3,Friday,Weekday
+O10366,C1096,2025-03-07,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,3.5,Vizag,23.0,15.0,180.0,3,Friday,Weekday
+O10367,C1126,2025-03-07,Pizza,Fast Food,2.0,280.0,Upi,Dine In,3.5,Chennai,43.0,0.0,560.0,3,Friday,Weekday
+O10368,C1118,2025-03-08,Sandwich,Fast Food,2.0,130.0,Wallet,Delivery,3.8,Vizag,20.0,0.0,260.0,3,Saturday,Weekend
+O10369,C1048,2025-03-08,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.4,Vijayawada,42.0,5.0,220.0,3,Saturday,Weekend
+O10370,C1089,2025-03-08,Paneer Tikka,Starters,1.0,210.0,Wallet,Delivery,3.7,Vijayawada,40.0,5.0,210.0,3,Saturday,Weekend
+O10371,C1237,2025-03-08,Pasta,Fast Food,1.0,210.0,Cash,Takeaway,3.4,Chennai,43.0,0.0,210.0,3,Saturday,Weekend
+O10372,C1272,2025-03-08,French Fries,Fast Food,3.0,110.0,Upi,Dine In,2.8,Bengaluru,16.0,10.0,330.0,3,Saturday,Weekend
+O10373,C1189,2025-03-09,Pizza,Fast Food,3.0,280.0,Upi,Dine In,5.0,Bengaluru,32.0,20.0,840.0,3,Sunday,Weekend
+O10374,C1192,2025-03-09,Burger,Fast Food,1.0,160.0,Upi,Dine In,5.0,Chennai,16.0,15.0,160.0,3,Sunday,Weekend
+O10375,C1069,2025-03-09,Ice Cream,Dessert,2.0,90.0,Wallet,Dine In,4.5,Chennai,34.0,0.0,180.0,3,Sunday,Weekend
+O10376,C1278,2025-03-09,Paneer Tikka,Starters,1.0,210.0,Upi,Dine In,3.6,Vizag,12.0,15.0,210.0,3,Sunday,Weekend
+O10377,C1247,2025-03-09,Sandwich,Fast Food,2.0,130.0,Upi,Delivery,4.6,Chennai,29.0,10.0,260.0,3,Sunday,Weekend
+O10378,C1076,2025-03-09,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.7,Bengaluru,43.0,5.0,160.0,3,Sunday,Weekend
+O10379,C1154,2025-03-10,French Fries,Fast Food,1.0,110.0,Upi,Dine In,3.9,Chennai,39.0,5.0,110.0,3,Monday,Weekday
+O10380,C1144,2025-03-10,Sandwich,Fast Food,3.0,130.0,Cash,Dine In,4.1,Vizag,26.0,15.0,390.0,3,Monday,Weekday
+O10381,C1086,2025-03-10,Biryani,Main Course,2.0,220.0,Upi,Takeaway,4.9,Vizag,19.0,5.0,440.0,3,Monday,Weekday
+O10382,C1185,2025-03-10,Pasta,Fast Food,2.0,210.0,Card,Dine In,3.0,Vizag,44.0,5.0,420.0,3,Monday,Weekday
+O10383,C1285,2025-03-10,Sandwich,Fast Food,1.0,130.0,Upi,Delivery,4.7,Vizag,29.0,5.0,130.0,3,Monday,Weekday
+O10384,C1220,2025-03-11,Fried Rice,Main Course,3.0,180.0,Upi,Takeaway,3.9,Hyderabad,27.0,5.0,540.0,3,Tuesday,Weekday
+O10385,C1069,2025-03-11,Manchurian,Starters,2.0,160.0,Cash,Takeaway,3.4,Chennai,36.0,0.0,320.0,3,Tuesday,Weekday
+O10386,C1047,2025-03-11,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,3.4,Vijayawada,45.0,15.0,220.0,3,Tuesday,Weekday
+O10387,C1094,2025-03-11,Chicken 65,Starters,2.0,190.0,Wallet,Dine In,3.5,Chennai,32.0,10.0,380.0,3,Tuesday,Weekday
+O10388,C1238,2025-03-11,Manchurian,Starters,1.0,160.0,Cash,Delivery,3.3,Hyderabad,41.0,10.0,160.0,3,Tuesday,Weekday
+O10389,C1204,2025-03-11,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,5.0,Vizag,19.0,0.0,80.0,3,Tuesday,Weekday
+O10390,C1218,2025-03-12,Veg Meals,Main Course,3.0,150.0,Cash,Delivery,4.4,Hyderabad,20.0,10.0,450.0,3,Wednesday,Weekday
+O10391,C1039,2025-03-12,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.8,Bengaluru,15.0,0.0,160.0,3,Wednesday,Weekday
+O10392,C1100,2025-03-12,Sandwich,Fast Food,2.0,130.0,Upi,Takeaway,4.5,Bengaluru,43.0,0.0,260.0,3,Wednesday,Weekday
+O10393,C1289,2025-03-12,French Fries,Fast Food,3.0,110.0,Wallet,Takeaway,4.1,Chennai,45.0,5.0,330.0,3,Wednesday,Weekday
+O10394,C1254,2025-03-12,Gulab Jamun,Dessert,3.0,80.0,Card,Delivery,4.1,Chennai,26.0,5.0,240.0,3,Wednesday,Weekday
+O10395,C1222,2025-03-12,Paneer Tikka,Starters,1.0,210.0,Wallet,Takeaway,3.8,Vijayawada,21.0,5.0,210.0,3,Wednesday,Weekday
+O10396,C1023,2025-03-13,Masala Dosa,South Indian,1.0,100.0,Cash,Takeaway,3.9,Vijayawada,30.0,0.0,100.0,3,Thursday,Weekday
+O10397,C1250,2025-03-13,Ice Cream,Dessert,2.0,90.0,Cash,Delivery,3.2,Bengaluru,28.0,5.0,180.0,3,Thursday,Weekday
+O10398,C1010,2025-03-13,Biryani,Main Course,2.0,220.0,Upi,Delivery,4.8,Vizag,12.0,0.0,440.0,3,Thursday,Weekday
+O10399,C1246,2025-03-13,Sandwich,Fast Food,3.0,130.0,Upi,Takeaway,2.9,Hyderabad,27.0,20.0,390.0,3,Thursday,Weekday
+O10400,C1100,2025-03-13,French Fries,Fast Food,2.0,110.0,Card,Takeaway,3.4,Vijayawada,28.0,5.0,220.0,3,Thursday,Weekday
+O10401,C1290,2025-03-14,Burger,Fast Food,1.0,160.0,Upi,Takeaway,5.0,Vijayawada,15.0,10.0,160.0,3,Friday,Weekday
+O10402,C1180,2025-03-14,Pasta,Fast Food,2.0,210.0,Card,Delivery,4.2,Vizag,25.0,0.0,420.0,3,Friday,Weekday
+O10403,C1223,2025-03-14,Sandwich,Fast Food,3.0,130.0,Card,Takeaway,4.2,Vizag,17.0,0.0,390.0,3,Friday,Weekday
+O10404,C1250,2025-03-14,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.5,Chennai,27.0,20.0,160.0,3,Friday,Weekday
+O10405,C1147,2025-03-14,Sandwich,Fast Food,1.0,130.0,Cash,Takeaway,3.1,Hyderabad,21.0,0.0,130.0,3,Friday,Weekday
+O10406,C1096,2025-03-14,Pizza,Fast Food,1.0,280.0,Card,Delivery,3.2,Vizag,19.0,5.0,280.0,3,Friday,Weekday
+O10407,C1257,2025-03-15,French Fries,Fast Food,2.0,110.0,Upi,Delivery,3.8,Vijayawada,16.0,10.0,220.0,3,Saturday,Weekend
+O10408,C1004,2025-03-15,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,3.5,Vijayawada,10.0,0.0,90.0,3,Saturday,Weekend
+O10409,C1016,2025-03-15,Sandwich,Fast Food,1.0,130.0,Cash,Delivery,4.1,Bengaluru,45.0,15.0,130.0,3,Saturday,Weekend
+O10410,C1280,2025-03-15,Fried Rice,Main Course,2.0,180.0,Upi,Dine In,4.4,Vizag,30.0,5.0,360.0,3,Saturday,Weekend
+O10411,C1247,2025-03-15,Veg Meals,Main Course,1.0,150.0,Cash,Delivery,5.0,Chennai,33.0,0.0,150.0,3,Saturday,Weekend
+O10412,C1258,2025-03-16,Biryani,Main Course,1.0,220.0,Wallet,Delivery,4.6,Hyderabad,34.0,0.0,220.0,3,Sunday,Weekend
+O10413,C1160,2025-03-16,Fried Rice,Main Course,1.0,180.0,Upi,Dine In,3.5,Chennai,16.0,0.0,180.0,3,Sunday,Weekend
+O10414,C1152,2025-03-16,French Fries,Fast Food,1.0,110.0,Card,Delivery,3.9,Vijayawada,26.0,15.0,110.0,3,Sunday,Weekend
+O10415,C1178,2025-03-16,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,3.7,Chennai,38.0,10.0,80.0,3,Sunday,Weekend
+O10416,C1163,2025-03-16,Veg Meals,Main Course,1.0,150.0,Card,Dine In,3.4,Vijayawada,39.0,0.0,150.0,3,Sunday,Weekend
+O10417,C1033,2025-03-16,Gulab Jamun,Dessert,1.0,80.0,Card,Takeaway,3.3,Vijayawada,16.0,0.0,80.0,3,Sunday,Weekend
+O10418,C1179,2025-03-17,Biryani,Main Course,2.0,220.0,Upi,Delivery,5.0,Vijayawada,42.0,10.0,440.0,3,Monday,Weekday
+O10419,C1101,2025-03-17,Ice Cream,Dessert,3.0,90.0,Upi,Delivery,4.1,Vijayawada,16.0,5.0,270.0,3,Monday,Weekday
+O10420,C1268,2025-03-17,Chicken 65,Starters,1.0,190.0,Card,Takeaway,4.0,Vijayawada,33.0,5.0,190.0,3,Monday,Weekday
+O10421,C1065,2025-03-17,French Fries,Fast Food,2.0,110.0,Cash,Dine In,4.4,Bengaluru,20.0,5.0,220.0,3,Monday,Weekday
+O10422,C1168,2025-03-17,Manchurian,Starters,1.0,160.0,Card,Dine In,4.4,Chennai,18.0,0.0,160.0,3,Monday,Weekday
+O10423,C1043,2025-03-18,French Fries,Fast Food,3.0,110.0,Upi,Takeaway,4.8,Bengaluru,21.0,10.0,330.0,3,Tuesday,Weekday
+O10424,C1044,2025-03-18,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,3.6,Bengaluru,44.0,20.0,90.0,3,Tuesday,Weekday
+O10425,C1285,2025-03-18,Fried Rice,Main Course,3.0,180.0,Card,Delivery,4.4,Vizag,13.0,0.0,540.0,3,Tuesday,Weekday
+O10426,C1012,2025-03-18,Pasta,Fast Food,1.0,210.0,Wallet,Dine In,3.5,Vizag,45.0,5.0,210.0,3,Tuesday,Weekday
+O10427,C1095,2025-03-18,Fried Rice,Main Course,3.0,180.0,Upi,Delivery,4.0,Vizag,37.0,5.0,540.0,3,Tuesday,Weekday
+O10428,C1253,2025-03-18,French Fries,Fast Food,2.0,110.0,Cash,Dine In,4.1,Hyderabad,22.0,5.0,220.0,3,Tuesday,Weekday
+O10429,C1242,2025-03-19,Manchurian,Starters,2.0,160.0,Cash,Dine In,4.2,Vizag,32.0,0.0,320.0,3,Wednesday,Weekday
+O10430,C1035,2025-03-19,Ice Cream,Dessert,2.0,90.0,Upi,Takeaway,4.2,Chennai,28.0,15.0,180.0,3,Wednesday,Weekday
+O10431,C1215,2025-03-19,Paneer Tikka,Starters,1.0,210.0,Cash,Takeaway,4.6,Bengaluru,33.0,5.0,210.0,3,Wednesday,Weekday
+O10432,C1090,2025-03-19,Chicken 65,Starters,2.0,190.0,Upi,Delivery,3.7,Chennai,25.0,5.0,380.0,3,Wednesday,Weekday
+O10433,C1264,2025-03-19,Gulab Jamun,Dessert,1.0,80.0,Card,Delivery,4.2,Vizag,42.0,0.0,80.0,3,Wednesday,Weekday
+O10434,C1093,2025-03-20,Sandwich,Fast Food,1.0,130.0,Cash,Delivery,3.6,Hyderabad,21.0,0.0,130.0,3,Thursday,Weekday
+O10435,C1090,2025-03-20,French Fries,Fast Food,3.0,110.0,Upi,Delivery,5.0,Hyderabad,43.0,0.0,330.0,3,Thursday,Weekday
+O10436,C1115,2025-03-20,French Fries,Fast Food,1.0,110.0,Card,Delivery,3.5,Bengaluru,16.0,10.0,110.0,3,Thursday,Weekday
+O10437,C1105,2025-03-20,Sandwich,Fast Food,2.0,130.0,Cash,Takeaway,3.6,Chennai,20.0,0.0,260.0,3,Thursday,Weekday
+O10438,C1196,2025-03-20,Pasta,Fast Food,1.0,210.0,Upi,Delivery,4.7,Vijayawada,40.0,10.0,210.0,3,Thursday,Weekday
+O10439,C1114,2025-03-20,Pizza,Fast Food,3.0,280.0,Wallet,Delivery,3.8,Chennai,38.0,5.0,840.0,3,Thursday,Weekday
+O10440,C1075,2025-03-21,Veg Meals,Main Course,1.0,150.0,Wallet,Dine In,4.7,Vizag,22.0,5.0,150.0,3,Friday,Weekday
+O10441,C1217,2025-03-21,Ice Cream,Dessert,3.0,90.0,Cash,Delivery,4.2,Vijayawada,40.0,5.0,270.0,3,Friday,Weekday
+O10442,C1277,2025-03-21,French Fries,Fast Food,3.0,110.0,Upi,Dine In,3.8,Hyderabad,11.0,5.0,330.0,3,Friday,Weekday
+O10443,C1249,2025-03-21,Gulab Jamun,Dessert,3.0,80.0,Card,Takeaway,3.6,Bengaluru,24.0,0.0,240.0,3,Friday,Weekday
+O10444,C1164,2025-03-21,French Fries,Fast Food,1.0,110.0,Cash,Delivery,3.6,Bengaluru,20.0,0.0,110.0,3,Friday,Weekday
+O10445,C1192,2025-03-22,Chicken 65,Starters,2.0,190.0,Upi,Dine In,3.8,Hyderabad,43.0,10.0,380.0,3,Saturday,Weekend
+O10446,C1227,2025-03-22,Masala Dosa,South Indian,3.0,100.0,Cash,Dine In,4.0,Vizag,13.0,10.0,300.0,3,Saturday,Weekend
+O10447,C1177,2025-03-22,Pasta,Fast Food,1.0,210.0,Cash,Delivery,3.6,Hyderabad,20.0,0.0,210.0,3,Saturday,Weekend
+O10448,C1099,2025-03-22,Gulab Jamun,Dessert,2.0,80.0,Cash,Delivery,4.0,Vizag,38.0,5.0,160.0,3,Saturday,Weekend
+O10449,C1036,2025-03-22,French Fries,Fast Food,1.0,110.0,Upi,Dine In,3.4,Vijayawada,11.0,0.0,110.0,3,Saturday,Weekend
+O10450,C1096,2025-03-22,Fried Rice,Main Course,1.0,180.0,Cash,Delivery,4.6,Hyderabad,25.0,0.0,180.0,3,Saturday,Weekend
+O10451,C1152,2025-03-23,Burger,Fast Food,1.0,160.0,Wallet,Takeaway,4.7,Vizag,22.0,0.0,160.0,3,Sunday,Weekend
+O10452,C1151,2025-03-23,Ice Cream,Dessert,1.0,90.0,Upi,Takeaway,3.6,Vijayawada,26.0,15.0,90.0,3,Sunday,Weekend
+O10453,C1190,2025-03-23,Sandwich,Fast Food,1.0,130.0,Card,Delivery,3.6,Hyderabad,30.0,0.0,130.0,3,Sunday,Weekend
+O10454,C1224,2025-03-23,Ice Cream,Dessert,1.0,90.0,Card,Delivery,4.2,Bengaluru,28.0,0.0,90.0,3,Sunday,Weekend
+O10455,C1037,2025-03-23,French Fries,Fast Food,3.0,110.0,Cash,Takeaway,4.9,Hyderabad,16.0,0.0,330.0,3,Sunday,Weekend
+O10456,C1268,2025-03-23,French Fries,Fast Food,2.0,110.0,Upi,Delivery,5.0,Chennai,17.0,0.0,220.0,3,Sunday,Weekend
+O10457,C1183,2025-03-24,Veg Meals,Main Course,1.0,150.0,Cash,Delivery,3.2,Hyderabad,22.0,10.0,150.0,3,Monday,Weekday
+O10458,C1013,2025-03-24,Ice Cream,Dessert,1.0,90.0,Cash,Dine In,4.8,Chennai,11.0,0.0,90.0,3,Monday,Weekday
+O10459,C1279,2025-03-24,Veg Meals,Main Course,1.0,150.0,Card,Dine In,4.1,Vijayawada,20.0,0.0,150.0,3,Monday,Weekday
+O10460,C1217,2025-03-24,Biryani,Main Course,1.0,220.0,Cash,Dine In,4.1,Hyderabad,33.0,10.0,220.0,3,Monday,Weekday
+O10461,C1286,2025-03-24,Ice Cream,Dessert,1.0,90.0,Wallet,Delivery,4.4,Vijayawada,15.0,0.0,90.0,3,Monday,Weekday
+O10462,C1273,2025-03-25,Burger,Fast Food,2.0,160.0,Upi,Delivery,3.8,Vijayawada,35.0,10.0,320.0,3,Tuesday,Weekday
+O10463,C1062,2025-03-25,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.8,Vizag,16.0,5.0,330.0,3,Tuesday,Weekday
+O10464,C1084,2025-03-25,Noodles,Main Course,1.0,170.0,Cash,Delivery,5.0,Vijayawada,28.0,0.0,170.0,3,Tuesday,Weekday
+O10465,C1217,2025-03-25,Fried Rice,Main Course,2.0,180.0,Upi,Delivery,5.0,Vijayawada,15.0,10.0,360.0,3,Tuesday,Weekday
+O10466,C1187,2025-03-25,Fried Rice,Main Course,3.0,180.0,Upi,Dine In,2.9,Hyderabad,38.0,0.0,540.0,3,Tuesday,Weekday
+O10467,C1019,2025-03-25,Noodles,Main Course,1.0,170.0,Upi,Dine In,4.0,Hyderabad,11.0,5.0,170.0,3,Tuesday,Weekday
+O10468,C1177,2025-03-26,Gulab Jamun,Dessert,3.0,80.0,Upi,Takeaway,2.8,Bengaluru,28.0,5.0,240.0,3,Wednesday,Weekday
+O10469,C1100,2025-03-26,Gulab Jamun,Dessert,3.0,80.0,Upi,Takeaway,3.6,Vizag,13.0,0.0,240.0,3,Wednesday,Weekday
+O10470,C1233,2025-03-26,French Fries,Fast Food,3.0,110.0,Wallet,Delivery,2.5,Vijayawada,15.0,10.0,330.0,3,Wednesday,Weekday
+O10471,C1076,2025-03-26,Veg Meals,Main Course,2.0,150.0,Upi,Delivery,4.4,Vizag,37.0,15.0,300.0,3,Wednesday,Weekday
+O10472,C1265,2025-03-26,Burger,Fast Food,2.0,160.0,Card,Dine In,4.2,Chennai,39.0,20.0,320.0,3,Wednesday,Weekday
+O10473,C1284,2025-03-27,Masala Dosa,South Indian,1.0,100.0,Card,Takeaway,3.8,Vijayawada,16.0,10.0,100.0,3,Thursday,Weekday
+O10474,C1206,2025-03-27,Ice Cream,Dessert,1.0,90.0,Wallet,Delivery,3.6,Vizag,18.0,5.0,90.0,3,Thursday,Weekday
+O10475,C1223,2025-03-27,Biryani,Main Course,1.0,220.0,Upi,Takeaway,4.3,Bengaluru,34.0,0.0,220.0,3,Thursday,Weekday
+O10476,C1052,2025-03-27,Pasta,Fast Food,3.0,210.0,Card,Dine In,3.4,Bengaluru,42.0,0.0,630.0,3,Thursday,Weekday
+O10477,C1144,2025-03-27,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,3.4,Vijayawada,10.0,5.0,110.0,3,Thursday,Weekday
+O10478,C1069,2025-03-27,Ice Cream,Dessert,2.0,90.0,Cash,Dine In,3.3,Chennai,15.0,5.0,180.0,3,Thursday,Weekday
+O10479,C1099,2025-03-28,Burger,Fast Food,2.0,160.0,Cash,Delivery,4.0,Bengaluru,27.0,15.0,320.0,3,Friday,Weekday
+O10480,C1025,2025-03-28,Pizza,Fast Food,1.0,280.0,Card,Dine In,3.7,Bengaluru,19.0,5.0,280.0,3,Friday,Weekday
+O10481,C1053,2025-03-28,Pizza,Fast Food,2.0,280.0,Upi,Takeaway,3.9,Chennai,37.0,5.0,560.0,3,Friday,Weekday
+O10482,C1151,2025-03-28,Gulab Jamun,Dessert,1.0,80.0,Card,Takeaway,4.4,Vizag,20.0,5.0,80.0,3,Friday,Weekday
+O10483,C1144,2025-03-28,Biryani,Main Course,2.0,220.0,Cash,Delivery,4.7,Bengaluru,42.0,15.0,440.0,3,Friday,Weekday
+O10484,C1057,2025-03-29,French Fries,Fast Food,1.0,110.0,Card,Dine In,5.0,Hyderabad,10.0,10.0,110.0,3,Saturday,Weekend
+O10485,C1039,2025-03-29,Ice Cream,Dessert,2.0,90.0,Wallet,Dine In,4.1,Bengaluru,22.0,10.0,180.0,3,Saturday,Weekend
+O10486,C1109,2025-03-29,Burger,Fast Food,2.0,160.0,Upi,Dine In,4.3,Vizag,29.0,0.0,320.0,3,Saturday,Weekend
+O10487,C1181,2025-03-29,Noodles,Main Course,2.0,170.0,Wallet,Dine In,4.2,Vizag,10.0,15.0,340.0,3,Saturday,Weekend
+O10488,C1042,2025-03-29,Pasta,Fast Food,2.0,210.0,Upi,Dine In,3.0,Vijayawada,12.0,0.0,420.0,3,Saturday,Weekend
+O10489,C1186,2025-03-29,Chicken 65,Starters,2.0,190.0,Upi,Delivery,3.9,Hyderabad,27.0,15.0,380.0,3,Saturday,Weekend
+O10490,C1223,2025-03-30,Pasta,Fast Food,2.0,210.0,Upi,Dine In,3.9,Vizag,23.0,5.0,420.0,3,Sunday,Weekend
+O10491,C1122,2025-03-30,French Fries,Fast Food,3.0,110.0,Upi,Dine In,3.8,Chennai,40.0,5.0,330.0,3,Sunday,Weekend
+O10492,C1133,2025-03-30,Veg Meals,Main Course,2.0,150.0,Cash,Delivery,4.1,Hyderabad,36.0,5.0,300.0,3,Sunday,Weekend
+O10493,C1163,2025-03-30,Veg Meals,Main Course,1.0,150.0,Upi,Takeaway,4.0,Hyderabad,26.0,10.0,150.0,3,Sunday,Weekend
+O10494,C1215,2025-03-30,Masala Dosa,South Indian,2.0,100.0,Upi,Takeaway,3.5,Chennai,38.0,0.0,200.0,3,Sunday,Weekend
+O10495,C1221,2025-03-31,Gulab Jamun,Dessert,2.0,80.0,Wallet,Dine In,4.0,Bengaluru,45.0,15.0,160.0,3,Monday,Weekday
+O10496,C1235,2025-03-31,Ice Cream,Dessert,3.0,90.0,Card,Delivery,3.7,Chennai,35.0,5.0,270.0,3,Monday,Weekday
+O10497,C1146,2025-03-31,Pizza,Fast Food,2.0,280.0,Card,Dine In,2.4,Chennai,26.0,0.0,560.0,3,Monday,Weekday
+O10498,C1239,2025-03-31,French Fries,Fast Food,1.0,110.0,Card,Delivery,3.2,Bengaluru,31.0,0.0,110.0,3,Monday,Weekday
+O10499,C1076,2025-03-31,Veg Meals,Main Course,3.0,150.0,Card,Delivery,4.2,Bengaluru,34.0,5.0,450.0,3,Monday,Weekday
+O10500,C1009,2025-03-31,Chicken 65,Starters,1.0,190.0,Upi,Dine In,4.8,Bengaluru,11.0,5.0,190.0,3,Monday,Weekday
+O10501,C1074,2025-04-01,Burger,Fast Food,2.0,160.0,Upi,Delivery,2.5,Bengaluru,31.0,5.0,320.0,4,Tuesday,Weekday
+O10502,C1253,2025-04-01,French Fries,Fast Food,1.0,110.0,Card,Dine In,3.5,Bengaluru,14.0,10.0,110.0,4,Tuesday,Weekday
+O10503,C1230,2025-04-01,Manchurian,Starters,1.0,160.0,Upi,Dine In,4.4,Chennai,13.0,5.0,160.0,4,Tuesday,Weekday
+O10504,C1007,2025-04-01,Pasta,Fast Food,2.0,210.0,Card,Delivery,4.7,Vijayawada,45.0,20.0,420.0,4,Tuesday,Weekday
+O10505,C1174,2025-04-01,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.8,Vijayawada,15.0,5.0,110.0,4,Tuesday,Weekday
+O10506,C1141,2025-04-01,Burger,Fast Food,1.0,160.0,Upi,Delivery,3.7,Vizag,30.0,15.0,160.0,4,Tuesday,Weekday
+O10507,C1168,2025-04-02,Ice Cream,Dessert,1.0,90.0,Cash,Dine In,4.9,Vijayawada,22.0,0.0,90.0,4,Wednesday,Weekday
+O10508,C1170,2025-04-02,Gulab Jamun,Dessert,1.0,80.0,Cash,Takeaway,4.6,Vijayawada,34.0,5.0,80.0,4,Wednesday,Weekday
+O10509,C1283,2025-04-02,Manchurian,Starters,1.0,160.0,Cash,Delivery,4.7,Chennai,35.0,0.0,160.0,4,Wednesday,Weekday
+O10510,C1122,2025-04-02,Ice Cream,Dessert,3.0,90.0,Card,Dine In,3.8,Bengaluru,29.0,5.0,270.0,4,Wednesday,Weekday
+O10511,C1194,2025-04-02,Veg Meals,Main Course,1.0,150.0,Upi,Dine In,4.8,Bengaluru,42.0,15.0,150.0,4,Wednesday,Weekday
+O10512,C1005,2025-04-03,French Fries,Fast Food,1.0,110.0,Upi,Dine In,2.8,Chennai,23.0,0.0,110.0,4,Thursday,Weekday
+O10513,C1029,2025-04-03,Chicken 65,Starters,2.0,190.0,Card,Dine In,4.8,Vijayawada,45.0,0.0,380.0,4,Thursday,Weekday
+O10514,C1165,2025-04-03,Veg Meals,Main Course,1.0,150.0,Card,Delivery,4.1,Chennai,26.0,15.0,150.0,4,Thursday,Weekday
+O10515,C1136,2025-04-03,Fried Rice,Main Course,1.0,180.0,Upi,Takeaway,4.2,Vizag,30.0,0.0,180.0,4,Thursday,Weekday
+O10516,C1145,2025-04-03,French Fries,Fast Food,1.0,110.0,Card,Delivery,3.5,Bengaluru,25.0,10.0,110.0,4,Thursday,Weekday
+O10517,C1217,2025-04-03,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,2.9,Hyderabad,25.0,5.0,110.0,4,Thursday,Weekday
+O10518,C1132,2025-04-04,Ice Cream,Dessert,2.0,90.0,Cash,Delivery,4.2,Vizag,29.0,15.0,180.0,4,Friday,Weekday
+O10519,C1292,2025-04-04,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.5,Vizag,38.0,0.0,110.0,4,Friday,Weekday
+O10520,C1070,2025-04-04,Manchurian,Starters,2.0,160.0,Card,Takeaway,4.6,Chennai,37.0,0.0,320.0,4,Friday,Weekday
+O10521,C1252,2025-04-04,Gulab Jamun,Dessert,3.0,80.0,Card,Dine In,4.5,Vijayawada,17.0,5.0,240.0,4,Friday,Weekday
+O10522,C1275,2025-04-04,Noodles,Main Course,3.0,170.0,Upi,Dine In,4.3,Bengaluru,33.0,15.0,510.0,4,Friday,Weekday
+O10523,C1182,2025-04-05,Chicken 65,Starters,1.0,190.0,Card,Takeaway,3.5,Hyderabad,12.0,5.0,190.0,4,Saturday,Weekend
+O10524,C1167,2025-04-05,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.6,Vizag,34.0,0.0,220.0,4,Saturday,Weekend
+O10525,C1091,2025-04-05,Fried Rice,Main Course,1.0,180.0,Upi,Delivery,3.4,Hyderabad,28.0,10.0,180.0,4,Saturday,Weekend
+O10526,C1202,2025-04-05,French Fries,Fast Food,2.0,110.0,Upi,Dine In,4.8,Vijayawada,42.0,15.0,220.0,4,Saturday,Weekend
+O10527,C1019,2025-04-05,Pizza,Fast Food,2.0,280.0,Upi,Dine In,4.0,Vijayawada,11.0,15.0,560.0,4,Saturday,Weekend
+O10528,C1039,2025-04-05,Noodles,Main Course,1.0,170.0,Upi,Dine In,4.1,Hyderabad,24.0,20.0,170.0,4,Saturday,Weekend
+O10529,C1126,2025-04-06,Ice Cream,Dessert,2.0,90.0,Cash,Takeaway,4.7,Bengaluru,31.0,0.0,180.0,4,Sunday,Weekend
+O10530,C1173,2025-04-06,Manchurian,Starters,2.0,160.0,Card,Delivery,4.8,Vijayawada,19.0,0.0,320.0,4,Sunday,Weekend
+O10531,C1141,2025-04-06,Pasta,Fast Food,2.0,210.0,Cash,Delivery,4.6,Hyderabad,27.0,10.0,420.0,4,Sunday,Weekend
+O10532,C1242,2025-04-06,Manchurian,Starters,2.0,160.0,Upi,Dine In,3.6,Vizag,31.0,15.0,320.0,4,Sunday,Weekend
+O10533,C1220,2025-04-06,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,4.6,Hyderabad,36.0,0.0,220.0,4,Sunday,Weekend
+O10534,C1126,2025-04-07,Gulab Jamun,Dessert,2.0,80.0,Upi,Takeaway,3.6,Hyderabad,22.0,0.0,160.0,4,Monday,Weekday
+O10535,C1058,2025-04-07,Biryani,Main Course,2.0,220.0,Upi,Delivery,4.6,Chennai,42.0,10.0,440.0,4,Monday,Weekday
+O10536,C1148,2025-04-07,Pizza,Fast Food,3.0,280.0,Card,Takeaway,3.2,Vijayawada,14.0,0.0,840.0,4,Monday,Weekday
+O10537,C1001,2025-04-07,Chicken 65,Starters,1.0,190.0,Upi,Delivery,4.0,Bengaluru,35.0,5.0,190.0,4,Monday,Weekday
+O10538,C1190,2025-04-07,Pasta,Fast Food,2.0,210.0,Card,Delivery,3.6,Bengaluru,22.0,5.0,420.0,4,Monday,Weekday
+O10539,C1191,2025-04-07,Sandwich,Fast Food,2.0,130.0,Card,Dine In,4.7,Chennai,36.0,5.0,260.0,4,Monday,Weekday
+O10540,C1117,2025-04-08,French Fries,Fast Food,3.0,110.0,Cash,Delivery,4.8,Bengaluru,23.0,10.0,330.0,4,Tuesday,Weekday
+O10541,C1134,2025-04-08,Burger,Fast Food,2.0,160.0,Card,Dine In,4.2,Hyderabad,33.0,5.0,320.0,4,Tuesday,Weekday
+O10542,C1058,2025-04-08,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,4.2,Chennai,12.0,10.0,90.0,4,Tuesday,Weekday
+O10543,C1044,2025-04-08,Burger,Fast Food,1.0,160.0,Cash,Takeaway,4.6,Vizag,39.0,5.0,160.0,4,Tuesday,Weekday
+O10544,C1173,2025-04-08,Chicken 65,Starters,2.0,190.0,Cash,Takeaway,4.8,Vijayawada,44.0,5.0,380.0,4,Tuesday,Weekday
+O10545,C1160,2025-04-09,Chicken 65,Starters,3.0,190.0,Cash,Delivery,4.1,Vijayawada,23.0,10.0,570.0,4,Wednesday,Weekday
+O10546,C1173,2025-04-09,Pizza,Fast Food,3.0,280.0,Upi,Delivery,3.8,Vijayawada,21.0,0.0,840.0,4,Wednesday,Weekday
+O10547,C1149,2025-04-09,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.5,Hyderabad,37.0,0.0,220.0,4,Wednesday,Weekday
+O10548,C1080,2025-04-09,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,2.9,Vizag,38.0,0.0,220.0,4,Wednesday,Weekday
+O10549,C1213,2025-04-09,Pasta,Fast Food,3.0,210.0,Cash,Delivery,4.7,Chennai,26.0,0.0,630.0,4,Wednesday,Weekday
+O10550,C1203,2025-04-09,Pasta,Fast Food,2.0,210.0,Upi,Takeaway,3.6,Chennai,30.0,5.0,420.0,4,Wednesday,Weekday
+O10551,C1252,2025-04-10,Ice Cream,Dessert,3.0,90.0,Wallet,Delivery,3.9,Vijayawada,32.0,15.0,270.0,4,Thursday,Weekday
+O10552,C1229,2025-04-10,Noodles,Main Course,1.0,170.0,Card,Takeaway,4.7,Vizag,29.0,10.0,170.0,4,Thursday,Weekday
+O10553,C1164,2025-04-10,Chicken 65,Starters,3.0,190.0,Upi,Delivery,3.8,Vizag,20.0,10.0,570.0,4,Thursday,Weekday
+O10554,C1227,2025-04-10,French Fries,Fast Food,1.0,110.0,Upi,Delivery,4.5,Vizag,43.0,5.0,110.0,4,Thursday,Weekday
+O10555,C1147,2025-04-10,Chicken 65,Starters,2.0,190.0,Card,Delivery,4.8,Bengaluru,19.0,5.0,380.0,4,Thursday,Weekday
+O10556,C1020,2025-04-11,Manchurian,Starters,3.0,160.0,Card,Dine In,4.2,Bengaluru,19.0,5.0,480.0,4,Friday,Weekday
+O10557,C1047,2025-04-11,Biryani,Main Course,3.0,220.0,Card,Dine In,4.3,Vijayawada,15.0,0.0,660.0,4,Friday,Weekday
+O10558,C1233,2025-04-11,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.0,Vizag,45.0,0.0,220.0,4,Friday,Weekday
+O10559,C1014,2025-04-11,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.2,Vizag,33.0,5.0,110.0,4,Friday,Weekday
+O10560,C1143,2025-04-11,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,3.4,Chennai,21.0,20.0,80.0,4,Friday,Weekday
+O10561,C1001,2025-04-11,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,3.9,Chennai,32.0,0.0,220.0,4,Friday,Weekday
+O10562,C1054,2025-04-12,Ice Cream,Dessert,1.0,90.0,Card,Takeaway,3.3,Vijayawada,36.0,0.0,90.0,4,Saturday,Weekend
+O10563,C1259,2025-04-12,Pasta,Fast Food,2.0,210.0,Card,Delivery,3.5,Vizag,15.0,10.0,420.0,4,Saturday,Weekend
+O10564,C1144,2025-04-12,Veg Meals,Main Course,2.0,150.0,Cash,Delivery,2.8,Vijayawada,10.0,0.0,300.0,4,Saturday,Weekend
+O10565,C1012,2025-04-12,Fried Rice,Main Course,1.0,180.0,Card,Takeaway,4.3,Chennai,15.0,15.0,180.0,4,Saturday,Weekend
+O10566,C1224,2025-04-12,Ice Cream,Dessert,1.0,90.0,Cash,Takeaway,5.0,Chennai,31.0,10.0,90.0,4,Saturday,Weekend
+O10567,C1272,2025-04-12,Masala Dosa,South Indian,2.0,100.0,Cash,Takeaway,3.8,Bengaluru,33.0,15.0,200.0,4,Saturday,Weekend
+O10568,C1156,2025-04-13,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.7,Vijayawada,34.0,5.0,220.0,4,Sunday,Weekend
+O10569,C1008,2025-04-13,French Fries,Fast Food,2.0,110.0,Wallet,Dine In,4.8,Vijayawada,24.0,10.0,220.0,4,Sunday,Weekend
+O10570,C1122,2025-04-13,Noodles,Main Course,1.0,170.0,Upi,Delivery,3.3,Vizag,35.0,5.0,170.0,4,Sunday,Weekend
+O10571,C1164,2025-04-13,Manchurian,Starters,2.0,160.0,Wallet,Delivery,3.5,Vizag,17.0,10.0,320.0,4,Sunday,Weekend
+O10572,C1090,2025-04-13,Paneer Tikka,Starters,2.0,210.0,Card,Dine In,4.7,Bengaluru,33.0,5.0,420.0,4,Sunday,Weekend
+O10573,C1136,2025-04-14,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.0,Hyderabad,15.0,0.0,180.0,4,Monday,Weekday
+O10574,C1186,2025-04-14,French Fries,Fast Food,1.0,110.0,Cash,Takeaway,3.3,Hyderabad,44.0,5.0,110.0,4,Monday,Weekday
+O10575,C1178,2025-04-14,French Fries,Fast Food,1.0,110.0,Card,Dine In,3.7,Hyderabad,10.0,5.0,110.0,4,Monday,Weekday
+O10576,C1028,2025-04-14,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,4.4,Vijayawada,45.0,15.0,90.0,4,Monday,Weekday
+O10577,C1220,2025-04-14,Veg Meals,Main Course,2.0,150.0,Wallet,Dine In,3.6,Vijayawada,21.0,10.0,300.0,4,Monday,Weekday
+O10578,C1041,2025-04-14,Burger,Fast Food,1.0,160.0,Wallet,Dine In,2.3,Chennai,20.0,10.0,160.0,4,Monday,Weekday
+O10579,C1228,2025-04-15,Gulab Jamun,Dessert,2.0,80.0,Upi,Takeaway,3.9,Vijayawada,21.0,0.0,160.0,4,Tuesday,Weekday
+O10580,C1192,2025-04-15,Paneer Tikka,Starters,2.0,210.0,Upi,Takeaway,3.9,Vijayawada,16.0,10.0,420.0,4,Tuesday,Weekday
+O10581,C1145,2025-04-15,Ice Cream,Dessert,2.0,90.0,Wallet,Takeaway,4.1,Vijayawada,20.0,5.0,180.0,4,Tuesday,Weekday
+O10582,C1201,2025-04-15,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.9,Bengaluru,45.0,15.0,110.0,4,Tuesday,Weekday
+O10583,C1212,2025-04-15,French Fries,Fast Food,3.0,110.0,Upi,Delivery,4.1,Vijayawada,40.0,15.0,330.0,4,Tuesday,Weekday
+O10584,C1220,2025-04-16,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.3,Vizag,42.0,0.0,180.0,4,Wednesday,Weekday
+O10585,C1240,2025-04-16,Sandwich,Fast Food,1.0,130.0,Cash,Dine In,4.8,Vizag,22.0,15.0,130.0,4,Wednesday,Weekday
+O10586,C1046,2025-04-16,Gulab Jamun,Dessert,2.0,80.0,Wallet,Takeaway,4.1,Chennai,27.0,0.0,160.0,4,Wednesday,Weekday
+O10587,C1035,2025-04-16,Gulab Jamun,Dessert,2.0,80.0,Card,Dine In,5.0,Bengaluru,33.0,5.0,160.0,4,Wednesday,Weekday
+O10588,C1253,2025-04-16,Pizza,Fast Food,1.0,280.0,Card,Dine In,3.3,Vizag,18.0,5.0,280.0,4,Wednesday,Weekday
+O10589,C1082,2025-04-16,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,3.5,Bengaluru,40.0,0.0,110.0,4,Wednesday,Weekday
+O10590,C1256,2025-04-17,Pizza,Fast Food,1.0,280.0,Upi,Dine In,4.5,Bengaluru,19.0,10.0,280.0,4,Thursday,Weekday
+O10591,C1197,2025-04-17,Sandwich,Fast Food,2.0,130.0,Card,Dine In,4.9,Chennai,11.0,0.0,260.0,4,Thursday,Weekday
+O10592,C1010,2025-04-17,Pasta,Fast Food,2.0,210.0,Upi,Dine In,4.0,Bengaluru,24.0,0.0,420.0,4,Thursday,Weekday
+O10593,C1286,2025-04-17,Pasta,Fast Food,2.0,210.0,Upi,Delivery,3.4,Vijayawada,12.0,5.0,420.0,4,Thursday,Weekday
+O10594,C1242,2025-04-17,Manchurian,Starters,3.0,160.0,Upi,Delivery,5.0,Bengaluru,40.0,10.0,480.0,4,Thursday,Weekday
+O10595,C1251,2025-04-18,Ice Cream,Dessert,1.0,90.0,Card,Delivery,3.6,Chennai,15.0,15.0,90.0,4,Friday,Weekday
+O10596,C1005,2025-04-18,French Fries,Fast Food,2.0,110.0,Wallet,Delivery,4.3,Chennai,12.0,10.0,220.0,4,Friday,Weekday
+O10597,C1119,2025-04-18,Pasta,Fast Food,1.0,210.0,Upi,Delivery,5.0,Chennai,20.0,10.0,210.0,4,Friday,Weekday
+O10598,C1289,2025-04-18,Sandwich,Fast Food,2.0,130.0,Cash,Takeaway,3.8,Vizag,24.0,5.0,260.0,4,Friday,Weekday
+O10599,C1065,2025-04-18,Gulab Jamun,Dessert,1.0,80.0,Cash,Dine In,3.7,Vijayawada,37.0,0.0,80.0,4,Friday,Weekday
+O10600,C1146,2025-04-18,Biryani,Main Course,1.0,220.0,Wallet,Delivery,3.7,Vizag,19.0,0.0,220.0,4,Friday,Weekday
+O10601,C1224,2025-04-19,Veg Meals,Main Course,1.0,150.0,Upi,Delivery,4.7,Hyderabad,16.0,5.0,150.0,4,Saturday,Weekend
+O10602,C1239,2025-04-19,Biryani,Main Course,1.0,220.0,Cash,Delivery,4.8,Vijayawada,24.0,10.0,220.0,4,Saturday,Weekend
+O10603,C1177,2025-04-19,French Fries,Fast Food,1.0,110.0,Upi,Delivery,4.1,Bengaluru,27.0,5.0,110.0,4,Saturday,Weekend
+O10604,C1267,2025-04-19,Gulab Jamun,Dessert,1.0,80.0,Card,Takeaway,5.0,Chennai,27.0,10.0,80.0,4,Saturday,Weekend
+O10605,C1282,2025-04-19,Pizza,Fast Food,1.0,280.0,Cash,Delivery,4.1,Hyderabad,33.0,5.0,280.0,4,Saturday,Weekend
+O10606,C1063,2025-04-20,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.9,Vijayawada,11.0,0.0,180.0,4,Sunday,Weekend
+O10607,C1217,2025-04-20,Chicken 65,Starters,2.0,190.0,Cash,Takeaway,3.8,Vizag,29.0,0.0,380.0,4,Sunday,Weekend
+O10608,C1283,2025-04-20,Pasta,Fast Food,1.0,210.0,Card,Delivery,5.0,Chennai,43.0,15.0,210.0,4,Sunday,Weekend
+O10609,C1177,2025-04-20,Burger,Fast Food,1.0,160.0,Upi,Takeaway,5.0,Vizag,35.0,10.0,160.0,4,Sunday,Weekend
+O10610,C1098,2025-04-20,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.0,Vijayawada,16.0,15.0,110.0,4,Sunday,Weekend
+O10611,C1105,2025-04-20,Burger,Fast Food,1.0,160.0,Upi,Delivery,5.0,Vijayawada,39.0,0.0,160.0,4,Sunday,Weekend
+O10612,C1099,2025-04-21,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,5.0,Hyderabad,14.0,20.0,160.0,4,Monday,Weekday
+O10613,C1006,2025-04-21,Paneer Tikka,Starters,2.0,210.0,Upi,Delivery,5.0,Bengaluru,20.0,0.0,420.0,4,Monday,Weekday
+O10614,C1197,2025-04-21,Ice Cream,Dessert,2.0,90.0,Card,Dine In,2.5,Vizag,10.0,0.0,180.0,4,Monday,Weekday
+O10615,C1133,2025-04-21,Veg Meals,Main Course,1.0,150.0,Upi,Delivery,4.6,Hyderabad,43.0,20.0,150.0,4,Monday,Weekday
+O10616,C1259,2025-04-21,Pizza,Fast Food,1.0,280.0,Card,Takeaway,4.5,Chennai,10.0,0.0,280.0,4,Monday,Weekday
+O10617,C1023,2025-04-21,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.4,Bengaluru,28.0,10.0,110.0,4,Monday,Weekday
+O10618,C1053,2025-04-22,Manchurian,Starters,3.0,160.0,Cash,Dine In,4.2,Hyderabad,11.0,0.0,480.0,4,Tuesday,Weekday
+O10619,C1165,2025-04-22,Manchurian,Starters,1.0,160.0,Card,Delivery,4.3,Vizag,30.0,5.0,160.0,4,Tuesday,Weekday
+O10620,C1202,2025-04-22,Gulab Jamun,Dessert,1.0,80.0,Card,Dine In,4.9,Vijayawada,29.0,15.0,80.0,4,Tuesday,Weekday
+O10621,C1083,2025-04-22,Sandwich,Fast Food,2.0,130.0,Upi,Delivery,4.5,Chennai,32.0,0.0,260.0,4,Tuesday,Weekday
+O10622,C1145,2025-04-22,Fried Rice,Main Course,2.0,180.0,Upi,Delivery,4.2,Vizag,30.0,10.0,360.0,4,Tuesday,Weekday
+O10623,C1085,2025-04-23,Pasta,Fast Food,1.0,210.0,Wallet,Delivery,4.8,Bengaluru,33.0,0.0,210.0,4,Wednesday,Weekday
+O10624,C1078,2025-04-23,French Fries,Fast Food,2.0,110.0,Upi,Delivery,4.4,Bengaluru,13.0,10.0,220.0,4,Wednesday,Weekday
+O10625,C1001,2025-04-23,Gulab Jamun,Dessert,2.0,80.0,Card,Delivery,4.4,Vijayawada,21.0,0.0,160.0,4,Wednesday,Weekday
+O10626,C1051,2025-04-23,Masala Dosa,South Indian,1.0,100.0,Wallet,Dine In,5.0,Vijayawada,31.0,0.0,100.0,4,Wednesday,Weekday
+O10627,C1173,2025-04-23,Masala Dosa,South Indian,2.0,100.0,Upi,Dine In,3.8,Chennai,29.0,0.0,200.0,4,Wednesday,Weekday
+O10628,C1205,2025-04-23,Ice Cream,Dessert,2.0,90.0,Card,Takeaway,3.1,Chennai,27.0,0.0,180.0,4,Wednesday,Weekday
+O10629,C1260,2025-04-24,Masala Dosa,South Indian,1.0,100.0,Cash,Delivery,4.1,Vijayawada,10.0,15.0,100.0,4,Thursday,Weekday
+O10630,C1288,2025-04-24,French Fries,Fast Food,1.0,110.0,Cash,Delivery,4.2,Vijayawada,39.0,5.0,110.0,4,Thursday,Weekday
+O10631,C1034,2025-04-24,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.6,Bengaluru,42.0,0.0,110.0,4,Thursday,Weekday
+O10632,C1095,2025-04-24,Manchurian,Starters,2.0,160.0,Upi,Delivery,4.2,Vijayawada,33.0,5.0,320.0,4,Thursday,Weekday
+O10633,C1072,2025-04-24,Noodles,Main Course,1.0,170.0,Card,Delivery,4.6,Hyderabad,23.0,0.0,170.0,4,Thursday,Weekday
+O10634,C1039,2025-04-25,Biryani,Main Course,1.0,220.0,Card,Delivery,5.0,Vizag,45.0,10.0,220.0,4,Friday,Weekday
+O10635,C1154,2025-04-25,Ice Cream,Dessert,1.0,90.0,Card,Dine In,4.6,Vijayawada,14.0,20.0,90.0,4,Friday,Weekday
+O10636,C1250,2025-04-25,Noodles,Main Course,2.0,170.0,Cash,Dine In,4.7,Chennai,20.0,5.0,340.0,4,Friday,Weekday
+O10637,C1162,2025-04-25,Biryani,Main Course,2.0,220.0,Upi,Takeaway,4.0,Hyderabad,33.0,15.0,440.0,4,Friday,Weekday
+O10638,C1118,2025-04-25,French Fries,Fast Food,2.0,110.0,Card,Delivery,3.2,Chennai,40.0,5.0,220.0,4,Friday,Weekday
+O10639,C1259,2025-04-25,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,2.6,Hyderabad,22.0,0.0,90.0,4,Friday,Weekday
+O10640,C1268,2025-04-26,Chicken 65,Starters,3.0,190.0,Wallet,Takeaway,3.8,Vijayawada,25.0,10.0,570.0,4,Saturday,Weekend
+O10641,C1054,2025-04-26,French Fries,Fast Food,2.0,110.0,Card,Delivery,2.4,Vizag,33.0,5.0,220.0,4,Saturday,Weekend
+O10642,C1236,2025-04-26,Pizza,Fast Food,1.0,280.0,Card,Delivery,4.4,Chennai,22.0,10.0,280.0,4,Saturday,Weekend
+O10643,C1222,2025-04-26,Pizza,Fast Food,2.0,280.0,Wallet,Delivery,3.9,Hyderabad,33.0,15.0,560.0,4,Saturday,Weekend
+O10644,C1251,2025-04-26,Sandwich,Fast Food,1.0,130.0,Upi,Takeaway,3.2,Bengaluru,35.0,5.0,130.0,4,Saturday,Weekend
+O10645,C1112,2025-04-27,French Fries,Fast Food,1.0,110.0,Card,Dine In,4.2,Vijayawada,11.0,15.0,110.0,4,Sunday,Weekend
+O10646,C1255,2025-04-27,Pasta,Fast Food,2.0,210.0,Upi,Delivery,3.6,Vizag,25.0,10.0,420.0,4,Sunday,Weekend
+O10647,C1207,2025-04-27,Manchurian,Starters,1.0,160.0,Wallet,Takeaway,4.4,Vijayawada,10.0,5.0,160.0,4,Sunday,Weekend
+O10648,C1229,2025-04-27,Masala Dosa,South Indian,1.0,100.0,Upi,Dine In,4.6,Bengaluru,20.0,10.0,100.0,4,Sunday,Weekend
+O10649,C1066,2025-04-27,French Fries,Fast Food,1.0,110.0,Card,Dine In,3.6,Vizag,44.0,0.0,110.0,4,Sunday,Weekend
+O10650,C1075,2025-04-27,Ice Cream,Dessert,2.0,90.0,Card,Takeaway,3.9,Bengaluru,38.0,20.0,180.0,4,Sunday,Weekend
+O10651,C1103,2025-04-28,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.2,Vijayawada,26.0,10.0,160.0,4,Monday,Weekday
+O10652,C1192,2025-04-28,French Fries,Fast Food,3.0,110.0,Upi,Dine In,3.2,Hyderabad,37.0,0.0,330.0,4,Monday,Weekday
+O10653,C1252,2025-04-28,Manchurian,Starters,3.0,160.0,Card,Dine In,4.2,Vijayawada,38.0,0.0,480.0,4,Monday,Weekday
+O10654,C1226,2025-04-28,Paneer Tikka,Starters,1.0,210.0,Cash,Dine In,3.2,Vijayawada,12.0,10.0,210.0,4,Monday,Weekday
+O10655,C1294,2025-04-28,Pasta,Fast Food,3.0,210.0,Upi,Delivery,4.5,Vijayawada,19.0,0.0,630.0,4,Monday,Weekday
+O10656,C1098,2025-04-29,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,3.8,Chennai,23.0,0.0,220.0,4,Tuesday,Weekday
+O10657,C1286,2025-04-29,Biryani,Main Course,1.0,220.0,Upi,Delivery,3.2,Bengaluru,21.0,5.0,220.0,4,Tuesday,Weekday
+O10658,C1249,2025-04-29,Noodles,Main Course,1.0,170.0,Card,Dine In,3.7,Bengaluru,39.0,0.0,170.0,4,Tuesday,Weekday
+O10659,C1166,2025-04-29,French Fries,Fast Food,1.0,110.0,Cash,Dine In,3.8,Bengaluru,41.0,5.0,110.0,4,Tuesday,Weekday
+O10660,C1030,2025-04-29,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,4.8,Chennai,41.0,0.0,80.0,4,Tuesday,Weekday
+O10661,C1247,2025-04-29,Ice Cream,Dessert,1.0,90.0,Upi,Takeaway,4.2,Hyderabad,41.0,0.0,90.0,4,Tuesday,Weekday
+O10662,C1106,2025-04-30,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,3.5,Vijayawada,35.0,10.0,110.0,4,Wednesday,Weekday
+O10663,C1051,2025-04-30,Ice Cream,Dessert,1.0,90.0,Upi,Takeaway,5.0,Hyderabad,10.0,5.0,90.0,4,Wednesday,Weekday
+O10664,C1081,2025-04-30,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.5,Chennai,11.0,0.0,160.0,4,Wednesday,Weekday
+O10665,C1133,2025-04-30,Ice Cream,Dessert,3.0,90.0,Upi,Dine In,3.9,Bengaluru,26.0,0.0,270.0,4,Wednesday,Weekday
+O10666,C1285,2025-04-30,French Fries,Fast Food,2.0,110.0,Upi,Takeaway,3.1,Vijayawada,39.0,5.0,220.0,4,Wednesday,Weekday
+O10667,C1138,2025-05-01,Sandwich,Fast Food,3.0,130.0,Card,Delivery,3.8,Vizag,16.0,0.0,390.0,5,Thursday,Weekday
+O10668,C1184,2025-05-01,Pizza,Fast Food,1.0,280.0,Upi,Takeaway,4.0,Vizag,36.0,0.0,280.0,5,Thursday,Weekday
+O10669,C1273,2025-05-01,Pasta,Fast Food,1.0,210.0,Cash,Dine In,4.3,Hyderabad,18.0,0.0,210.0,5,Thursday,Weekday
+O10670,C1069,2025-05-01,Masala Dosa,South Indian,1.0,100.0,Cash,Takeaway,4.5,Bengaluru,31.0,15.0,100.0,5,Thursday,Weekday
+O10671,C1034,2025-05-01,Biryani,Main Course,1.0,220.0,Cash,Delivery,4.6,Vizag,43.0,10.0,220.0,5,Thursday,Weekday
+O10672,C1262,2025-05-01,Ice Cream,Dessert,3.0,90.0,Card,Dine In,3.1,Hyderabad,10.0,10.0,270.0,5,Thursday,Weekday
+O10673,C1053,2025-05-02,French Fries,Fast Food,1.0,110.0,Cash,Dine In,4.2,Chennai,18.0,10.0,110.0,5,Friday,Weekday
+O10674,C1205,2025-05-02,Veg Meals,Main Course,1.0,150.0,Card,Dine In,4.0,Hyderabad,29.0,10.0,150.0,5,Friday,Weekday
+O10675,C1126,2025-05-02,Paneer Tikka,Starters,2.0,210.0,Card,Delivery,5.0,Hyderabad,28.0,5.0,420.0,5,Friday,Weekday
+O10676,C1235,2025-05-02,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,4.1,Hyderabad,45.0,10.0,160.0,5,Friday,Weekday
+O10677,C1043,2025-05-02,Gulab Jamun,Dessert,2.0,80.0,Card,Delivery,3.7,Vijayawada,13.0,0.0,160.0,5,Friday,Weekday
+O10678,C1240,2025-05-02,Pasta,Fast Food,1.0,210.0,Cash,Takeaway,4.2,Hyderabad,18.0,10.0,210.0,5,Friday,Weekday
+O10679,C1111,2025-05-03,Pasta,Fast Food,1.0,210.0,Upi,Delivery,4.1,Hyderabad,31.0,10.0,210.0,5,Saturday,Weekend
+O10680,C1249,2025-05-03,French Fries,Fast Food,3.0,110.0,Upi,Delivery,2.8,Vijayawada,27.0,5.0,330.0,5,Saturday,Weekend
+O10681,C1151,2025-05-03,Masala Dosa,South Indian,2.0,100.0,Upi,Takeaway,4.4,Vijayawada,21.0,5.0,200.0,5,Saturday,Weekend
+O10682,C1183,2025-05-03,Pizza,Fast Food,2.0,280.0,Card,Dine In,3.9,Chennai,18.0,0.0,560.0,5,Saturday,Weekend
+O10683,C1095,2025-05-03,Ice Cream,Dessert,2.0,90.0,Card,Dine In,4.1,Bengaluru,15.0,10.0,180.0,5,Saturday,Weekend
+O10684,C1008,2025-05-04,Sandwich,Fast Food,1.0,130.0,Wallet,Dine In,3.5,Vizag,28.0,10.0,130.0,5,Sunday,Weekend
+O10685,C1184,2025-05-04,Masala Dosa,South Indian,1.0,100.0,Cash,Delivery,3.4,Vizag,16.0,15.0,100.0,5,Sunday,Weekend
+O10686,C1281,2025-05-04,Noodles,Main Course,1.0,170.0,Cash,Dine In,4.7,Hyderabad,25.0,0.0,170.0,5,Sunday,Weekend
+O10687,C1195,2025-05-04,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.8,Chennai,14.0,10.0,110.0,5,Sunday,Weekend
+O10688,C1195,2025-05-04,French Fries,Fast Food,1.0,110.0,Card,Takeaway,4.4,Hyderabad,25.0,5.0,110.0,5,Sunday,Weekend
+O10689,C1155,2025-05-04,Burger,Fast Food,1.0,160.0,Cash,Delivery,2.9,Vizag,10.0,15.0,160.0,5,Sunday,Weekend
+O10690,C1093,2025-05-05,Gulab Jamun,Dessert,1.0,80.0,Wallet,Dine In,4.4,Vijayawada,28.0,5.0,80.0,5,Monday,Weekday
+O10691,C1160,2025-05-05,Sandwich,Fast Food,1.0,130.0,Upi,Dine In,2.9,Bengaluru,26.0,5.0,130.0,5,Monday,Weekday
+O10692,C1061,2025-05-05,Manchurian,Starters,3.0,160.0,Cash,Dine In,3.7,Chennai,35.0,5.0,480.0,5,Monday,Weekday
+O10693,C1122,2025-05-05,Chicken 65,Starters,2.0,190.0,Card,Delivery,4.7,Vijayawada,31.0,10.0,380.0,5,Monday,Weekday
+O10694,C1051,2025-05-05,French Fries,Fast Food,1.0,110.0,Cash,Delivery,4.5,Bengaluru,17.0,20.0,110.0,5,Monday,Weekday
+O10695,C1277,2025-05-06,Pasta,Fast Food,1.0,210.0,Cash,Dine In,4.4,Chennai,42.0,0.0,210.0,5,Tuesday,Weekday
+O10696,C1005,2025-05-06,Fried Rice,Main Course,1.0,180.0,Card,Dine In,5.0,Chennai,11.0,0.0,180.0,5,Tuesday,Weekday
+O10697,C1092,2025-05-06,Gulab Jamun,Dessert,3.0,80.0,Upi,Dine In,4.5,Vizag,39.0,15.0,240.0,5,Tuesday,Weekday
+O10698,C1170,2025-05-06,Fried Rice,Main Course,2.0,180.0,Card,Dine In,2.8,Vijayawada,29.0,5.0,360.0,5,Tuesday,Weekday
+O10699,C1022,2025-05-06,French Fries,Fast Food,3.0,110.0,Cash,Delivery,3.9,Chennai,27.0,10.0,330.0,5,Tuesday,Weekday
+O10700,C1001,2025-05-06,Masala Dosa,South Indian,2.0,100.0,Card,Delivery,4.1,Chennai,19.0,5.0,200.0,5,Tuesday,Weekday
+O10701,C1133,2025-05-07,French Fries,Fast Food,2.0,110.0,Card,Takeaway,4.0,Bengaluru,33.0,0.0,220.0,5,Wednesday,Weekday
+O10702,C1233,2025-05-07,Burger,Fast Food,2.0,160.0,Upi,Delivery,3.7,Vizag,13.0,10.0,320.0,5,Wednesday,Weekday
+O10703,C1012,2025-05-07,Gulab Jamun,Dessert,1.0,80.0,Upi,Dine In,3.4,Hyderabad,13.0,10.0,80.0,5,Wednesday,Weekday
+O10704,C1046,2025-05-07,Fried Rice,Main Course,3.0,180.0,Wallet,Delivery,5.0,Vizag,22.0,0.0,540.0,5,Wednesday,Weekday
+O10705,C1034,2025-05-07,Ice Cream,Dessert,1.0,90.0,Cash,Delivery,3.8,Hyderabad,34.0,0.0,90.0,5,Wednesday,Weekday
+O10706,C1078,2025-05-08,French Fries,Fast Food,2.0,110.0,Wallet,Takeaway,5.0,Vijayawada,22.0,15.0,220.0,5,Thursday,Weekday
+O10707,C1218,2025-05-08,Biryani,Main Course,1.0,220.0,Upi,Delivery,3.4,Vijayawada,27.0,0.0,220.0,5,Thursday,Weekday
+O10708,C1073,2025-05-08,French Fries,Fast Food,1.0,110.0,Cash,Dine In,4.5,Chennai,33.0,15.0,110.0,5,Thursday,Weekday
+O10709,C1282,2025-05-08,Manchurian,Starters,3.0,160.0,Card,Dine In,4.2,Vijayawada,11.0,0.0,480.0,5,Thursday,Weekday
+O10710,C1249,2025-05-08,Noodles,Main Course,1.0,170.0,Wallet,Dine In,3.5,Chennai,42.0,5.0,170.0,5,Thursday,Weekday
+O10711,C1047,2025-05-08,Gulab Jamun,Dessert,2.0,80.0,Upi,Takeaway,3.8,Vizag,28.0,15.0,160.0,5,Thursday,Weekday
+O10712,C1121,2025-05-09,Pizza,Fast Food,1.0,280.0,Card,Delivery,4.1,Vijayawada,18.0,10.0,280.0,5,Friday,Weekday
+O10713,C1214,2025-05-09,Pasta,Fast Food,1.0,210.0,Cash,Delivery,3.6,Vizag,37.0,5.0,210.0,5,Friday,Weekday
+O10714,C1239,2025-05-09,Burger,Fast Food,2.0,160.0,Upi,Delivery,3.9,Vizag,44.0,10.0,320.0,5,Friday,Weekday
+O10715,C1056,2025-05-09,French Fries,Fast Food,2.0,110.0,Card,Delivery,2.6,Vijayawada,19.0,0.0,220.0,5,Friday,Weekday
+O10716,C1107,2025-05-09,Ice Cream,Dessert,3.0,90.0,Card,Delivery,4.6,Vizag,10.0,0.0,270.0,5,Friday,Weekday
+O10717,C1048,2025-05-10,Chicken 65,Starters,2.0,190.0,Wallet,Dine In,4.9,Vijayawada,30.0,20.0,380.0,5,Saturday,Weekend
+O10718,C1061,2025-05-10,Manchurian,Starters,3.0,160.0,Cash,Takeaway,4.4,Vijayawada,18.0,10.0,480.0,5,Saturday,Weekend
+O10719,C1026,2025-05-10,Pizza,Fast Food,3.0,280.0,Upi,Dine In,5.0,Vijayawada,24.0,10.0,840.0,5,Saturday,Weekend
+O10720,C1292,2025-05-10,Gulab Jamun,Dessert,3.0,80.0,Upi,Delivery,4.5,Hyderabad,44.0,5.0,240.0,5,Saturday,Weekend
+O10721,C1257,2025-05-10,Manchurian,Starters,2.0,160.0,Upi,Delivery,4.8,Vizag,14.0,0.0,320.0,5,Saturday,Weekend
+O10722,C1008,2025-05-10,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.9,Bengaluru,31.0,0.0,110.0,5,Saturday,Weekend
+O10723,C1113,2025-05-11,Chicken 65,Starters,3.0,190.0,Card,Delivery,2.3,Vijayawada,32.0,5.0,570.0,5,Sunday,Weekend
+O10724,C1253,2025-05-11,Manchurian,Starters,3.0,160.0,Upi,Delivery,4.4,Vizag,16.0,10.0,480.0,5,Sunday,Weekend
+O10725,C1180,2025-05-11,Sandwich,Fast Food,1.0,130.0,Wallet,Takeaway,3.2,Chennai,32.0,5.0,130.0,5,Sunday,Weekend
+O10726,C1207,2025-05-11,Veg Meals,Main Course,1.0,150.0,Wallet,Takeaway,3.3,Vijayawada,34.0,15.0,150.0,5,Sunday,Weekend
+O10727,C1127,2025-05-11,Ice Cream,Dessert,3.0,90.0,Cash,Takeaway,3.4,Vijayawada,36.0,0.0,270.0,5,Sunday,Weekend
+O10728,C1056,2025-05-11,Pasta,Fast Food,2.0,210.0,Wallet,Dine In,3.9,Bengaluru,15.0,5.0,420.0,5,Sunday,Weekend
+O10729,C1214,2025-05-12,French Fries,Fast Food,2.0,110.0,Card,Dine In,4.5,Hyderabad,43.0,0.0,220.0,5,Monday,Weekday
+O10730,C1014,2025-05-12,Chicken 65,Starters,2.0,190.0,Cash,Dine In,4.4,Hyderabad,18.0,5.0,380.0,5,Monday,Weekday
+O10731,C1028,2025-05-12,Gulab Jamun,Dessert,1.0,80.0,Upi,Takeaway,4.1,Vijayawada,42.0,0.0,80.0,5,Monday,Weekday
+O10732,C1078,2025-05-12,French Fries,Fast Food,1.0,110.0,Cash,Dine In,4.6,Vizag,15.0,20.0,110.0,5,Monday,Weekday
+O10733,C1216,2025-05-12,Sandwich,Fast Food,2.0,130.0,Cash,Delivery,4.6,Chennai,40.0,0.0,260.0,5,Monday,Weekday
+O10734,C1154,2025-05-13,Pizza,Fast Food,2.0,280.0,Card,Takeaway,4.4,Chennai,43.0,15.0,560.0,5,Tuesday,Weekday
+O10735,C1014,2025-05-13,Masala Dosa,South Indian,2.0,100.0,Cash,Delivery,3.0,Vizag,38.0,5.0,200.0,5,Tuesday,Weekday
+O10736,C1187,2025-05-13,French Fries,Fast Food,1.0,110.0,Card,Takeaway,3.6,Vijayawada,23.0,20.0,110.0,5,Tuesday,Weekday
+O10737,C1007,2025-05-13,Burger,Fast Food,1.0,160.0,Card,Takeaway,4.1,Chennai,45.0,5.0,160.0,5,Tuesday,Weekday
+O10738,C1003,2025-05-13,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.6,Hyderabad,45.0,15.0,90.0,5,Tuesday,Weekday
+O10739,C1111,2025-05-13,Manchurian,Starters,2.0,160.0,Wallet,Dine In,3.2,Vizag,24.0,0.0,320.0,5,Tuesday,Weekday
+O10740,C1238,2025-05-14,Fried Rice,Main Course,2.0,180.0,Cash,Dine In,4.1,Bengaluru,17.0,10.0,360.0,5,Wednesday,Weekday
+O10741,C1239,2025-05-14,Chicken 65,Starters,3.0,190.0,Upi,Delivery,3.1,Vijayawada,35.0,15.0,570.0,5,Wednesday,Weekday
+O10742,C1274,2025-05-14,Gulab Jamun,Dessert,1.0,80.0,Card,Dine In,4.8,Vizag,45.0,0.0,80.0,5,Wednesday,Weekday
+O10743,C1294,2025-05-14,French Fries,Fast Food,2.0,110.0,Upi,Dine In,4.3,Chennai,30.0,0.0,220.0,5,Wednesday,Weekday
+O10744,C1227,2025-05-14,Burger,Fast Food,2.0,160.0,Cash,Takeaway,3.2,Vijayawada,37.0,5.0,320.0,5,Wednesday,Weekday
+O10745,C1015,2025-05-15,Masala Dosa,South Indian,1.0,100.0,Cash,Dine In,3.2,Hyderabad,13.0,15.0,100.0,5,Thursday,Weekday
+O10746,C1192,2025-05-15,Sandwich,Fast Food,1.0,130.0,Upi,Takeaway,4.4,Vijayawada,25.0,5.0,130.0,5,Thursday,Weekday
+O10747,C1119,2025-05-15,Gulab Jamun,Dessert,3.0,80.0,Wallet,Dine In,5.0,Vijayawada,31.0,5.0,240.0,5,Thursday,Weekday
+O10748,C1028,2025-05-15,Veg Meals,Main Course,1.0,150.0,Cash,Delivery,3.4,Hyderabad,21.0,0.0,150.0,5,Thursday,Weekday
+O10749,C1202,2025-05-15,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.6,Hyderabad,25.0,0.0,180.0,5,Thursday,Weekday
+O10750,C1039,2025-05-15,French Fries,Fast Food,3.0,110.0,Cash,Delivery,3.7,Vijayawada,38.0,15.0,330.0,5,Thursday,Weekday
+O10751,C1273,2025-05-16,Paneer Tikka,Starters,2.0,210.0,Wallet,Delivery,4.6,Hyderabad,27.0,0.0,420.0,5,Friday,Weekday
+O10752,C1231,2025-05-16,Biryani,Main Course,1.0,220.0,Upi,Delivery,4.5,Vizag,19.0,10.0,220.0,5,Friday,Weekday
+O10753,C1086,2025-05-16,Sandwich,Fast Food,2.0,130.0,Upi,Dine In,4.2,Hyderabad,27.0,15.0,260.0,5,Friday,Weekday
+O10754,C1126,2025-05-16,Manchurian,Starters,1.0,160.0,Upi,Delivery,2.9,Hyderabad,10.0,0.0,160.0,5,Friday,Weekday
+O10755,C1300,2025-05-16,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,4.5,Vijayawada,30.0,10.0,80.0,5,Friday,Weekday
+O10756,C1025,2025-05-17,Masala Dosa,South Indian,1.0,100.0,Card,Delivery,4.4,Vizag,10.0,0.0,100.0,5,Saturday,Weekend
+O10757,C1145,2025-05-17,French Fries,Fast Food,2.0,110.0,Card,Takeaway,4.4,Bengaluru,24.0,10.0,220.0,5,Saturday,Weekend
+O10758,C1013,2025-05-17,Noodles,Main Course,2.0,170.0,Upi,Dine In,4.2,Bengaluru,13.0,0.0,340.0,5,Saturday,Weekend
+O10759,C1212,2025-05-17,Veg Meals,Main Course,1.0,150.0,Card,Takeaway,3.5,Chennai,29.0,10.0,150.0,5,Saturday,Weekend
+O10760,C1025,2025-05-17,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.8,Hyderabad,19.0,0.0,90.0,5,Saturday,Weekend
+O10761,C1068,2025-05-17,Gulab Jamun,Dessert,2.0,80.0,Wallet,Dine In,4.7,Hyderabad,32.0,5.0,160.0,5,Saturday,Weekend
+O10762,C1067,2025-05-18,Noodles,Main Course,1.0,170.0,Wallet,Delivery,3.4,Vizag,43.0,5.0,170.0,5,Sunday,Weekend
+O10763,C1233,2025-05-18,Noodles,Main Course,1.0,170.0,Upi,Dine In,5.0,Bengaluru,42.0,0.0,170.0,5,Sunday,Weekend
+O10764,C1109,2025-05-18,French Fries,Fast Food,1.0,110.0,Card,Dine In,4.2,Chennai,43.0,10.0,110.0,5,Sunday,Weekend
+O10765,C1146,2025-05-18,Fried Rice,Main Course,1.0,180.0,Card,Dine In,4.2,Vizag,19.0,0.0,180.0,5,Sunday,Weekend
+O10766,C1111,2025-05-18,Pizza,Fast Food,1.0,280.0,Upi,Dine In,4.0,Hyderabad,29.0,10.0,280.0,5,Sunday,Weekend
+O10767,C1228,2025-05-19,Chicken 65,Starters,1.0,190.0,Upi,Takeaway,4.0,Bengaluru,10.0,0.0,190.0,5,Monday,Weekday
+O10768,C1111,2025-05-19,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,5.0,Chennai,22.0,10.0,160.0,5,Monday,Weekday
+O10769,C1034,2025-05-19,French Fries,Fast Food,3.0,110.0,Card,Delivery,4.8,Vijayawada,10.0,0.0,330.0,5,Monday,Weekday
+O10770,C1111,2025-05-19,Pasta,Fast Food,1.0,210.0,Wallet,Takeaway,4.8,Bengaluru,14.0,5.0,210.0,5,Monday,Weekday
+O10771,C1264,2025-05-19,French Fries,Fast Food,1.0,110.0,Card,Dine In,4.2,Chennai,25.0,0.0,110.0,5,Monday,Weekday
+O10772,C1236,2025-05-19,Chicken 65,Starters,1.0,190.0,Card,Delivery,4.7,Vizag,24.0,10.0,190.0,5,Monday,Weekday
+O10773,C1083,2025-05-20,Fried Rice,Main Course,1.0,180.0,Cash,Delivery,3.6,Vijayawada,37.0,0.0,180.0,5,Tuesday,Weekday
+O10774,C1042,2025-05-20,Pizza,Fast Food,2.0,280.0,Card,Delivery,4.5,Chennai,40.0,15.0,560.0,5,Tuesday,Weekday
+O10775,C1101,2025-05-20,Sandwich,Fast Food,1.0,130.0,Card,Dine In,4.0,Chennai,32.0,15.0,130.0,5,Tuesday,Weekday
+O10776,C1006,2025-05-20,Pizza,Fast Food,2.0,280.0,Upi,Delivery,2.8,Hyderabad,26.0,0.0,560.0,5,Tuesday,Weekday
+O10777,C1180,2025-05-20,Sandwich,Fast Food,2.0,130.0,Cash,Delivery,3.1,Bengaluru,43.0,10.0,260.0,5,Tuesday,Weekday
+O10778,C1282,2025-05-21,French Fries,Fast Food,3.0,110.0,Card,Dine In,3.7,Hyderabad,22.0,0.0,330.0,5,Wednesday,Weekday
+O10779,C1226,2025-05-21,Gulab Jamun,Dessert,1.0,80.0,Upi,Dine In,4.4,Vijayawada,23.0,5.0,80.0,5,Wednesday,Weekday
+O10780,C1229,2025-05-21,Noodles,Main Course,1.0,170.0,Card,Takeaway,3.7,Chennai,20.0,10.0,170.0,5,Wednesday,Weekday
+O10781,C1289,2025-05-21,Gulab Jamun,Dessert,1.0,80.0,Upi,Dine In,3.7,Hyderabad,37.0,10.0,80.0,5,Wednesday,Weekday
+O10782,C1150,2025-05-21,Ice Cream,Dessert,3.0,90.0,Cash,Delivery,4.6,Bengaluru,41.0,10.0,270.0,5,Wednesday,Weekday
+O10783,C1277,2025-05-21,Veg Meals,Main Course,2.0,150.0,Card,Takeaway,3.7,Vijayawada,44.0,0.0,300.0,5,Wednesday,Weekday
+O10784,C1198,2025-05-22,Biryani,Main Course,1.0,220.0,Upi,Delivery,5.0,Vizag,40.0,5.0,220.0,5,Thursday,Weekday
+O10785,C1070,2025-05-22,French Fries,Fast Food,3.0,110.0,Upi,Takeaway,4.9,Hyderabad,26.0,0.0,330.0,5,Thursday,Weekday
+O10786,C1112,2025-05-22,Noodles,Main Course,3.0,170.0,Upi,Dine In,4.1,Vijayawada,18.0,10.0,510.0,5,Thursday,Weekday
+O10787,C1004,2025-05-22,Veg Meals,Main Course,1.0,150.0,Card,Dine In,4.6,Vizag,19.0,5.0,150.0,5,Thursday,Weekday
+O10788,C1095,2025-05-22,Chicken 65,Starters,1.0,190.0,Upi,Takeaway,4.5,Hyderabad,17.0,10.0,190.0,5,Thursday,Weekday
+O10789,C1152,2025-05-22,French Fries,Fast Food,2.0,110.0,Wallet,Delivery,3.9,Vijayawada,30.0,0.0,220.0,5,Thursday,Weekday
+O10790,C1137,2025-05-23,Noodles,Main Course,1.0,170.0,Upi,Delivery,4.7,Vijayawada,22.0,0.0,170.0,5,Friday,Weekday
+O10791,C1247,2025-05-23,Burger,Fast Food,2.0,160.0,Wallet,Dine In,4.8,Hyderabad,14.0,0.0,320.0,5,Friday,Weekday
+O10792,C1243,2025-05-23,French Fries,Fast Food,1.0,110.0,Wallet,Dine In,3.5,Vijayawada,15.0,0.0,110.0,5,Friday,Weekday
+O10793,C1031,2025-05-23,Ice Cream,Dessert,1.0,90.0,Cash,Dine In,4.2,Chennai,39.0,0.0,90.0,5,Friday,Weekday
+O10794,C1040,2025-05-23,Gulab Jamun,Dessert,3.0,80.0,Cash,Delivery,4.2,Hyderabad,40.0,15.0,240.0,5,Friday,Weekday
+O10795,C1229,2025-05-24,Manchurian,Starters,1.0,160.0,Cash,Dine In,4.7,Vijayawada,26.0,15.0,160.0,5,Saturday,Weekend
+O10796,C1036,2025-05-24,Veg Meals,Main Course,2.0,150.0,Cash,Takeaway,3.8,Vizag,20.0,5.0,300.0,5,Saturday,Weekend
+O10797,C1223,2025-05-24,Sandwich,Fast Food,1.0,130.0,Upi,Delivery,3.7,Vizag,29.0,5.0,130.0,5,Saturday,Weekend
+O10798,C1006,2025-05-24,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.2,Chennai,18.0,0.0,160.0,5,Saturday,Weekend
+O10799,C1220,2025-05-24,French Fries,Fast Food,2.0,110.0,Upi,Dine In,4.9,Hyderabad,11.0,15.0,220.0,5,Saturday,Weekend
+O10800,C1075,2025-05-24,Noodles,Main Course,2.0,170.0,Upi,Dine In,3.3,Vijayawada,10.0,0.0,340.0,5,Saturday,Weekend
+O10801,C1004,2025-05-25,Manchurian,Starters,2.0,160.0,Upi,Delivery,3.4,Vijayawada,13.0,15.0,320.0,5,Sunday,Weekend
+O10802,C1134,2025-05-25,Masala Dosa,South Indian,1.0,100.0,Cash,Delivery,3.8,Vizag,45.0,5.0,100.0,5,Sunday,Weekend
+O10803,C1118,2025-05-25,Biryani,Main Course,3.0,220.0,Wallet,Dine In,3.9,Chennai,34.0,0.0,660.0,5,Sunday,Weekend
+O10804,C1094,2025-05-25,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,3.0,Vizag,12.0,15.0,90.0,5,Sunday,Weekend
+O10805,C1062,2025-05-25,Chicken 65,Starters,1.0,190.0,Cash,Delivery,5.0,Vizag,18.0,0.0,190.0,5,Sunday,Weekend
+O10806,C1194,2025-05-26,French Fries,Fast Food,2.0,110.0,Upi,Dine In,4.0,Chennai,31.0,5.0,220.0,5,Monday,Weekday
+O10807,C1203,2025-05-26,Gulab Jamun,Dessert,3.0,80.0,Card,Dine In,3.9,Hyderabad,32.0,5.0,240.0,5,Monday,Weekday
+O10808,C1026,2025-05-26,Biryani,Main Course,2.0,220.0,Wallet,Takeaway,5.0,Vijayawada,21.0,0.0,440.0,5,Monday,Weekday
+O10809,C1173,2025-05-26,Pizza,Fast Food,3.0,280.0,Card,Delivery,4.6,Hyderabad,19.0,5.0,840.0,5,Monday,Weekday
+O10810,C1300,2025-05-26,Biryani,Main Course,2.0,220.0,Wallet,Dine In,3.8,Bengaluru,43.0,10.0,440.0,5,Monday,Weekday
+O10811,C1133,2025-05-26,Biryani,Main Course,1.0,220.0,Upi,Delivery,4.2,Bengaluru,19.0,10.0,220.0,5,Monday,Weekday
+O10812,C1118,2025-05-27,Veg Meals,Main Course,3.0,150.0,Card,Delivery,4.1,Bengaluru,39.0,0.0,450.0,5,Tuesday,Weekday
+O10813,C1275,2025-05-27,French Fries,Fast Food,3.0,110.0,Card,Dine In,5.0,Chennai,31.0,15.0,330.0,5,Tuesday,Weekday
+O10814,C1212,2025-05-27,Sandwich,Fast Food,2.0,130.0,Upi,Delivery,4.0,Vizag,15.0,0.0,260.0,5,Tuesday,Weekday
+O10815,C1225,2025-05-27,Ice Cream,Dessert,2.0,90.0,Wallet,Delivery,3.2,Hyderabad,11.0,0.0,180.0,5,Tuesday,Weekday
+O10816,C1020,2025-05-27,Pasta,Fast Food,1.0,210.0,Upi,Dine In,2.9,Vijayawada,39.0,0.0,210.0,5,Tuesday,Weekday
+O10817,C1113,2025-05-28,Masala Dosa,South Indian,2.0,100.0,Card,Dine In,5.0,Bengaluru,11.0,0.0,200.0,5,Wednesday,Weekday
+O10818,C1140,2025-05-28,Ice Cream,Dessert,2.0,90.0,Upi,Takeaway,3.6,Hyderabad,41.0,0.0,180.0,5,Wednesday,Weekday
+O10819,C1047,2025-05-28,Noodles,Main Course,1.0,170.0,Upi,Delivery,4.5,Bengaluru,25.0,20.0,170.0,5,Wednesday,Weekday
+O10820,C1001,2025-05-28,French Fries,Fast Food,2.0,110.0,Card,Delivery,4.1,Bengaluru,21.0,0.0,220.0,5,Wednesday,Weekday
+O10821,C1090,2025-05-28,Pizza,Fast Food,2.0,280.0,Cash,Takeaway,3.8,Vijayawada,10.0,0.0,560.0,5,Wednesday,Weekday
+O10822,C1142,2025-05-28,Noodles,Main Course,3.0,170.0,Upi,Delivery,3.9,Chennai,17.0,0.0,510.0,5,Wednesday,Weekday
+O10823,C1038,2025-05-29,Paneer Tikka,Starters,1.0,210.0,Upi,Takeaway,5.0,Vizag,22.0,10.0,210.0,5,Thursday,Weekday
+O10824,C1293,2025-05-29,Ice Cream,Dessert,2.0,90.0,Card,Takeaway,3.2,Chennai,24.0,15.0,180.0,5,Thursday,Weekday
+O10825,C1139,2025-05-29,Sandwich,Fast Food,1.0,130.0,Upi,Dine In,3.8,Hyderabad,17.0,0.0,130.0,5,Thursday,Weekday
+O10826,C1259,2025-05-29,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,4.7,Chennai,19.0,0.0,180.0,5,Thursday,Weekday
+O10827,C1161,2025-05-29,French Fries,Fast Food,2.0,110.0,Wallet,Dine In,3.3,Hyderabad,14.0,0.0,220.0,5,Thursday,Weekday
+O10828,C1178,2025-05-30,Gulab Jamun,Dessert,3.0,80.0,Card,Takeaway,5.0,Hyderabad,28.0,0.0,240.0,5,Friday,Weekday
+O10829,C1010,2025-05-30,Pizza,Fast Food,1.0,280.0,Upi,Dine In,4.7,Vizag,20.0,0.0,280.0,5,Friday,Weekday
+O10830,C1261,2025-05-30,Ice Cream,Dessert,3.0,90.0,Card,Delivery,4.3,Vijayawada,29.0,5.0,270.0,5,Friday,Weekday
+O10831,C1138,2025-05-30,Paneer Tikka,Starters,1.0,210.0,Card,Dine In,3.8,Vizag,29.0,0.0,210.0,5,Friday,Weekday
+O10832,C1172,2025-05-30,Manchurian,Starters,1.0,160.0,Card,Dine In,3.2,Chennai,30.0,5.0,160.0,5,Friday,Weekday
+O10833,C1013,2025-05-30,Gulab Jamun,Dessert,2.0,80.0,Cash,Takeaway,4.6,Hyderabad,27.0,0.0,160.0,5,Friday,Weekday
+O10834,C1168,2025-05-31,French Fries,Fast Food,2.0,110.0,Upi,Delivery,5.0,Bengaluru,19.0,15.0,220.0,5,Saturday,Weekend
+O10835,C1130,2025-05-31,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.2,Bengaluru,43.0,15.0,110.0,5,Saturday,Weekend
+O10836,C1084,2025-05-31,Pasta,Fast Food,1.0,210.0,Upi,Dine In,2.9,Hyderabad,35.0,5.0,210.0,5,Saturday,Weekend
+O10837,C1101,2025-05-31,Ice Cream,Dessert,3.0,90.0,Cash,Delivery,4.4,Vizag,39.0,5.0,270.0,5,Saturday,Weekend
+O10838,C1273,2025-05-31,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.7,Vijayawada,18.0,5.0,110.0,5,Saturday,Weekend
+O10839,C1265,2025-05-31,Noodles,Main Course,3.0,170.0,Cash,Dine In,3.5,Vizag,40.0,5.0,510.0,5,Saturday,Weekend
+O10840,C1038,2025-06-01,Veg Meals,Main Course,2.0,150.0,Upi,Delivery,3.7,Hyderabad,13.0,10.0,300.0,6,Sunday,Weekend
+O10841,C1094,2025-06-01,French Fries,Fast Food,2.0,110.0,Upi,Dine In,3.6,Hyderabad,15.0,5.0,220.0,6,Sunday,Weekend
+O10842,C1095,2025-06-01,Veg Meals,Main Course,3.0,150.0,Card,Takeaway,3.8,Vijayawada,23.0,15.0,450.0,6,Sunday,Weekend
+O10843,C1069,2025-06-01,Paneer Tikka,Starters,1.0,210.0,Cash,Takeaway,4.0,Chennai,13.0,15.0,210.0,6,Sunday,Weekend
+O10844,C1236,2025-06-01,Gulab Jamun,Dessert,3.0,80.0,Upi,Dine In,3.5,Chennai,35.0,0.0,240.0,6,Sunday,Weekend
+O10845,C1137,2025-06-02,Veg Meals,Main Course,2.0,150.0,Card,Dine In,3.3,Vijayawada,26.0,5.0,300.0,6,Monday,Weekday
+O10846,C1076,2025-06-02,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.2,Chennai,28.0,0.0,160.0,6,Monday,Weekday
+O10847,C1035,2025-06-02,Manchurian,Starters,1.0,160.0,Card,Dine In,4.0,Bengaluru,15.0,0.0,160.0,6,Monday,Weekday
+O10848,C1001,2025-06-02,French Fries,Fast Food,2.0,110.0,Card,Dine In,3.8,Chennai,38.0,5.0,220.0,6,Monday,Weekday
+O10849,C1296,2025-06-02,Chicken 65,Starters,2.0,190.0,Upi,Delivery,4.2,Chennai,20.0,0.0,380.0,6,Monday,Weekday
+O10850,C1060,2025-06-02,Pizza,Fast Food,3.0,280.0,Card,Takeaway,3.1,Chennai,25.0,15.0,840.0,6,Monday,Weekday
+O10851,C1267,2025-06-03,Manchurian,Starters,1.0,160.0,Cash,Takeaway,4.3,Bengaluru,39.0,0.0,160.0,6,Tuesday,Weekday
+O10852,C1229,2025-06-03,Sandwich,Fast Food,1.0,130.0,Cash,Delivery,3.8,Chennai,34.0,5.0,130.0,6,Tuesday,Weekday
+O10853,C1270,2025-06-03,Masala Dosa,South Indian,1.0,100.0,Upi,Delivery,4.3,Bengaluru,20.0,10.0,100.0,6,Tuesday,Weekday
+O10854,C1286,2025-06-03,Sandwich,Fast Food,2.0,130.0,Upi,Dine In,4.4,Vijayawada,16.0,10.0,260.0,6,Tuesday,Weekday
+O10855,C1291,2025-06-03,French Fries,Fast Food,1.0,110.0,Wallet,Delivery,4.8,Vizag,35.0,5.0,110.0,6,Tuesday,Weekday
+O10856,C1213,2025-06-04,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.2,Vijayawada,31.0,15.0,110.0,6,Wednesday,Weekday
+O10857,C1165,2025-06-04,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,4.8,Vizag,34.0,5.0,160.0,6,Wednesday,Weekday
+O10858,C1005,2025-06-04,Paneer Tikka,Starters,1.0,210.0,Cash,Delivery,3.9,Vijayawada,28.0,5.0,210.0,6,Wednesday,Weekday
+O10859,C1078,2025-06-04,Ice Cream,Dessert,1.0,90.0,Cash,Takeaway,3.9,Vizag,40.0,0.0,90.0,6,Wednesday,Weekday
+O10860,C1062,2025-06-04,Masala Dosa,South Indian,1.0,100.0,Upi,Takeaway,4.0,Vizag,35.0,5.0,100.0,6,Wednesday,Weekday
+O10861,C1132,2025-06-04,Masala Dosa,South Indian,2.0,100.0,Upi,Dine In,4.6,Hyderabad,45.0,15.0,200.0,6,Wednesday,Weekday
+O10862,C1089,2025-06-05,French Fries,Fast Food,3.0,110.0,Card,Takeaway,4.5,Vizag,32.0,10.0,330.0,6,Thursday,Weekday
+O10863,C1237,2025-06-05,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,4.2,Vizag,22.0,15.0,180.0,6,Thursday,Weekday
+O10864,C1042,2025-06-05,Noodles,Main Course,1.0,170.0,Upi,Delivery,3.3,Hyderabad,34.0,5.0,170.0,6,Thursday,Weekday
+O10865,C1089,2025-06-05,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,4.5,Chennai,11.0,0.0,90.0,6,Thursday,Weekday
+O10866,C1296,2025-06-05,Gulab Jamun,Dessert,3.0,80.0,Upi,Delivery,3.5,Chennai,11.0,0.0,240.0,6,Thursday,Weekday
+O10867,C1295,2025-06-06,Burger,Fast Food,2.0,160.0,Card,Takeaway,3.5,Hyderabad,25.0,0.0,320.0,6,Friday,Weekday
+O10868,C1104,2025-06-06,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,3.4,Bengaluru,18.0,10.0,160.0,6,Friday,Weekday
+O10869,C1014,2025-06-06,French Fries,Fast Food,1.0,110.0,Upi,Delivery,4.0,Vizag,37.0,10.0,110.0,6,Friday,Weekday
+O10870,C1288,2025-06-06,Ice Cream,Dessert,3.0,90.0,Upi,Delivery,4.9,Vizag,22.0,0.0,270.0,6,Friday,Weekday
+O10871,C1179,2025-06-06,Ice Cream,Dessert,3.0,90.0,Card,Dine In,3.5,Hyderabad,44.0,5.0,270.0,6,Friday,Weekday
+O10872,C1125,2025-06-06,Gulab Jamun,Dessert,2.0,80.0,Cash,Dine In,5.0,Hyderabad,22.0,5.0,160.0,6,Friday,Weekday
+O10873,C1023,2025-06-07,French Fries,Fast Food,1.0,110.0,Upi,Dine In,4.7,Bengaluru,40.0,5.0,110.0,6,Saturday,Weekend
+O10874,C1063,2025-06-07,Pizza,Fast Food,1.0,280.0,Card,Delivery,3.1,Chennai,30.0,0.0,280.0,6,Saturday,Weekend
+O10875,C1143,2025-06-07,Noodles,Main Course,1.0,170.0,Cash,Delivery,3.9,Vijayawada,41.0,0.0,170.0,6,Saturday,Weekend
+O10876,C1153,2025-06-07,French Fries,Fast Food,2.0,110.0,Card,Takeaway,3.4,Chennai,43.0,0.0,220.0,6,Saturday,Weekend
+O10877,C1145,2025-06-07,Paneer Tikka,Starters,1.0,210.0,Card,Dine In,4.5,Vizag,17.0,0.0,210.0,6,Saturday,Weekend
+O10878,C1225,2025-06-08,Manchurian,Starters,2.0,160.0,Upi,Takeaway,3.5,Hyderabad,11.0,0.0,320.0,6,Sunday,Weekend
+O10879,C1104,2025-06-08,Pasta,Fast Food,2.0,210.0,Upi,Delivery,3.0,Bengaluru,41.0,0.0,420.0,6,Sunday,Weekend
+O10880,C1104,2025-06-08,Veg Meals,Main Course,1.0,150.0,Upi,Takeaway,3.9,Chennai,37.0,10.0,150.0,6,Sunday,Weekend
+O10881,C1039,2025-06-08,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.9,Bengaluru,10.0,0.0,90.0,6,Sunday,Weekend
+O10882,C1198,2025-06-08,Burger,Fast Food,1.0,160.0,Wallet,Delivery,4.0,Chennai,19.0,20.0,160.0,6,Sunday,Weekend
+O10883,C1134,2025-06-08,French Fries,Fast Food,2.0,110.0,Upi,Dine In,4.4,Vizag,13.0,0.0,220.0,6,Sunday,Weekend
+O10884,C1067,2025-06-09,Burger,Fast Food,1.0,160.0,Upi,Takeaway,4.4,Vijayawada,44.0,0.0,160.0,6,Monday,Weekday
+O10885,C1179,2025-06-09,Gulab Jamun,Dessert,1.0,80.0,Card,Takeaway,3.1,Bengaluru,19.0,5.0,80.0,6,Monday,Weekday
+O10886,C1042,2025-06-09,Sandwich,Fast Food,3.0,130.0,Cash,Dine In,3.5,Bengaluru,20.0,0.0,390.0,6,Monday,Weekday
+O10887,C1015,2025-06-09,Masala Dosa,South Indian,3.0,100.0,Upi,Dine In,4.1,Vijayawada,23.0,15.0,300.0,6,Monday,Weekday
+O10888,C1111,2025-06-09,Pasta,Fast Food,3.0,210.0,Upi,Dine In,3.7,Bengaluru,21.0,0.0,630.0,6,Monday,Weekday
+O10889,C1157,2025-06-10,Chicken 65,Starters,2.0,190.0,Upi,Delivery,5.0,Bengaluru,26.0,15.0,380.0,6,Tuesday,Weekday
+O10890,C1289,2025-06-10,French Fries,Fast Food,3.0,110.0,Card,Takeaway,3.3,Chennai,25.0,15.0,330.0,6,Tuesday,Weekday
+O10891,C1231,2025-06-10,Paneer Tikka,Starters,1.0,210.0,Upi,Takeaway,3.5,Chennai,44.0,5.0,210.0,6,Tuesday,Weekday
+O10892,C1157,2025-06-10,Ice Cream,Dessert,1.0,90.0,Upi,Delivery,4.3,Vijayawada,11.0,5.0,90.0,6,Tuesday,Weekday
+O10893,C1038,2025-06-10,Paneer Tikka,Starters,2.0,210.0,Cash,Delivery,3.7,Vizag,20.0,10.0,420.0,6,Tuesday,Weekday
+O10894,C1097,2025-06-10,Burger,Fast Food,1.0,160.0,Upi,Dine In,2.2,Bengaluru,12.0,5.0,160.0,6,Tuesday,Weekday
+O10895,C1289,2025-06-11,Manchurian,Starters,2.0,160.0,Cash,Takeaway,5.0,Vizag,38.0,10.0,320.0,6,Wednesday,Weekday
+O10896,C1254,2025-06-11,Pizza,Fast Food,1.0,280.0,Cash,Takeaway,3.4,Vijayawada,27.0,0.0,280.0,6,Wednesday,Weekday
+O10897,C1196,2025-06-11,French Fries,Fast Food,1.0,110.0,Upi,Delivery,4.5,Vijayawada,29.0,0.0,110.0,6,Wednesday,Weekday
+O10898,C1086,2025-06-11,Gulab Jamun,Dessert,1.0,80.0,Wallet,Delivery,3.3,Chennai,23.0,5.0,80.0,6,Wednesday,Weekday
+O10899,C1010,2025-06-11,Burger,Fast Food,3.0,160.0,Cash,Delivery,3.5,Bengaluru,43.0,5.0,480.0,6,Wednesday,Weekday
+O10900,C1005,2025-06-11,Noodles,Main Course,1.0,170.0,Upi,Dine In,3.0,Hyderabad,40.0,15.0,170.0,6,Wednesday,Weekday
+O10901,C1123,2025-06-12,Fried Rice,Main Course,1.0,180.0,Cash,Delivery,3.6,Vijayawada,27.0,0.0,180.0,6,Thursday,Weekday
+O10902,C1118,2025-06-12,Chicken 65,Starters,2.0,190.0,Card,Dine In,3.7,Bengaluru,39.0,15.0,380.0,6,Thursday,Weekday
+O10903,C1294,2025-06-12,Ice Cream,Dessert,2.0,90.0,Card,Dine In,4.0,Vizag,34.0,0.0,180.0,6,Thursday,Weekday
+O10904,C1159,2025-06-12,French Fries,Fast Food,2.0,110.0,Upi,Dine In,3.9,Chennai,28.0,5.0,220.0,6,Thursday,Weekday
+O10905,C1228,2025-06-12,Burger,Fast Food,2.0,160.0,Wallet,Dine In,3.2,Vizag,17.0,0.0,320.0,6,Thursday,Weekday
+O10906,C1216,2025-06-13,Manchurian,Starters,1.0,160.0,Upi,Dine In,3.8,Vijayawada,37.0,5.0,160.0,6,Friday,Weekday
+O10907,C1184,2025-06-13,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,5.0,Vijayawada,17.0,0.0,180.0,6,Friday,Weekday
+O10908,C1015,2025-06-13,Burger,Fast Food,1.0,160.0,Upi,Delivery,5.0,Vizag,40.0,5.0,160.0,6,Friday,Weekday
+O10909,C1157,2025-06-13,Burger,Fast Food,2.0,160.0,Upi,Dine In,4.4,Vijayawada,12.0,15.0,320.0,6,Friday,Weekday
+O10910,C1136,2025-06-13,Pasta,Fast Food,2.0,210.0,Card,Dine In,4.5,Bengaluru,12.0,5.0,420.0,6,Friday,Weekday
+O10911,C1261,2025-06-13,French Fries,Fast Food,3.0,110.0,Upi,Dine In,5.0,Vijayawada,31.0,5.0,330.0,6,Friday,Weekday
+O10912,C1157,2025-06-14,Noodles,Main Course,1.0,170.0,Upi,Dine In,4.5,Chennai,26.0,15.0,170.0,6,Saturday,Weekend
+O10913,C1047,2025-06-14,Gulab Jamun,Dessert,2.0,80.0,Card,Dine In,4.5,Bengaluru,45.0,10.0,160.0,6,Saturday,Weekend
+O10914,C1173,2025-06-14,Ice Cream,Dessert,3.0,90.0,Upi,Delivery,3.1,Hyderabad,26.0,5.0,270.0,6,Saturday,Weekend
+O10915,C1130,2025-06-14,Biryani,Main Course,1.0,220.0,Upi,Dine In,3.4,Vijayawada,23.0,0.0,220.0,6,Saturday,Weekend
+O10916,C1095,2025-06-14,Paneer Tikka,Starters,1.0,210.0,Upi,Takeaway,4.1,Vijayawada,18.0,15.0,210.0,6,Saturday,Weekend
+O10917,C1115,2025-06-15,Manchurian,Starters,1.0,160.0,Upi,Dine In,3.6,Chennai,39.0,5.0,160.0,6,Sunday,Weekend
+O10918,C1243,2025-06-15,French Fries,Fast Food,1.0,110.0,Upi,Delivery,3.5,Chennai,30.0,0.0,110.0,6,Sunday,Weekend
+O10919,C1292,2025-06-15,Sandwich,Fast Food,2.0,130.0,Card,Delivery,3.5,Vizag,21.0,0.0,260.0,6,Sunday,Weekend
+O10920,C1282,2025-06-15,Fried Rice,Main Course,3.0,180.0,Upi,Delivery,3.2,Vizag,41.0,15.0,540.0,6,Sunday,Weekend
+O10921,C1299,2025-06-15,Gulab Jamun,Dessert,1.0,80.0,Upi,Delivery,3.6,Vizag,20.0,0.0,80.0,6,Sunday,Weekend
+O10922,C1283,2025-06-15,Ice Cream,Dessert,3.0,90.0,Card,Dine In,4.3,Chennai,29.0,20.0,270.0,6,Sunday,Weekend
+O10923,C1069,2025-06-16,Pasta,Fast Food,3.0,210.0,Card,Dine In,5.0,Vizag,44.0,0.0,630.0,6,Monday,Weekday
+O10924,C1148,2025-06-16,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,4.6,Vizag,20.0,10.0,160.0,6,Monday,Weekday
+O10925,C1011,2025-06-16,French Fries,Fast Food,2.0,110.0,Cash,Takeaway,4.5,Hyderabad,17.0,5.0,220.0,6,Monday,Weekday
+O10926,C1254,2025-06-16,Fried Rice,Main Course,2.0,180.0,Upi,Takeaway,3.0,Vizag,13.0,5.0,360.0,6,Monday,Weekday
+O10927,C1038,2025-06-16,Masala Dosa,South Indian,1.0,100.0,Cash,Dine In,4.2,Vijayawada,36.0,15.0,100.0,6,Monday,Weekday
+O10928,C1134,2025-06-17,Manchurian,Starters,2.0,160.0,Cash,Dine In,4.1,Chennai,39.0,5.0,320.0,6,Tuesday,Weekday
+O10929,C1200,2025-06-17,Manchurian,Starters,1.0,160.0,Upi,Takeaway,4.3,Bengaluru,36.0,5.0,160.0,6,Tuesday,Weekday
+O10930,C1023,2025-06-17,Sandwich,Fast Food,2.0,130.0,Wallet,Takeaway,3.9,Hyderabad,30.0,0.0,260.0,6,Tuesday,Weekday
+O10931,C1218,2025-06-17,Masala Dosa,South Indian,2.0,100.0,Upi,Delivery,5.0,Chennai,29.0,0.0,200.0,6,Tuesday,Weekday
+O10932,C1141,2025-06-17,French Fries,Fast Food,3.0,110.0,Card,Dine In,4.1,Chennai,13.0,0.0,330.0,6,Tuesday,Weekday
+O10933,C1104,2025-06-17,Chicken 65,Starters,2.0,190.0,Upi,Takeaway,4.2,Vijayawada,20.0,10.0,380.0,6,Tuesday,Weekday
+O10934,C1210,2025-06-18,Pizza,Fast Food,1.0,280.0,Card,Dine In,2.8,Vizag,22.0,0.0,280.0,6,Wednesday,Weekday
+O10935,C1111,2025-06-18,Biryani,Main Course,3.0,220.0,Cash,Dine In,4.0,Vijayawada,18.0,0.0,660.0,6,Wednesday,Weekday
+O10936,C1104,2025-06-18,Ice Cream,Dessert,3.0,90.0,Card,Takeaway,4.8,Vizag,13.0,5.0,270.0,6,Wednesday,Weekday
+O10937,C1171,2025-06-18,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.5,Vizag,21.0,10.0,160.0,6,Wednesday,Weekday
+O10938,C1133,2025-06-18,Masala Dosa,South Indian,1.0,100.0,Cash,Dine In,2.7,Chennai,18.0,10.0,100.0,6,Wednesday,Weekday
+O10939,C1293,2025-06-19,French Fries,Fast Food,2.0,110.0,Cash,Dine In,3.8,Vizag,22.0,0.0,220.0,6,Thursday,Weekday
+O10940,C1127,2025-06-19,Fried Rice,Main Course,3.0,180.0,Card,Dine In,5.0,Hyderabad,35.0,0.0,540.0,6,Thursday,Weekday
+O10941,C1106,2025-06-19,Pizza,Fast Food,1.0,280.0,Cash,Dine In,4.0,Hyderabad,22.0,15.0,280.0,6,Thursday,Weekday
+O10942,C1092,2025-06-19,Masala Dosa,South Indian,3.0,100.0,Cash,Dine In,4.3,Hyderabad,37.0,0.0,300.0,6,Thursday,Weekday
+O10943,C1287,2025-06-19,Pizza,Fast Food,1.0,280.0,Upi,Dine In,5.0,Chennai,28.0,15.0,280.0,6,Thursday,Weekday
+O10944,C1051,2025-06-19,Gulab Jamun,Dessert,1.0,80.0,Upi,Dine In,4.0,Vijayawada,33.0,15.0,80.0,6,Thursday,Weekday
+O10945,C1029,2025-06-20,Pizza,Fast Food,2.0,280.0,Cash,Delivery,4.6,Bengaluru,28.0,10.0,560.0,6,Friday,Weekday
+O10946,C1296,2025-06-20,French Fries,Fast Food,3.0,110.0,Upi,Dine In,4.4,Vizag,22.0,0.0,330.0,6,Friday,Weekday
+O10947,C1297,2025-06-20,Ice Cream,Dessert,2.0,90.0,Wallet,Dine In,4.5,Bengaluru,22.0,15.0,180.0,6,Friday,Weekday
+O10948,C1214,2025-06-20,Paneer Tikka,Starters,1.0,210.0,Card,Dine In,4.3,Vijayawada,37.0,10.0,210.0,6,Friday,Weekday
+O10949,C1267,2025-06-20,Ice Cream,Dessert,2.0,90.0,Wallet,Delivery,3.7,Vijayawada,11.0,5.0,180.0,6,Friday,Weekday
+O10950,C1257,2025-06-20,Gulab Jamun,Dessert,2.0,80.0,Upi,Delivery,3.8,Chennai,19.0,0.0,160.0,6,Friday,Weekday
+O10951,C1101,2025-06-21,Burger,Fast Food,1.0,160.0,Card,Delivery,3.5,Hyderabad,31.0,0.0,160.0,6,Saturday,Weekend
+O10952,C1110,2025-06-21,Ice Cream,Dessert,2.0,90.0,Card,Delivery,3.0,Hyderabad,22.0,0.0,180.0,6,Saturday,Weekend
+O10953,C1182,2025-06-21,French Fries,Fast Food,1.0,110.0,Card,Takeaway,4.9,Vijayawada,18.0,5.0,110.0,6,Saturday,Weekend
+O10954,C1001,2025-06-21,Pasta,Fast Food,1.0,210.0,Cash,Delivery,4.1,Chennai,42.0,5.0,210.0,6,Saturday,Weekend
+O10955,C1055,2025-06-21,Manchurian,Starters,1.0,160.0,Upi,Takeaway,4.9,Chennai,23.0,5.0,160.0,6,Saturday,Weekend
+O10956,C1149,2025-06-22,Burger,Fast Food,1.0,160.0,Card,Dine In,5.0,Vizag,29.0,5.0,160.0,6,Sunday,Weekend
+O10957,C1137,2025-06-22,Pasta,Fast Food,2.0,210.0,Cash,Dine In,4.1,Hyderabad,24.0,5.0,420.0,6,Sunday,Weekend
+O10958,C1202,2025-06-22,Ice Cream,Dessert,2.0,90.0,Upi,Dine In,3.2,Vijayawada,41.0,10.0,180.0,6,Sunday,Weekend
+O10959,C1117,2025-06-22,Chicken 65,Starters,1.0,190.0,Upi,Delivery,4.0,Bengaluru,42.0,15.0,190.0,6,Sunday,Weekend
+O10960,C1154,2025-06-22,French Fries,Fast Food,1.0,110.0,Wallet,Takeaway,3.7,Hyderabad,26.0,0.0,110.0,6,Sunday,Weekend
+O10961,C1291,2025-06-22,Gulab Jamun,Dessert,1.0,80.0,Card,Delivery,2.8,Vizag,33.0,5.0,80.0,6,Sunday,Weekend
+O10962,C1063,2025-06-23,Biryani,Main Course,3.0,220.0,Wallet,Dine In,3.8,Chennai,39.0,0.0,660.0,6,Monday,Weekday
+O10963,C1244,2025-06-23,Gulab Jamun,Dessert,1.0,80.0,Cash,Takeaway,4.1,Vijayawada,22.0,10.0,80.0,6,Monday,Weekday
+O10964,C1025,2025-06-23,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,3.7,Hyderabad,25.0,10.0,90.0,6,Monday,Weekday
+O10965,C1090,2025-06-23,Chicken 65,Starters,2.0,190.0,Upi,Dine In,3.6,Bengaluru,11.0,15.0,380.0,6,Monday,Weekday
+O10966,C1075,2025-06-23,Masala Dosa,South Indian,2.0,100.0,Upi,Delivery,3.3,Vizag,26.0,0.0,200.0,6,Monday,Weekday
+O10967,C1294,2025-06-24,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.2,Vizag,41.0,20.0,110.0,6,Tuesday,Weekday
+O10968,C1210,2025-06-24,Paneer Tikka,Starters,1.0,210.0,Upi,Dine In,5.0,Hyderabad,17.0,0.0,210.0,6,Tuesday,Weekday
+O10969,C1017,2025-06-24,Ice Cream,Dessert,2.0,90.0,Upi,Delivery,4.9,Bengaluru,12.0,10.0,180.0,6,Tuesday,Weekday
+O10970,C1128,2025-06-24,Manchurian,Starters,3.0,160.0,Upi,Dine In,4.5,Vizag,21.0,0.0,480.0,6,Tuesday,Weekday
+O10971,C1251,2025-06-24,Sandwich,Fast Food,1.0,130.0,Wallet,Delivery,4.5,Vijayawada,29.0,15.0,130.0,6,Tuesday,Weekday
+O10972,C1179,2025-06-24,Sandwich,Fast Food,2.0,130.0,Upi,Dine In,4.0,Vizag,25.0,5.0,260.0,6,Tuesday,Weekday
+O10973,C1182,2025-06-25,Pizza,Fast Food,1.0,280.0,Card,Dine In,2.9,Bengaluru,23.0,10.0,280.0,6,Wednesday,Weekday
+O10974,C1152,2025-06-25,French Fries,Fast Food,2.0,110.0,Cash,Dine In,3.9,Chennai,25.0,15.0,220.0,6,Wednesday,Weekday
+O10975,C1025,2025-06-25,Fried Rice,Main Course,1.0,180.0,Upi,Dine In,3.5,Chennai,42.0,0.0,180.0,6,Wednesday,Weekday
+O10976,C1180,2025-06-25,Gulab Jamun,Dessert,2.0,80.0,Upi,Dine In,4.2,Hyderabad,39.0,0.0,160.0,6,Wednesday,Weekday
+O10977,C1198,2025-06-25,Noodles,Main Course,1.0,170.0,Upi,Delivery,4.9,Bengaluru,21.0,15.0,170.0,6,Wednesday,Weekday
+O10978,C1161,2025-06-26,Pasta,Fast Food,1.0,210.0,Upi,Delivery,5.0,Vizag,24.0,0.0,210.0,6,Thursday,Weekday
+O10979,C1177,2025-06-26,Veg Meals,Main Course,2.0,150.0,Card,Delivery,4.1,Vizag,27.0,0.0,300.0,6,Thursday,Weekday
+O10980,C1285,2025-06-26,Ice Cream,Dessert,1.0,90.0,Upi,Dine In,3.0,Chennai,37.0,5.0,90.0,6,Thursday,Weekday
+O10981,C1063,2025-06-26,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.1,Chennai,32.0,5.0,110.0,6,Thursday,Weekday
+O10982,C1150,2025-06-26,Manchurian,Starters,1.0,160.0,Upi,Dine In,4.2,Vijayawada,23.0,0.0,160.0,6,Thursday,Weekday
+O10983,C1154,2025-06-26,Pasta,Fast Food,1.0,210.0,Wallet,Dine In,4.5,Chennai,39.0,0.0,210.0,6,Thursday,Weekday
+O10984,C1156,2025-06-27,Gulab Jamun,Dessert,2.0,80.0,Card,Delivery,4.1,Vijayawada,42.0,0.0,160.0,6,Friday,Weekday
+O10985,C1049,2025-06-27,Sandwich,Fast Food,2.0,130.0,Card,Takeaway,4.1,Vizag,24.0,5.0,260.0,6,Friday,Weekday
+O10986,C1084,2025-06-27,Chicken 65,Starters,1.0,190.0,Upi,Dine In,3.7,Vijayawada,16.0,15.0,190.0,6,Friday,Weekday
+O10987,C1177,2025-06-27,Paneer Tikka,Starters,2.0,210.0,Card,Dine In,3.9,Vijayawada,24.0,20.0,420.0,6,Friday,Weekday
+O10988,C1148,2025-06-27,French Fries,Fast Food,1.0,110.0,Card,Delivery,4.4,Hyderabad,20.0,10.0,110.0,6,Friday,Weekday
+O10989,C1118,2025-06-28,Gulab Jamun,Dessert,1.0,80.0,Cash,Dine In,2.8,Chennai,38.0,0.0,80.0,6,Saturday,Weekend
+O10990,C1063,2025-06-28,Pizza,Fast Food,1.0,280.0,Wallet,Takeaway,3.9,Vijayawada,40.0,15.0,280.0,6,Saturday,Weekend
+O10991,C1189,2025-06-28,Ice Cream,Dessert,2.0,90.0,Upi,Takeaway,4.5,Vizag,34.0,5.0,180.0,6,Saturday,Weekend
+O10992,C1049,2025-06-28,Noodles,Main Course,2.0,170.0,Wallet,Dine In,5.0,Bengaluru,33.0,0.0,340.0,6,Saturday,Weekend
+O10993,C1257,2025-06-28,Biryani,Main Course,1.0,220.0,Wallet,Dine In,3.8,Vijayawada,28.0,15.0,220.0,6,Saturday,Weekend
+O10994,C1224,2025-06-28,French Fries,Fast Food,1.0,110.0,Upi,Takeaway,4.9,Chennai,11.0,10.0,110.0,6,Saturday,Weekend
+O10995,C1141,2025-06-29,French Fries,Fast Food,3.0,110.0,Cash,Delivery,5.0,Hyderabad,31.0,10.0,330.0,6,Sunday,Weekend
+O10996,C1215,2025-06-29,French Fries,Main Course,2.0,130.0,Upi,Dine In,4.1,Vijayawada,27.0,5.0,260.0,6,Sunday,Weekend
+O10997,C1211,2025-06-29,Pizza,Starters,2.0,130.0,Upi,Delivery,4.1,Vijayawada,27.0,5.0,260.0,6,Sunday,Weekend
+O10999,C1158,2025-06-29,Burger,Fast Food,2.0,160.0,Wallet,Delivery,4.0,Vijayawada,34.0,10.0,320.0,6,Sunday,Weekend

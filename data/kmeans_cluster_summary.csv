@@ -1,0 +1,3 @@
+cluster,customers,avg_orders,avg_spending,avg_order_value,avg_quantity,avg_rating
+0,106,5.41,1443.4,275.82,9.73,4.08
+1,178,2.39,516.57,220.38,3.72,4.04

@@ -1,0 +1,82 @@
+support,itemsets
+0.4859154929577465,frozenset({'French Fries'})
+0.36619718309859156,frozenset({'Ice Cream'})
+0.323943661971831,frozenset({'Gulab Jamun'})
+0.1936619718309859,frozenset({'Pizza'})
+0.18661971830985916,"frozenset({'French Fries', 'Ice Cream'})"
+0.176056338028169,frozenset({'Pasta'})
+0.17253521126760563,frozenset({'Manchurian'})
+0.16901408450704225,frozenset({'Burger'})
+0.1619718309859155,frozenset({'Sandwich'})
+0.15845070422535212,frozenset({'Chicken 65'})
+0.15492957746478872,frozenset({'Biryani'})
+0.14788732394366197,frozenset({'Fried Rice'})
+0.13732394366197184,frozenset({'Noodles'})
+0.13732394366197184,"frozenset({'Gulab Jamun', 'French Fries'})"
+0.13380281690140844,frozenset({'Paneer Tikka'})
+0.13380281690140844,frozenset({'Veg Meals'})
+0.13028169014084506,frozenset({'Masala Dosa'})
+0.10915492957746478,"frozenset({'Gulab Jamun', 'Ice Cream'})"
+0.09859154929577464,"frozenset({'French Fries', 'Manchurian'})"
+0.09859154929577464,"frozenset({'Chicken 65', 'French Fries'})"
+0.08098591549295775,"frozenset({'French Fries', 'Pasta'})"
+0.08098591549295775,"frozenset({'Pizza', 'French Fries'})"
+0.07394366197183098,"frozenset({'French Fries', 'Biryani'})"
+0.07394366197183098,"frozenset({'Veg Meals', 'French Fries'})"
+0.07042253521126761,"frozenset({'Ice Cream', 'Biryani'})"
+0.07042253521126761,"frozenset({'Paneer Tikka', 'French Fries'})"
+0.06690140845070422,"frozenset({'Masala Dosa', 'Ice Cream'})"
+0.06690140845070422,"frozenset({'Noodles', 'French Fries'})"
+0.06690140845070422,"frozenset({'Fried Rice', 'Ice Cream'})"
+0.06690140845070422,"frozenset({'Fried Rice', 'French Fries'})"
+0.06690140845070422,"frozenset({'Chicken 65', 'Ice Cream'})"
+0.06690140845070422,"frozenset({'Ice Cream', 'Manchurian'})"
+0.06690140845070422,"frozenset({'Pizza', 'Gulab Jamun'})"
+0.06338028169014084,"frozenset({'Gulab Jamun', 'Biryani'})"
+0.06338028169014084,"frozenset({'Pizza', 'Ice Cream'})"
+0.06338028169014084,"frozenset({'Burger', 'French Fries'})"
+0.05985915492957746,"frozenset({'Gulab Jamun', 'Sandwich'})"
+0.05985915492957746,"frozenset({'Gulab Jamun', 'Manchurian'})"
+0.05985915492957746,"frozenset({'Sandwich', 'French Fries'})"
+0.056338028169014086,"frozenset({'Masala Dosa', 'French Fries'})"
+0.0528169014084507,"frozenset({'Burger', 'Ice Cream'})"
+0.0528169014084507,"frozenset({'Sandwich', 'Ice Cream'})"
+0.04929577464788732,"frozenset({'Noodles', 'Ice Cream'})"
+0.04929577464788732,"frozenset({'Ice Cream', 'Pasta'})"
+0.04929577464788732,"frozenset({'Pizza', 'Chicken 65'})"
+0.045774647887323945,"frozenset({'Chicken 65', 'Gulab Jamun'})"
+0.045774647887323945,"frozenset({'Fried Rice', 'French Fries', 'Ice Cream'})"
+0.045774647887323945,"frozenset({'Pizza', 'Pasta'})"
+0.045774647887323945,"frozenset({'Gulab Jamun', 'Pasta'})"
+0.04225352112676056,"frozenset({'Fried Rice', 'Pasta'})"
+0.04225352112676056,"frozenset({'Paneer Tikka', 'Gulab Jamun'})"
+0.04225352112676056,"frozenset({'Burger', 'Pasta'})"
+0.04225352112676056,"frozenset({'Veg Meals', 'Ice Cream'})"
+0.04225352112676056,"frozenset({'Gulab Jamun', 'French Fries', 'Ice Cream'})"
+0.04225352112676056,"frozenset({'French Fries', 'Ice Cream', 'Biryani'})"
+0.03873239436619718,"frozenset({'Gulab Jamun', 'Burger'})"
+0.03873239436619718,"frozenset({'Gulab Jamun', 'Masala Dosa'})"
+0.03873239436619718,"frozenset({'Gulab Jamun', 'Veg Meals'})"
+0.03873239436619718,"frozenset({'French Fries', 'Ice Cream', 'Manchurian'})"
+0.035211267605633804,"frozenset({'Pizza', 'Gulab Jamun', 'French Fries'})"
+0.035211267605633804,"frozenset({'Sandwich', 'Pasta'})"
+0.035211267605633804,"frozenset({'Masala Dosa', 'Manchurian'})"
+0.035211267605633804,"frozenset({'Noodles', 'Burger'})"
+0.035211267605633804,"frozenset({'Chicken 65', 'French Fries', 'Ice Cream'})"
+0.035211267605633804,"frozenset({'Paneer Tikka', 'Manchurian'})"
+0.035211267605633804,"frozenset({'Pizza', 'Paneer Tikka'})"
+0.03169014084507042,"frozenset({'Gulab Jamun', 'Noodles'})"
+0.03169014084507042,"frozenset({'Gulab Jamun', 'Fried Rice'})"
+0.03169014084507042,"frozenset({'Sandwich', 'Biryani'})"
+0.03169014084507042,"frozenset({'Sandwich', 'Burger'})"
+0.03169014084507042,"frozenset({'Pizza', 'Fried Rice'})"
+0.03169014084507042,"frozenset({'Paneer Tikka', 'Ice Cream'})"
+0.03169014084507042,"frozenset({'Pizza', 'Manchurian'})"
+0.03169014084507042,"frozenset({'Veg Meals', 'Manchurian'})"
+0.03169014084507042,"frozenset({'Noodles', 'Sandwich'})"
+0.03169014084507042,"frozenset({'Pizza', 'Chicken 65', 'French Fries'})"
+0.03169014084507042,"frozenset({'Gulab Jamun', 'French Fries', 'Manchurian'})"
+0.03169014084507042,"frozenset({'Masala Dosa', 'French Fries', 'Ice Cream'})"
+0.03169014084507042,"frozenset({'Noodles', 'French Fries', 'Ice Cream'})"
+0.03169014084507042,"frozenset({'French Fries', 'Pasta', 'Ice Cream'})"
+0.03169014084507042,"frozenset({'Pizza', 'French Fries', 'Ice Cream'})"

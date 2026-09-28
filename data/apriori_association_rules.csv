@@ -1,0 +1,59 @@
+antecedents,consequents,support,confidence,lift
+"French Fries, Pizza",Chicken 65,0.032,0.391,2.47
+"French Fries, Fried Rice",Ice Cream,0.046,0.684,1.868
+"Chicken 65, French Fries",Pizza,0.032,0.321,1.66
+Fried Rice,"French Fries, Ice Cream",0.046,0.31,1.659
+Chicken 65,Pizza,0.049,0.311,1.606
+"Biryani, French Fries",Ice Cream,0.042,0.571,1.56
+"French Fries, Masala Dosa",Ice Cream,0.032,0.562,1.536
+"Fried Rice, Ice Cream",French Fries,0.046,0.684,1.408
+Masala Dosa,Ice Cream,0.067,0.514,1.402
+"French Fries, Pizza",Gulab Jamun,0.035,0.435,1.342
+"Ice Cream, Noodles",French Fries,0.032,0.643,1.323
+"Ice Cream, Pasta",French Fries,0.032,0.643,1.323
+"Chicken 65, Pizza",French Fries,0.032,0.643,1.323
+"French Fries, Noodles",Ice Cream,0.032,0.474,1.294
+Chicken 65,French Fries,0.099,0.622,1.281
+Biryani,Gulab Jamun,0.063,0.409,1.263
+Biryani,Ice Cream,0.07,0.455,1.241
+Fried Rice,Ice Cream,0.067,0.452,1.235
+"Biryani, Ice Cream",French Fries,0.042,0.6,1.235
+"Ice Cream, Manchurian",French Fries,0.039,0.579,1.191
+Manchurian,French Fries,0.099,0.571,1.176
+Chicken 65,Ice Cream,0.067,0.422,1.153
+Sandwich,Gulab Jamun,0.06,0.37,1.141
+Veg Meals,French Fries,0.074,0.553,1.137
+"Gulab Jamun, Manchurian",French Fries,0.032,0.529,1.09
+Paneer Tikka,French Fries,0.07,0.526,1.083
+"Gulab Jamun, Pizza",French Fries,0.035,0.526,1.083
+"Chicken 65, Ice Cream",French Fries,0.035,0.526,1.083
+"French Fries, Manchurian",Ice Cream,0.039,0.393,1.073
+Manchurian,Gulab Jamun,0.06,0.347,1.071
+"French Fries, Pasta",Ice Cream,0.032,0.391,1.069
+"French Fries, Pizza",Ice Cream,0.032,0.391,1.069
+Pizza,Gulab Jamun,0.067,0.345,1.066
+Manchurian,Ice Cream,0.067,0.388,1.059
+French Fries,Ice Cream,0.187,0.384,1.049
+Ice Cream,French Fries,0.187,0.51,1.049
+"Ice Cream, Pizza",French Fries,0.032,0.5,1.029
+Noodles,French Fries,0.067,0.487,1.003
+"French Fries, Manchurian",Gulab Jamun,0.032,0.321,0.992
+Biryani,French Fries,0.074,0.477,0.982
+Noodles,Ice Cream,0.049,0.359,0.98
+"Chicken 65, French Fries",Ice Cream,0.035,0.357,0.975
+Paneer Tikka,Gulab Jamun,0.042,0.316,0.975
+"Ice Cream, Masala Dosa",French Fries,0.032,0.474,0.975
+Pasta,French Fries,0.081,0.46,0.947
+Fried Rice,French Fries,0.067,0.452,0.931
+Gulab Jamun,Ice Cream,0.109,0.337,0.92
+Pizza,Ice Cream,0.063,0.327,0.894
+Sandwich,Ice Cream,0.053,0.326,0.89
+Masala Dosa,French Fries,0.056,0.432,0.89
+Gulab Jamun,French Fries,0.137,0.424,0.872
+Veg Meals,Ice Cream,0.042,0.316,0.862
+Pizza,French Fries,0.081,0.418,0.861
+Burger,Ice Cream,0.053,0.312,0.853
+"French Fries, Gulab Jamun",Ice Cream,0.042,0.308,0.84
+"Gulab Jamun, Ice Cream",French Fries,0.042,0.387,0.797
+Burger,French Fries,0.063,0.375,0.772
+Sandwich,French Fries,0.06,0.37,0.761
