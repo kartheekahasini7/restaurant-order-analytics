@@ -64,7 +64,7 @@ st.markdown("""
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 10px;
-    color: #2b2118;
+    color: #2b2118 !important;
 }
 
 /* ---------------------------------------------------------
@@ -74,7 +74,7 @@ st.markdown("""
 .project-description {
     text-align: center;
     font-size: 17px;
-    color: #6f6258;
+    color: #6f6258 !important;
     margin-bottom: 25px;
 }
 
@@ -86,7 +86,7 @@ st.markdown("""
     text-align: center;
     font-size: 15px;
     font-weight: 600;
-    color: #8a6a52;
+    color: #8a6a52 !important;
     letter-spacing: 0.5px;
     margin-top: 10px;
     margin-bottom: 18px;
@@ -129,7 +129,7 @@ st.markdown("""
 .algorithm-title {
     font-size: 25px;
     font-weight: 750;
-    color: #2f241c;
+    color: #2f241c !important;
     margin-top: 5px;
 }
 
@@ -139,7 +139,7 @@ st.markdown("""
 
 .algorithm-description {
     font-size: 15px;
-    color: #74665b;
+    color: #74665b !important;
     margin-top: 8px;
     line-height: 1.5;
 }
@@ -161,7 +161,7 @@ st.markdown("""
     border-radius: 11px;
 
     background: #C65D2E;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 
     border: 1px solid #B84F23;
 
@@ -179,7 +179,7 @@ st.markdown("""
 
 .stButton > button:hover {
     background: #A94C25;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 
     border-color: #A94C25;
 
@@ -196,7 +196,7 @@ st.markdown("""
 .result-heading {
     font-size: 29px;
     font-weight: 800;
-    color: #2f241c;
+    color: #2f241c !important;
     margin-top: 12px;
     margin-bottom: 8px;
 }
@@ -206,7 +206,7 @@ st.markdown("""
 --------------------------------------------------------- */
 
 .result-description {
-    color: #6f6258;
+    color: #6f6258 !important;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -229,24 +229,54 @@ st.markdown("""
 }
 
 /* ---------------------------------------------------------
-   SUBHEADINGS
+   FORCE RESULT TEXT COLORS
 --------------------------------------------------------- */
 
-h2, h3 {
-    color: #38291f;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #38291f !important;
 }
 
-/* Ensure result text remains visible across environments */
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] h4,
+[data-testid="stMarkdownContainer"] h5,
+[data-testid="stMarkdownContainer"] h6 {
+    color: #38291f !important;
+}
+
+.stMarkdown {
+    color: #4a3528 !important;
+}
+
+.stMarkdown p,
+.stMarkdown div,
+.stMarkdown span,
+.stMarkdown strong {
+    color: #4a3528 !important;
+}
+
+.result-heading {
+    color: #2f241c !important;
+}
+
+.result-description {
+    color: #6f6258 !important;
+}
+
+/* ---------------------------------------------------------
+   METRIC TEXT
+--------------------------------------------------------- */
 
 .stMetric,
 [data-testid="stMetricLabel"],
 [data-testid="stMetricValue"] {
     color: #38291f !important;
-}
-
-.stMarkdown p,
-.stMarkdown strong {
-    color: #4a3528 !important;
 }
 
 /* ---------------------------------------------------------
@@ -337,7 +367,7 @@ h2, h3 {
 .footer {
     text-align: center;
     font-size: 13px;
-    color: #8a7a6c;
+    color: #8a7a6c !important;
     margin-top: 30px;
     line-height: 1.7;
 }
@@ -601,12 +631,57 @@ if kmeans_button:
         title="Customer Segmentation: Orders vs Spending"
     )
 
+    # --------------------------------------------------------
+    # K-MEANS PLOT COLORS
+    # --------------------------------------------------------
+
     fig.update_layout(
         plot_bgcolor="white",
         paper_bgcolor="white",
+
         font=dict(
             color="#3b3028"
         ),
+
+        title=dict(
+            font=dict(
+                color="#3b3028"
+            )
+        ),
+
+        xaxis=dict(
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            ),
+            tickfont=dict(
+                color="#3b3028"
+            )
+        ),
+
+        yaxis=dict(
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            ),
+            tickfont=dict(
+                color="#3b3028"
+            )
+        ),
+
+        legend=dict(
+            font=dict(
+                color="#3b3028"
+            ),
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            )
+        ),
+
         title_x=0.5
     )
 
@@ -641,6 +716,7 @@ if apriori_button:
         """
         <div style="
             background: rgba(255, 255, 255, 0.85);
+            color: #4a3528;
             border-left: 5px solid #C65D2E;
             padding: 16px 20px;
             border-radius: 10px;
@@ -755,12 +831,57 @@ if apriori_button:
         title="Support vs Confidence"
     )
 
+    # --------------------------------------------------------
+    # APRIORI PLOT COLORS
+    # --------------------------------------------------------
+
     fig.update_layout(
         plot_bgcolor="white",
         paper_bgcolor="white",
+
         font=dict(
             color="#3b3028"
         ),
+
+        title=dict(
+            font=dict(
+                color="#3b3028"
+            )
+        ),
+
+        xaxis=dict(
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            ),
+            tickfont=dict(
+                color="#3b3028"
+            )
+        ),
+
+        yaxis=dict(
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            ),
+            tickfont=dict(
+                color="#3b3028"
+            )
+        ),
+
+        legend=dict(
+            font=dict(
+                color="#3b3028"
+            ),
+            title=dict(
+                font=dict(
+                    color="#3b3028"
+                )
+            )
+        ),
+
         title_x=0.5
     )
 
