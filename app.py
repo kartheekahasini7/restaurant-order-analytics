@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-
 # ============================================================
 # PAGE CONFIG
 # ============================================================
@@ -13,7 +12,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
-
 
 # ============================================================
 # CUSTOM CSS
@@ -46,7 +44,6 @@ st.markdown("""
         );
 }
 
-
 /* ---------------------------------------------------------
    MAIN CONTAINER
 --------------------------------------------------------- */
@@ -56,7 +53,6 @@ st.markdown("""
     padding-top: 45px;
     padding-bottom: 35px;
 }
-
 
 /* ---------------------------------------------------------
    PROJECT TITLE
@@ -71,7 +67,6 @@ st.markdown("""
     color: #2b2118;
 }
 
-
 /* ---------------------------------------------------------
    PROJECT DESCRIPTION
 --------------------------------------------------------- */
@@ -82,7 +77,6 @@ st.markdown("""
     color: #6f6258;
     margin-bottom: 25px;
 }
-
 
 /* ---------------------------------------------------------
    SECTION LABEL
@@ -97,7 +91,6 @@ st.markdown("""
     margin-top: 10px;
     margin-bottom: 18px;
 }
-
 
 /* ---------------------------------------------------------
    ALGORITHM CARDS
@@ -120,7 +113,6 @@ st.markdown("""
         box-shadow 0.2s ease;
 }
 
-
 /* ---------------------------------------------------------
    ALGORITHM ICON
 --------------------------------------------------------- */
@@ -129,7 +121,6 @@ st.markdown("""
     font-size: 43px;
     margin-bottom: 5px;
 }
-
 
 /* ---------------------------------------------------------
    ALGORITHM TITLE
@@ -142,7 +133,6 @@ st.markdown("""
     margin-top: 5px;
 }
 
-
 /* ---------------------------------------------------------
    ALGORITHM DESCRIPTION
 --------------------------------------------------------- */
@@ -153,7 +143,6 @@ st.markdown("""
     margin-top: 8px;
     line-height: 1.5;
 }
-
 
 /* ---------------------------------------------------------
    SMALL ALGORITHM BUTTONS
@@ -200,7 +189,6 @@ st.markdown("""
         0 6px 15px rgba(150, 65, 30, 0.28);
 }
 
-
 /* ---------------------------------------------------------
    RESULT HEADING
 --------------------------------------------------------- */
@@ -213,7 +201,6 @@ st.markdown("""
     margin-bottom: 8px;
 }
 
-
 /* ---------------------------------------------------------
    RESULT DESCRIPTION
 --------------------------------------------------------- */
@@ -223,7 +210,6 @@ st.markdown("""
     font-size: 16px;
     margin-bottom: 20px;
 }
-
 
 /* ---------------------------------------------------------
    METRIC CARDS
@@ -242,43 +228,26 @@ st.markdown("""
         0 4px 15px rgba(75, 45, 20, 0.06);
 }
 
-
 /* ---------------------------------------------------------
    SUBHEADINGS
 --------------------------------------------------------- */
 
 h2, h3 {
+    color: #38291f;
+}
+
+/* Ensure result text remains visible across environments */
+
+.stMetric,
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"] {
     color: #38291f !important;
 }
 
-
-/* ---------------------------------------------------------
-   STREAMLIT TEXT VISIBILITY
---------------------------------------------------------- */
-
-[data-testid="stMetric"] * {
-    color: #38291f !important;
-}
-
-[data-testid="stMarkdownContainer"] h1,
-[data-testid="stMarkdownContainer"] h2,
-[data-testid="stMarkdownContainer"] h3 {
-    color: #38291f !important;
-}
-
-
-/* ---------------------------------------------------------
-   KEY INSIGHT TEXT
---------------------------------------------------------- */
-
-.key-insight {
+.stMarkdown p,
+.stMarkdown strong {
     color: #4a3528 !important;
 }
-
-.key-insight strong {
-    color: #2f241c !important;
-}
-
 
 /* ---------------------------------------------------------
    DATAFRAME
@@ -289,6 +258,77 @@ h2, h3 {
     overflow: hidden;
 }
 
+/* ---------------------------------------------------------
+   CUSTOM WHITE K-MEANS TABLE
+--------------------------------------------------------- */
+
+.cluster-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: #2f241c;
+    font-size: 14px;
+}
+
+.cluster-summary-table th {
+    background: #fff4e9;
+    color: #5a4637;
+    font-weight: 700;
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e5ddd5;
+}
+
+.cluster-summary-table td {
+    background: white;
+    color: #2f241c;
+    padding: 11px 10px;
+    border-bottom: 1px solid #eee5dd;
+}
+
+.cluster-summary-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cluster-summary-table tr:hover td {
+    background: #fffaf5;
+}
+
+/* ---------------------------------------------------------
+   CUSTOM WHITE APRIORI TABLE
+--------------------------------------------------------- */
+
+.association-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: #2f241c;
+    font-size: 14px;
+}
+
+.association-table th {
+    background: #fff4e9;
+    color: #5a4637;
+    font-weight: 700;
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e5ddd5;
+}
+
+.association-table td {
+    background: white;
+    color: #2f241c;
+    padding: 11px 10px;
+    border-bottom: 1px solid #eee5dd;
+}
+
+.association-table tr:last-child td {
+    border-bottom: none;
+}
+
+.association-table tr:hover td {
+    background: #fffaf5;
+}
 
 /* ---------------------------------------------------------
    FOOTER
@@ -301,7 +341,6 @@ h2, h3 {
     margin-top: 30px;
     line-height: 1.7;
 }
-
 
 /* ---------------------------------------------------------
    MOBILE RESPONSIVENESS
@@ -331,7 +370,6 @@ h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
-
 # ============================================================
 # LOAD DATA
 # ============================================================
@@ -352,7 +390,6 @@ association_rules = pd.read_csv(
     "data/apriori_association_rules.csv"
 )
 
-
 # ============================================================
 # PROJECT HEADER
 # ============================================================
@@ -372,7 +409,6 @@ st.markdown(
 
 st.divider()
 
-
 # ============================================================
 # ALGORITHM SELECTION
 # ============================================================
@@ -388,7 +424,6 @@ st.markdown(
 
 col1, col2 = st.columns(2, gap="large")
 
-
 # ============================================================
 # K-MEANS CARD
 # ============================================================
@@ -397,15 +432,15 @@ with col1:
 
     st.markdown(
         """
-        <div class="algorithm-card">
-            <div class="algorithm-icon">👥</div>
-            <div class="algorithm-title">K-Means</div>
-            <div class="algorithm-description">
-                Groups customers with similar purchasing behavior
-                into meaningful segments.
-            </div>
-        </div>
-        """,
+<div class="algorithm-card">
+    <div class="algorithm-icon">👥</div>
+    <div class="algorithm-title">K-Means</div>
+    <div class="algorithm-description">
+        Groups customers with similar purchasing behavior
+        into meaningful segments.
+    </div>
+</div>
+""",
         unsafe_allow_html=True
     )
 
@@ -415,7 +450,6 @@ with col1:
         width="stretch"
     )
 
-
 # ============================================================
 # APRIORI CARD
 # ============================================================
@@ -424,15 +458,15 @@ with col2:
 
     st.markdown(
         """
-        <div class="algorithm-card">
-            <div class="algorithm-icon">🍔</div>
-            <div class="algorithm-title">Apriori</div>
-            <div class="algorithm-description">
-                Discovers frequently purchased food combinations
-                and meaningful association rules.
-            </div>
-        </div>
-        """,
+<div class="algorithm-card">
+    <div class="algorithm-icon">🍔</div>
+    <div class="algorithm-title">Apriori</div>
+    <div class="algorithm-description">
+        Discovers frequently purchased food combinations
+        and meaningful association rules.
+    </div>
+</div>
+""",
         unsafe_allow_html=True
     )
 
@@ -441,7 +475,6 @@ with col2:
         key="apriori",
         width="stretch"
     )
-
 
 # ============================================================
 # K-MEANS RESULTS
@@ -467,8 +500,9 @@ if kmeans_button:
 
     st.markdown(
         """
-        <div class="key-insight" style="
+        <div style="
             background: rgba(255, 255, 255, 0.85);
+            color: #4a3528;
             border-left: 5px solid #C65D2E;
             padding: 16px 20px;
             border-radius: 10px;
@@ -510,10 +544,25 @@ if kmeans_button:
 
     st.subheader("📊 Cluster Summary")
 
-    st.dataframe(
-        cluster_summary,
-        width="stretch",
-        hide_index=True
+    cluster_table = cluster_summary.copy()
+
+    st.markdown(
+        f"""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e5ddd5;
+            box-shadow: 0 4px 15px rgba(75, 45, 20, 0.06);
+        ">
+            {cluster_table.to_html(
+                index=False,
+                escape=False,
+                classes="cluster-summary-table"
+            )}
+        </div>
+        """,
+        unsafe_allow_html=True
     )
 
     # --------------------------------------------------------
@@ -535,12 +584,6 @@ if kmeans_button:
         x="total_orders",
         y="total_spending",
         color="cluster",
-
-        # Fixed colors for deployment consistency
-        color_discrete_sequence=[
-            "#C65D2E",
-            "#8A6A52"
-        ],
 
         hover_data=[
             "Customer_ID",
@@ -572,7 +615,6 @@ if kmeans_button:
         width="stretch"
     )
 
-
 # ============================================================
 # APRIORI RESULTS
 # ============================================================
@@ -597,7 +639,7 @@ if apriori_button:
 
     st.markdown(
         """
-        <div class="key-insight" style="
+        <div style="
             background: rgba(255, 255, 255, 0.85);
             border-left: 5px solid #C65D2E;
             padding: 16px 20px;
@@ -663,10 +705,33 @@ if apriori_button:
         .head(10)
     )
 
-    st.dataframe(
-        top_rules,
-        width="stretch",
-        hide_index=True
+    # --------------------------------------------------------
+    # WHITE ASSOCIATION RULES TABLE
+    # --------------------------------------------------------
+
+    rules_table = top_rules.copy()
+
+    rules_table["support"] = rules_table["support"].round(3)
+    rules_table["confidence"] = rules_table["confidence"].round(3)
+    rules_table["lift"] = rules_table["lift"].round(3)
+
+    st.markdown(
+        f"""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #e5ddd5;
+            box-shadow: 0 4px 15px rgba(75, 45, 20, 0.06);
+        ">
+            {rules_table.to_html(
+                index=False,
+                escape=False,
+                classes="association-table"
+            )}
+        </div>
+        """,
+        unsafe_allow_html=True
     )
 
     # --------------------------------------------------------
@@ -680,9 +745,6 @@ if apriori_button:
         x="support",
         y="confidence",
         size="lift",
-
-        # Fixed color for deployment consistency
-        color_discrete_sequence=["#C65D2E"],
 
         hover_data=[
             "antecedents",
@@ -707,7 +769,6 @@ if apriori_button:
         width="stretch"
     )
 
-
 # ============================================================
 # FOOTER
 # ============================================================
@@ -715,10 +776,14 @@ if apriori_button:
 st.divider()
 
 st.markdown(
-    '<div class="footer">'
-    'Restaurant Order Analytics & Food Pattern Mining System'
-    '<br>'
-    'K-Means Customer Segmentation &nbsp; • &nbsp; Apriori Association Mining'
-    '</div>',
+    """
+    <div class="footer">
+        Restaurant Order Analytics & Food Pattern Mining System
+        <br>
+        K-Means Customer Segmentation
+        &nbsp; • &nbsp;
+        Apriori Association Mining
+    </div>
+    """,
     unsafe_allow_html=True
 )
