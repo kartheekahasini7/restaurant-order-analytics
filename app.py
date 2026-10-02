@@ -65,6 +65,7 @@ st.markdown("""
     line-height: 1.2;
     margin-bottom: 10px;
     color: #2b2118 !important;
+    margin-top: 10px;
 }
 
 /* ---------------------------------------------------------
@@ -76,6 +77,7 @@ st.markdown("""
     font-size: 17px;
     color: #6f6258 !important;
     margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 /* ---------------------------------------------------------
